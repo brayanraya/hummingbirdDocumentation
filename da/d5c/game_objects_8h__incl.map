@@ -1,0 +1,6 @@
+<map id="gameObjects.h" name="gameObjects.h">
+<area shape="rect" id="node3" href="$d8/d15/regestration_state_8h.html" title="../Attributes/Shared\l Enum/regestrationState.h" alt="" coords="116,80,291,121"/>
+<area shape="rect" id="node5" href="$d4/d18/game_objects_entry_command_8h.html" title="gameObjectsEntryCommand.h" alt="" coords="378,87,578,114"/>
+<area shape="rect" id="node7" href="$d3/da6/game_objects_exit_command_8h.html" title="gameObjectsExitCommand.h" alt="" coords="602,87,794,114"/>
+<area shape="rect" id="node6" href="$d1/db5/command_base_8h.html" title="../Attributes/Command\l/commandBase.h" alt="" coords="511,169,664,211"/>
+</map>

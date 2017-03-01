@@ -1,0 +1,5 @@
+<map id="gameObjects" name="gameObjects">
+<area shape="rect" id="node3" href="$d4/d3a/classgame_objects_entry_command.html" title="{gameObjectsEntryCommand\n||+ gameObjectsEntryCommand()\l+ gameObjectsEntryCommand()\l+ gameObjectsEntryCommand()\l+ operator=()\l+ ~gameObjectsEntryCommand()\l+ execute()\l}" alt="" coords="534,292,751,443"/>
+<area shape="rect" id="node5" href="$d7/df5/classgame_objects_exit_command.html" title="{gameObjectsExitCommand\n||+ gameObjectsExitCommand()\l+ gameObjectsExitCommand()\l+ ~gameObjectsExitCommand()\l+ gameObjectsExitCommand()\l+ operator=()\l+ execute()\l}" alt="" coords="278,292,487,443"/>
+<area shape="rect" id="node4" href="$d1/da3/classcommand_base.html" title="{commandBase\n||+ commandBase()\l+ ~commandBase()\l+ execute()\l}" alt="" coords="751,57,889,163"/>
+</map>
