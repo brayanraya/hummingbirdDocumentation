@@ -92,13 +92,16 @@ $(document).ready(function(){initNavTree('d9/de2/classcollideable.html','../../'
 </div><!--header-->
 <div class="contents">
 
+<p>Allows inherited class to define collision with another collidable.  
+ <a href="../../d9/de2/classcollideable.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../d2/ddb/collideable_8h_source.html">collideable.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for collideable:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d4/dcc/classcollideable__inherit__graph.png" border="0" usemap="#collideable_inherit__map" alt="Inheritance graph"/></div>
 <map name="collideable_inherit__map" id="collideable_inherit__map">
-<area shape="rect" id="node2" href="../../d2/d62/classgame_objects.html" title="{gameObjects\n|+ myDeleteEnterRef\l+ myDeleteExitRef\l&#45; currentState\l&#45; pGameExitCommand\l&#45; pGameEntryCommand\l|+ gameObjects()\l+ ~gameObjects()\l+ gameObjects()\l+ operator=()\l+ connectToScene()\l+ disconnectToScene()\l+ sceneEntry()\l+ sceneExit()\l+ submitEntry()\l+ submitExit()\l}" alt="" coords="36,5,199,273"/>
+<area shape="rect" id="node2" href="../../d2/d62/classgame_objects.html" title="Basic game object skeleton. Inherited by every x&#45;able. " alt="" coords="36,5,199,273"/>
 </map>
 </div>
 <div class="dynheader">
@@ -106,11 +109,11 @@ Collaboration diagram for collideable:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../dc/d82/classcollideable__coll__graph.png" border="0" usemap="#collideable_coll__map" alt="Collaboration graph"/></div>
 <map name="collideable_coll__map" id="collideable_coll__map">
-<area shape="rect" id="node2" href="../../d2/d62/classgame_objects.html" title="{gameObjects\n|&#45; currentState\l|+ gameObjects()\l+ ~gameObjects()\l+ gameObjects()\l+ operator=()\l+ connectToScene()\l+ disconnectToScene()\l+ sceneEntry()\l+ sceneExit()\l+ submitEntry()\l+ submitExit()\l}" alt="" coords="645,5,801,215"/>
-<area shape="rect" id="node4" href="../../d4/d3a/classgame_objects_entry_command.html" title="{gameObjectsEntryCommand\n||+ gameObjectsEntryCommand()\l+ gameObjectsEntryCommand()\l+ gameObjectsEntryCommand()\l+ operator=()\l+ ~gameObjectsEntryCommand()\l+ execute()\l}" alt="" coords="356,358,573,509"/>
-<area shape="rect" id="node6" href="../../d7/df5/classgame_objects_exit_command.html" title="{gameObjectsExitCommand\n||+ gameObjectsExitCommand()\l+ gameObjectsExitCommand()\l+ ~gameObjectsExitCommand()\l+ gameObjectsExitCommand()\l+ operator=()\l+ execute()\l}" alt="" coords="619,358,828,509"/>
-<area shape="rect" id="node5" href="../../d1/da3/classcommand_base.html" title="{commandBase\n||+ commandBase()\l+ ~commandBase()\l+ execute()\l}" alt="" coords="276,57,413,163"/>
-<area shape="rect" id="node7" href="../../d8/d21/class_collision_volume_b_sphere.html" title="{CollisionVolumeBSphere\n|&#45; Center\l&#45; Radius\l|+ CollisionVolumeBSphere()\l+ ~CollisionVolumeBSphere()\l+ ComputeData()\l+ ComputeData()\l+ GetCenter()\l+ GetRadius()\l+ Intersect()\l+ Intersect()\l}" alt="" coords="5,13,199,207"/>
+<area shape="rect" id="node2" href="../../d2/d62/classgame_objects.html" title="Basic game object skeleton. Inherited by every x&#45;able. " alt="" coords="645,5,801,215"/>
+<area shape="rect" id="node4" href="../../d4/d3a/classgame_objects_entry_command.html" title="A game objects entry command. " alt="" coords="356,358,573,509"/>
+<area shape="rect" id="node6" href="../../d7/df5/classgame_objects_exit_command.html" title="A game objects exit command. " alt="" coords="619,358,828,509"/>
+<area shape="rect" id="node5" href="../../d1/da3/classcommand_base.html" title="An empty base that all x&#45;able derive from to be added to the scene brokers list. " alt="" coords="276,57,413,163"/>
+<area shape="rect" id="node7" href="../../d8/d21/class_collision_volume_b_sphere.html" title="Volume and movement caluclations for the volume of bsphere. " alt="" coords="5,13,199,207"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -128,23 +131,32 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a96fd8ca40b1a7be9b3003f2a2ab17124"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b94907208585734beb6d6306c640279"><td class="memTemplParams" colspan="2">template&lt;typename C &gt; </td></tr>
 <tr class="memitem:a1b94907208585734beb6d6306c640279"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/de2/classcollideable.html#a1b94907208585734beb6d6306c640279">submitCollideableRegistration</a> (C *inCol)</td></tr>
+<tr class="memdesc:a1b94907208585734beb6d6306c640279"><td class="mdescLeft">&#160;</td><td class="mdescRight">Submit collideable registration.  <a href="#a1b94907208585734beb6d6306c640279">More...</a><br /></td></tr>
 <tr class="separator:a1b94907208585734beb6d6306c640279"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60238a996fd2de9d6e532d5ffbfb0e62"><td class="memTemplParams" colspan="2">template&lt;typename C &gt; </td></tr>
 <tr class="memitem:a60238a996fd2de9d6e532d5ffbfb0e62"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/de2/classcollideable.html#a60238a996fd2de9d6e532d5ffbfb0e62">submitCollideableDeregistration</a> (C *inCol)</td></tr>
+<tr class="memdesc:a60238a996fd2de9d6e532d5ffbfb0e62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Submit collideable deregistration.  <a href="#a60238a996fd2de9d6e532d5ffbfb0e62">More...</a><br /></td></tr>
 <tr class="separator:a60238a996fd2de9d6e532d5ffbfb0e62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4918a909ed556c298d5beca41300a308"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de2/classcollideable.html#a4918a909ed556c298d5beca41300a308">collision</a> (<a class="el" href="../../d9/de2/classcollideable.html">collideable</a> *inCol)</td></tr>
+<tr class="memdesc:a4918a909ed556c298d5beca41300a308"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collisions the given in col.  <a href="#a4918a909ed556c298d5beca41300a308">More...</a><br /></td></tr>
 <tr class="separator:a4918a909ed556c298d5beca41300a308"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9b020e8b28e142a6692c8a393c1777d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d8/d21/class_collision_volume_b_sphere.html">CollisionVolumeBSphere</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de2/classcollideable.html#ab9b020e8b28e142a6692c8a393c1777d">GetBSphere</a> ()</td></tr>
+<tr class="memdesc:ab9b020e8b28e142a6692c8a393c1777d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets b sphere.  <a href="#ab9b020e8b28e142a6692c8a393c1777d">More...</a><br /></td></tr>
 <tr class="separator:ab9b020e8b28e142a6692c8a393c1777d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d289a45e91f62090c7053183e5f11c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de2/classcollideable.html#a5d289a45e91f62090c7053183e5f11c2">SetColliderModel</a> (Model *mod)</td></tr>
+<tr class="memdesc:a5d289a45e91f62090c7053183e5f11c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets collider model.  <a href="#a5d289a45e91f62090c7053183e5f11c2">More...</a><br /></td></tr>
 <tr class="separator:a5d289a45e91f62090c7053183e5f11c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8374efdb6e51e55a77a986ab7afb74f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de2/classcollideable.html#af8374efdb6e51e55a77a986ab7afb74f">UpdateCollisionData</a> (Matrix &amp;mat, Matrix &amp;scale)</td></tr>
+<tr class="memdesc:af8374efdb6e51e55a77a986ab7afb74f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the collision data.  <a href="#af8374efdb6e51e55a77a986ab7afb74f">More...</a><br /></td></tr>
 <tr class="separator:af8374efdb6e51e55a77a986ab7afb74f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1f9d53c7a334e8e7b4bdb4f4beca074"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de2/classcollideable.html#ac1f9d53c7a334e8e7b4bdb4f4beca074">UpdateCollisionData</a> (Matrix &amp;mat, const float &amp;mult)</td></tr>
+<tr class="memdesc:ac1f9d53c7a334e8e7b4bdb4f4beca074"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the collision data.  <a href="#ac1f9d53c7a334e8e7b4bdb4f4beca074">More...</a><br /></td></tr>
 <tr class="separator:ac1f9d53c7a334e8e7b4bdb4f4beca074"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5027ba8517875cfad1521dad22487f34"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de2/classcollideable.html#a5027ba8517875cfad1521dad22487f34">UpdateCollisionData</a> (Matrix &amp;mat, Vect &amp;scale)</td></tr>
+<tr class="memdesc:a5027ba8517875cfad1521dad22487f34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the collision data.  <a href="#a5027ba8517875cfad1521dad22487f34">More...</a><br /></td></tr>
 <tr class="separator:a5027ba8517875cfad1521dad22487f34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a883f95f14bf5a3dc33a6ae85016d172a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de2/classcollideable.html#a883f95f14bf5a3dc33a6ae85016d172a">UpdateCollisionData</a> (Matrix &amp;mat)</td></tr>
+<tr class="memdesc:a883f95f14bf5a3dc33a6ae85016d172a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the collision data described by mat.  <a href="#a883f95f14bf5a3dc33a6ae85016d172a">More...</a><br /></td></tr>
 <tr class="separator:a883f95f14bf5a3dc33a6ae85016d172a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classgame_objects"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classgame_objects')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d2/d62/classgame_objects.html">gameObjects</a></td></tr>
 <tr class="memitem:a3544f7dca1fa2e4d62d1ae544c374502 inherit pub_methods_classgame_objects"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d62/classgame_objects.html#a3544f7dca1fa2e4d62d1ae544c374502">gameObjects</a> ()</td></tr>
@@ -198,8 +210,10 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a8a2feb975a31384c483ba0f7ab543672"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d2/ddb/collideable_8h_source.html#l00011">11</a> of file <a class="el" href="../../d2/ddb/collideable_8h_source.html">collideable.h</a>.</p>
+<div class="textblock"><p>Allows inherited class to define collision with another collidable. </p>
+<p>Braya, 3/1/2017. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d2/ddb/collideable_8h_source.html#l00016">16</a> of file <a class="el" href="../../d2/ddb/collideable_8h_source.html">collideable.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="acdd82b11e122024a144511ff85f1043d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acdd82b11e122024a144511ff85f1043d">&#9670;&nbsp;</a></span>collideable() <span class="overload">[1/3]</span></h2>
@@ -310,7 +324,16 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/ddb/collideable_8h_source.html#l00038">38</a> of file <a class="el" href="../../d2/ddb/collideable_8h_source.html">collideable.h</a>.</p>
+<p>Collisions the given in col. </p>
+<p>Braya, 3/1/2017. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inCol</td><td>[in,out] If non-null, the in col. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d2/ddb/collideable_8h_source.html#l00069">69</a> of file <a class="el" href="../../d2/ddb/collideable_8h_source.html">collideable.h</a>.</p>
 
 </div>
 </div>
@@ -328,6 +351,10 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets b sphere. </p>
+<p>Braya, 3/1/2017. </p>
+<dl class="section return"><dt>Returns</dt><dd>The b sphere. </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d50/collideable_8cpp_source.html#l00022">22</a> of file <a class="el" href="../../dc/d50/collideable_8cpp_source.html">collideable.cpp</a>.</p>
 
@@ -375,6 +402,15 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Sets collider model. </p>
+<p>Braya, 3/1/2017. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mod</td><td>[in,out] If non-null, the modifier. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 <p class="definition">Definition at line <a class="el" href="../../dc/d50/collideable_8cpp_source.html#l00027">27</a> of file <a class="el" href="../../dc/d50/collideable_8cpp_source.html">collideable.cpp</a>.</p>
 
 </div>
@@ -405,7 +441,22 @@ template&lt;typename C &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/ddb/collideable_8h_source.html#l00030">30</a> of file <a class="el" href="../../d2/ddb/collideable_8h_source.html">collideable.h</a>.</p>
+<p>Submit collideable deregistration. </p>
+<p>Braya, 3/1/2017. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">C</td><td>Type of the c. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inCol</td><td>[in,out] If non-null, the in col. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d2/ddb/collideable_8h_source.html#l00054">54</a> of file <a class="el" href="../../d2/ddb/collideable_8h_source.html">collideable.h</a>.</p>
 
 </div>
 </div>
@@ -435,7 +486,22 @@ template&lt;typename C &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/ddb/collideable_8h_source.html#l00021">21</a> of file <a class="el" href="../../d2/ddb/collideable_8h_source.html">collideable.h</a>.</p>
+<p>Submit collideable registration. </p>
+<p>Braya, 3/1/2017. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">C</td><td>Type of the c. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inCol</td><td>[in,out] If non-null, the in col. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d2/ddb/collideable_8h_source.html#l00037">37</a> of file <a class="el" href="../../d2/ddb/collideable_8h_source.html">collideable.h</a>.</p>
 
 </div>
 </div>
@@ -464,6 +530,16 @@ template&lt;typename C &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Updates the collision data. </p>
+<p>Braya, 3/1/2017. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mat</td><td>[in,out] The matrix. </td></tr>
+    <tr><td class="paramname">scale</td><td>[in,out] The scale. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d50/collideable_8cpp_source.html#l00032">32</a> of file <a class="el" href="../../dc/d50/collideable_8cpp_source.html">collideable.cpp</a>.</p>
 
@@ -495,6 +571,16 @@ template&lt;typename C &gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>Updates the collision data. </p>
+<p>Braya, 3/1/2017. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mat</td><td>[in,out] The matrix. </td></tr>
+    <tr><td class="paramname">mult</td><td>The multiply. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 <p class="definition">Definition at line <a class="el" href="../../dc/d50/collideable_8cpp_source.html#l00037">37</a> of file <a class="el" href="../../dc/d50/collideable_8cpp_source.html">collideable.cpp</a>.</p>
 
 </div>
@@ -525,6 +611,16 @@ template&lt;typename C &gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>Updates the collision data. </p>
+<p>Braya, 3/1/2017. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mat</td><td>[in,out] The matrix. </td></tr>
+    <tr><td class="paramname">scale</td><td>[in,out] The scale. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a883f95f14bf5a3dc33a6ae85016d172a"></a>
@@ -542,6 +638,15 @@ template&lt;typename C &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Updates the collision data described by mat. </p>
+<p>Braya, 3/1/2017. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mat</td><td>[in,out] The matrix. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -566,7 +671,7 @@ template&lt;typename C &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/ddb/collideable_8h_source.html#l00049">49</a> of file <a class="el" href="../../d2/ddb/collideable_8h_source.html">collideable.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/ddb/collideable_8h_source.html#l00130">130</a> of file <a class="el" href="../../d2/ddb/collideable_8h_source.html">collideable.h</a>.</p>
 
 </div>
 </div>
@@ -582,7 +687,7 @@ template&lt;typename C &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/ddb/collideable_8h_source.html#l00047">47</a> of file <a class="el" href="../../d2/ddb/collideable_8h_source.html">collideable.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/ddb/collideable_8h_source.html#l00128">128</a> of file <a class="el" href="../../d2/ddb/collideable_8h_source.html">collideable.h</a>.</p>
 
 </div>
 </div>
@@ -606,7 +711,7 @@ template&lt;typename C &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/ddb/collideable_8h_source.html#l00052">52</a> of file <a class="el" href="../../d2/ddb/collideable_8h_source.html">collideable.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/ddb/collideable_8h_source.html#l00133">133</a> of file <a class="el" href="../../d2/ddb/collideable_8h_source.html">collideable.h</a>.</p>
 
 </div>
 </div>
@@ -630,7 +735,7 @@ template&lt;typename C &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/ddb/collideable_8h_source.html#l00051">51</a> of file <a class="el" href="../../d2/ddb/collideable_8h_source.html">collideable.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/ddb/collideable_8h_source.html#l00132">132</a> of file <a class="el" href="../../d2/ddb/collideable_8h_source.html">collideable.h</a>.</p>
 
 </div>
 </div>
@@ -654,7 +759,7 @@ template&lt;typename C &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/ddb/collideable_8h_source.html#l00053">53</a> of file <a class="el" href="../../d2/ddb/collideable_8h_source.html">collideable.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/ddb/collideable_8h_source.html#l00134">134</a> of file <a class="el" href="../../d2/ddb/collideable_8h_source.html">collideable.h</a>.</p>
 
 </div>
 </div>
@@ -678,7 +783,7 @@ template&lt;typename C &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/ddb/collideable_8h_source.html#l00050">50</a> of file <a class="el" href="../../d2/ddb/collideable_8h_source.html">collideable.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/ddb/collideable_8h_source.html#l00131">131</a> of file <a class="el" href="../../d2/ddb/collideable_8h_source.html">collideable.h</a>.</p>
 
 </div>
 </div>

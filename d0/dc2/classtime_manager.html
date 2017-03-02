@@ -94,13 +94,16 @@ $(document).ready(function(){initNavTree('d0/dc2/classtime_manager.html','../../
 </div><!--header-->
 <div class="contents">
 
+<p>Used for keeping track of time and time related stats.  
+ <a href="../../d0/dc2/classtime_manager.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../d7/d2f/time_manager_8h_source.html">timeManager.h</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for timeManager:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d5/db1/classtime_manager__coll__graph.png" border="0" usemap="#time_manager_coll__map" alt="Collaboration graph"/></div>
 <map name="time_manager_coll__map" id="time_manager_coll__map">
-<area shape="rect" id="node2" href="../../dd/dac/classfreeze_time.html" title="{freezeTime\n|&#45; totalFrozenTime\l&#45; freeze_mode_active\l&#45; FREEZE_KEY\l&#45; SINGLE_FRAME_KEY\l|+ freezeTime()\l+ ~freezeTime()\l+ getTimeInSeconds()\l+ WaitAndReturnFrozenTime()\l+ HackedKeyRelease()\l}" alt="" coords="5,5,204,185"/>
+<area shape="rect" id="node2" href="../../dd/dac/classfreeze_time.html" title="Hacky system to pause frames and single frame step. " alt="" coords="5,5,204,185"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -170,8 +173,10 @@ Static Private Attributes</h2></td></tr>
 <tr class="separator:a7d406b9ef7cbacda0bac4625b3895d1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d7/d2f/time_manager_8h_source.html#l00006">6</a> of file <a class="el" href="../../d7/d2f/time_manager_8h_source.html">timeManager.h</a>.</p>
+<div class="textblock"><p>Used for keeping track of time and time related stats. </p>
+<p>Braya, 3/1/2017. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d7/d2f/time_manager_8h_source.html#l00012">12</a> of file <a class="el" href="../../d7/d2f/time_manager_8h_source.html">timeManager.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac2b172d59987d0036d7281ccabce3bea"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac2b172d59987d0036d7281ccabce3bea">&#9670;&nbsp;</a></span>timeManager() <span class="overload">[1/2]</span></h2>
@@ -276,11 +281,10 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets current time. </p>
-<hr/>
 <p>Braya, 2/27/2017. </p>
-<h2>The current time.  </h2>
+<dl class="section return"><dt>Returns</dt><dd>The current time. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d2f/time_manager_8h_source.html#l00085">85</a> of file <a class="el" href="../../d7/d2f/time_manager_8h_source.html">timeManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d2f/time_manager_8h_source.html#l00091">91</a> of file <a class="el" href="../../d7/d2f/time_manager_8h_source.html">timeManager.h</a>.</p>
 
 </div>
 </div>
@@ -308,11 +312,10 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets the FPS. </p>
-<hr/>
 <p>Braya, 2/27/2017. </p>
-<h2>The FPS.  </h2>
+<dl class="section return"><dt>Returns</dt><dd>The FPS. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d2f/time_manager_8h_source.html#l00103">103</a> of file <a class="el" href="../../d7/d2f/time_manager_8h_source.html">timeManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d2f/time_manager_8h_source.html#l00109">109</a> of file <a class="el" href="../../d7/d2f/time_manager_8h_source.html">timeManager.h</a>.</p>
 
 </div>
 </div>
@@ -340,11 +343,10 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets frame number. </p>
-<hr/>
 <p>Braya, 2/27/2017. </p>
-<h2>The frame number.  </h2>
+<dl class="section return"><dt>Returns</dt><dd>The frame number. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d2f/time_manager_8h_source.html#l00094">94</a> of file <a class="el" href="../../d7/d2f/time_manager_8h_source.html">timeManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d2f/time_manager_8h_source.html#l00100">100</a> of file <a class="el" href="../../d7/d2f/time_manager_8h_source.html">timeManager.h</a>.</p>
 
 </div>
 </div>
@@ -372,11 +374,10 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets the instance of Time Manager. </p>
-<hr/>
 <p>Braya, 2/27/2017. </p>
-<h2>The current <a class="el" href="../../d0/dc2/classtime_manager.html">timeManager</a>.  </h2>
+<dl class="section return"><dt>Returns</dt><dd>The current <a class="el" href="../../d0/dc2/classtime_manager.html" title="Used for keeping track of time and time related stats. ">timeManager</a>. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d2f/time_manager_8h_source.html#l00024">24</a> of file <a class="el" href="../../d7/d2f/time_manager_8h_source.html">timeManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d2f/time_manager_8h_source.html#l00030">30</a> of file <a class="el" href="../../d7/d2f/time_manager_8h_source.html">timeManager.h</a>.</p>
 
 </div>
 </div>
@@ -431,9 +432,13 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Private Function: processes time elapsed. </p>
-<hr/>
 <p>Braya, 2/27/2017. </p>
-<h2>The current system time.  </h2>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inTime</td><td>The current system time. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p class="definition">Definition at line <a class="el" href="../../db/d30/time_manager_8cpp_source.html#l00009">9</a> of file <a class="el" href="../../db/d30/time_manager_8cpp_source.html">timeManager.cpp</a>.</p>
 
@@ -464,11 +469,15 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Checks to see if game is paused. If so, game loops in pause state. If not, processes all time in reference to system time. Caluclates Average and Current Frame. Determines when a second has passed in system time. </p>
-<hr/>
 <p>Braya, 2/27/2017. </p>
-<h2>The current AZULCORE time.  </h2>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inTime</td><td>The current AZULCORE time. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d2f/time_manager_8h_source.html#l00076">76</a> of file <a class="el" href="../../d7/d2f/time_manager_8h_source.html">timeManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d2f/time_manager_8h_source.html#l00082">82</a> of file <a class="el" href="../../d7/d2f/time_manager_8h_source.html">timeManager.h</a>.</p>
 
 </div>
 </div>
@@ -495,7 +504,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>The average FPS. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d2f/time_manager_8h_source.html#l00059">59</a> of file <a class="el" href="../../d7/d2f/time_manager_8h_source.html">timeManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d2f/time_manager_8h_source.html#l00065">65</a> of file <a class="el" href="../../d7/d2f/time_manager_8h_source.html">timeManager.h</a>.</p>
 
 </div>
 </div>
@@ -521,7 +530,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>The current FPS. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d2f/time_manager_8h_source.html#l00056">56</a> of file <a class="el" href="../../d7/d2f/time_manager_8h_source.html">timeManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d2f/time_manager_8h_source.html#l00062">62</a> of file <a class="el" href="../../d7/d2f/time_manager_8h_source.html">timeManager.h</a>.</p>
 
 </div>
 </div>
@@ -547,7 +556,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>Singleton Instance Pointer. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d2f/time_manager_8h_source.html#l00041">41</a> of file <a class="el" href="../../d7/d2f/time_manager_8h_source.html">timeManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d2f/time_manager_8h_source.html#l00047">47</a> of file <a class="el" href="../../d7/d2f/time_manager_8h_source.html">timeManager.h</a>.</p>
 
 </div>
 </div>
@@ -573,7 +582,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>The current time. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d2f/time_manager_8h_source.html#l00047">47</a> of file <a class="el" href="../../d7/d2f/time_manager_8h_source.html">timeManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d2f/time_manager_8h_source.html#l00053">53</a> of file <a class="el" href="../../d7/d2f/time_manager_8h_source.html">timeManager.h</a>.</p>
 
 </div>
 </div>
@@ -599,7 +608,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>The frame number. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d2f/time_manager_8h_source.html#l00050">50</a> of file <a class="el" href="../../d7/d2f/time_manager_8h_source.html">timeManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d2f/time_manager_8h_source.html#l00056">56</a> of file <a class="el" href="../../d7/d2f/time_manager_8h_source.html">timeManager.h</a>.</p>
 
 </div>
 </div>
@@ -625,7 +634,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>The pause. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d2f/time_manager_8h_source.html#l00062">62</a> of file <a class="el" href="../../d7/d2f/time_manager_8h_source.html">timeManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d2f/time_manager_8h_source.html#l00068">68</a> of file <a class="el" href="../../d7/d2f/time_manager_8h_source.html">timeManager.h</a>.</p>
 
 </div>
 </div>
@@ -651,7 +660,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>The previous time. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d2f/time_manager_8h_source.html#l00044">44</a> of file <a class="el" href="../../d7/d2f/time_manager_8h_source.html">timeManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d2f/time_manager_8h_source.html#l00050">50</a> of file <a class="el" href="../../d7/d2f/time_manager_8h_source.html">timeManager.h</a>.</p>
 
 </div>
 </div>
@@ -677,7 +686,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>The second time holder. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d2f/time_manager_8h_source.html#l00053">53</a> of file <a class="el" href="../../d7/d2f/time_manager_8h_source.html">timeManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d2f/time_manager_8h_source.html#l00059">59</a> of file <a class="el" href="../../d7/d2f/time_manager_8h_source.html">timeManager.h</a>.</p>
 
 </div>
 </div>

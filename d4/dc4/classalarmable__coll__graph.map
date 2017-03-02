@@ -1,9 +1,9 @@
 <map id="alarmable" name="alarmable">
-<area shape="rect" id="node8" href="$df/d37/classalarmable_registraton_command.html" title="{alarmableRegistratonCommand\n|+ alarmId\l+ alarmTime\l|+ alarmableRegistratonCommand()\l+ ~alarmableRegistratonCommand()\l+ alarmableRegistratonCommand()\l+ alarmableRegistratonCommand()\l+ operator=()\l+ execute()\l}" alt="" coords="364,977,595,1143"/>
-<area shape="rect" id="node9" href="$d3/db4/classalarmable_deregistraton_command.html" title="{alarmableDeregistratonCommand\n|+ alarmId\l+ alarmTime\l|+ alarmableDeregistratonCommand()\l+ ~alarmableDeregistratonCommand()\l+ alarmableDeregistratonCommand()\l+ alarmableDeregistratonCommand()\l+ operator=()\l+ execute()\l}" alt="" coords="619,977,862,1143"/>
-<area shape="rect" id="node2" href="$d2/d62/classgame_objects.html" title="{gameObjects\n|&#45; currentState\l|+ gameObjects()\l+ ~gameObjects()\l+ gameObjects()\l+ operator=()\l+ connectToScene()\l+ disconnectToScene()\l+ sceneEntry()\l+ sceneExit()\l+ submitEntry()\l+ submitExit()\l}" alt="" coords="325,375,481,584"/>
-<area shape="rect" id="node4" href="$d4/d3a/classgame_objects_entry_command.html" title="{gameObjectsEntryCommand\n||+ gameObjectsEntryCommand()\l+ gameObjectsEntryCommand()\l+ gameObjectsEntryCommand()\l+ operator=()\l+ ~gameObjectsEntryCommand()\l+ execute()\l}" alt="" coords="435,161,652,312"/>
-<area shape="rect" id="node6" href="$d7/df5/classgame_objects_exit_command.html" title="{gameObjectsExitCommand\n||+ gameObjectsExitCommand()\l+ gameObjectsExitCommand()\l+ ~gameObjectsExitCommand()\l+ gameObjectsExitCommand()\l+ operator=()\l+ execute()\l}" alt="" coords="5,713,215,863"/>
-<area shape="rect" id="node5" href="$d1/da3/classcommand_base.html" title="{commandBase\n||+ commandBase()\l+ ~commandBase()\l+ execute()\l}" alt="" coords="576,5,713,112"/>
+<area shape="rect" id="node8" href="$df/d37/classalarmable_registraton_command.html" title="An alarmable registraton command. " alt="" coords="364,977,595,1143"/>
+<area shape="rect" id="node9" href="$d3/db4/classalarmable_deregistraton_command.html" title="An alarmable deregistraton command. " alt="" coords="619,977,862,1143"/>
+<area shape="rect" id="node2" href="$d2/d62/classgame_objects.html" title="Basic game object skeleton. Inherited by every x&#45;able. " alt="" coords="325,375,481,584"/>
+<area shape="rect" id="node4" href="$d4/d3a/classgame_objects_entry_command.html" title="A game objects entry command. " alt="" coords="435,161,652,312"/>
+<area shape="rect" id="node6" href="$d7/df5/classgame_objects_exit_command.html" title="A game objects exit command. " alt="" coords="5,713,215,863"/>
+<area shape="rect" id="node5" href="$d1/da3/classcommand_base.html" title="An empty base that all x&#45;able derive from to be added to the scene brokers list. " alt="" coords="576,5,713,112"/>
 <area shape="rect" id="node7" href="$d1/dde/structalarmable_1_1_registration_data.html" title="{alarmable::RegistrationData\n|+ currentState\l+ myDeleteRef\l|}" alt="" coords="388,1205,571,1297"/>
 </map>

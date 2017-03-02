@@ -94,6 +94,9 @@ $(document).ready(function(){initNavTree('d3/d4f/class_visualizer.html','../../'
 </div><!--header-->
 <div class="contents">
 
+<p>A debugging tool for seeing collidable areas.  
+ <a href="../../d3/d4f/class_visualizer.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../d1/dd3/_visualizer_8h_source.html">Visualizer.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Visualizer:</div>
@@ -109,6 +112,7 @@ Collaboration diagram for Visualizer:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:adf6e9385c77bb3f800fac17e7b1468b4"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4f/class_visualizer.html#adf6e9385c77bb3f800fac17e7b1468b4">renderBSphere</a> (const <a class="el" href="../../d8/d21/class_collision_volume_b_sphere.html">CollisionVolumeBSphere</a> &amp;S, const Vect &amp;col=<a class="el" href="../../d3/d4f/class_visualizer.html#a91aeb59e73415c060d9a7694604ee9f0">DefaultColor</a>)</td></tr>
+<tr class="memdesc:adf6e9385c77bb3f800fac17e7b1468b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders BSphere on Screen.  <a href="#adf6e9385c77bb3f800fac17e7b1468b4">More...</a><br /></td></tr>
 <tr class="separator:adf6e9385c77bb3f800fac17e7b1468b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
@@ -122,13 +126,16 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a1deadc2181bf14d0e3e893e48ea85cd9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/d4f/class_visualizer.html">Visualizer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4f/class_visualizer.html#a1deadc2181bf14d0e3e893e48ea85cd9">operator=</a> (const <a class="el" href="../../d3/d4f/class_visualizer.html">Visualizer</a> &amp;)=delete</td></tr>
 <tr class="separator:a1deadc2181bf14d0e3e893e48ea85cd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefb91d1543d71e9d7827cd747be849e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4f/class_visualizer.html#aefb91d1543d71e9d7827cd747be849e0">privRenderBSphere</a> (Matrix &amp;S, const Vect &amp;col)</td></tr>
+<tr class="memdesc:aefb91d1543d71e9d7827cd747be849e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders the Bsphere <a href="#aefb91d1543d71e9d7827cd747be849e0">More...</a><br /></td></tr>
 <tr class="separator:aefb91d1543d71e9d7827cd747be849e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
 <tr class="memitem:ad4c7951128b7a02c6253e4a1e715fd59"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d3/d4f/class_visualizer.html">Visualizer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4f/class_visualizer.html#ad4c7951128b7a02c6253e4a1e715fd59">Instance</a> ()</td></tr>
+<tr class="memdesc:ad4c7951128b7a02c6253e4a1e715fd59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instance creator for the singleton.  <a href="#ad4c7951128b7a02c6253e4a1e715fd59">More...</a><br /></td></tr>
 <tr class="separator:ad4c7951128b7a02c6253e4a1e715fd59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f965217cb559e5cdbd3fd1a6d855e20"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4f/class_visualizer.html#a3f965217cb559e5cdbd3fd1a6d855e20">Delete</a> ()</td></tr>
+<tr class="memdesc:a3f965217cb559e5cdbd3fd1a6d855e20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes this object.  <a href="#a3f965217cb559e5cdbd3fd1a6d855e20">More...</a><br /></td></tr>
 <tr class="separator:a3f965217cb559e5cdbd3fd1a6d855e20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
@@ -144,8 +151,10 @@ Static Private Attributes</h2></td></tr>
 <tr class="separator:a91aeb59e73415c060d9a7694604ee9f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d1/dd3/_visualizer_8h_source.html#l00010">10</a> of file <a class="el" href="../../d1/dd3/_visualizer_8h_source.html">Visualizer.h</a>.</p>
+<div class="textblock"><p>A debugging tool for seeing collidable areas. </p>
+<p>Braya, 3/2/2017. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d1/dd3/_visualizer_8h_source.html#l00015">15</a> of file <a class="el" href="../../d1/dd3/_visualizer_8h_source.html">Visualizer.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a104487003c9fea602e26c072aae27efc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a104487003c9fea602e26c072aae27efc">&#9670;&nbsp;</a></span>Visualizer() <span class="overload">[1/2]</span></h2>
@@ -169,8 +178,6 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<hr/>
- <h2>Singleton </h2>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/d26/_visualizer_8cpp_source.html#l00008">8</a> of file <a class="el" href="../../d0/d26/_visualizer_8cpp_source.html">Visualizer.cpp</a>.</p>
 
@@ -253,6 +260,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Deletes this object. </p>
+<p>Braya, 3/2/2017. </p>
+
 <p class="definition">Definition at line <a class="el" href="../../d0/d26/_visualizer_8cpp_source.html#l00026">26</a> of file <a class="el" href="../../d0/d26/_visualizer_8cpp_source.html">Visualizer.cpp</a>.</p>
 
 </div>
@@ -279,10 +289,12 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<hr/>
- <h2>Instance creator for the singleton </h2>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/dd3/_visualizer_8h_source.html#l00026">26</a> of file <a class="el" href="../../d1/dd3/_visualizer_8h_source.html">Visualizer.h</a>.</p>
+<p>Instance creator for the singleton. </p>
+<p>Braya, 3/2/2017. </p>
+<dl class="section return"><dt>Returns</dt><dd>A reference to a <a class="el" href="../../d3/d4f/class_visualizer.html" title="A debugging tool for seeing collidable areas. ">Visualizer</a>. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d1/dd3/_visualizer_8h_source.html#l00033">33</a> of file <a class="el" href="../../d1/dd3/_visualizer_8h_source.html">Visualizer.h</a>.</p>
 
 </div>
 </div>
@@ -345,8 +357,16 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<hr/>
- <h2>private Functions </h2>
+
+<p>Renders the Bsphere</p>
+<p>Braya, 3/2/2017. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">S</td><td>[in,out] The Matrix to process. </td></tr>
+    <tr><td class="paramname">col</td><td>The col. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/d26/_visualizer_8cpp_source.html#l00019">19</a> of file <a class="el" href="../../d0/d26/_visualizer_8cpp_source.html">Visualizer.cpp</a>.</p>
 
@@ -385,8 +405,11 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Renders BSphere on Screen. </p>
 <hr/>
  <h2>Public API </h2>
+<p>Braya, 3/2/2017. </p>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/d26/_visualizer_8cpp_source.html#l00030">30</a> of file <a class="el" href="../../d0/d26/_visualizer_8cpp_source.html">Visualizer.cpp</a>.</p>
 
@@ -415,7 +438,7 @@ Static Private Attributes</h2></td></tr>
 <hr/>
  <h2>private variables </h2>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/dd3/_visualizer_8h_source.html#l00045">45</a> of file <a class="el" href="../../d1/dd3/_visualizer_8h_source.html">Visualizer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/dd3/_visualizer_8h_source.html#l00062">62</a> of file <a class="el" href="../../d1/dd3/_visualizer_8h_source.html">Visualizer.h</a>.</p>
 
 </div>
 </div>
@@ -439,7 +462,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/dd3/_visualizer_8h_source.html#l00046">46</a> of file <a class="el" href="../../d1/dd3/_visualizer_8h_source.html">Visualizer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/dd3/_visualizer_8h_source.html#l00063">63</a> of file <a class="el" href="../../d1/dd3/_visualizer_8h_source.html">Visualizer.h</a>.</p>
 
 </div>
 </div>
@@ -463,7 +486,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/dd3/_visualizer_8h_source.html#l00047">47</a> of file <a class="el" href="../../d1/dd3/_visualizer_8h_source.html">Visualizer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/dd3/_visualizer_8h_source.html#l00064">64</a> of file <a class="el" href="../../d1/dd3/_visualizer_8h_source.html">Visualizer.h</a>.</p>
 
 </div>
 </div>

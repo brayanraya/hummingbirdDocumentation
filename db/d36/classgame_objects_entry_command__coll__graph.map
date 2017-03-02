@@ -1,5 +1,5 @@
 <map id="gameObjectsEntryCommand" name="gameObjectsEntryCommand">
-<area shape="rect" id="node3" href="$d2/d62/classgame_objects.html" title="{gameObjects\n|&#45; currentState\l|+ gameObjects()\l+ ~gameObjects()\l+ gameObjects()\l+ operator=()\l+ connectToScene()\l+ disconnectToScene()\l+ sceneEntry()\l+ sceneExit()\l+ submitEntry()\l+ submitExit()\l}" alt="" coords="191,375,347,584"/>
-<area shape="rect" id="node2" href="$d1/da3/classcommand_base.html" title="{commandBase\n||+ commandBase()\l+ ~commandBase()\l+ execute()\l}" alt="" coords="422,5,559,112"/>
-<area shape="rect" id="node5" href="$d7/df5/classgame_objects_exit_command.html" title="{gameObjectsExitCommand\n||+ gameObjectsExitCommand()\l+ gameObjectsExitCommand()\l+ ~gameObjectsExitCommand()\l+ gameObjectsExitCommand()\l+ operator=()\l+ execute()\l}" alt="" coords="278,661,487,812"/>
+<area shape="rect" id="node3" href="$d2/d62/classgame_objects.html" title="Basic game object skeleton. Inherited by every x&#45;able. " alt="" coords="191,375,347,584"/>
+<area shape="rect" id="node2" href="$d1/da3/classcommand_base.html" title="An empty base that all x&#45;able derive from to be added to the scene brokers list. " alt="" coords="422,5,559,112"/>
+<area shape="rect" id="node5" href="$d7/df5/classgame_objects_exit_command.html" title="A game objects exit command. " alt="" coords="278,661,487,812"/>
 </map>

@@ -1,4 +1,4 @@
 <map id="collisionTestCommandBase" name="collisionTestCommandBase">
-<area shape="rect" id="node2" href="$d6/dd8/classcollision_test_pair_command.html" title="{collisionTestPairCommand\l\&lt; C1, C2 \&gt;\n|&#45; Collection1\l&#45; Collection2\l|+ collisionTestPairCommand()\l+ ~collisionTestPairCommand()\l+ execute()\l}" alt="" coords="5,160,209,296"/>
-<area shape="rect" id="node3" href="$d4/d58/classcollision_test_self_command.html" title="{collisionTestSelfCommand\l\&lt; C1 \&gt;\n|&#45; Collection1\l|+ collisionTestSelfCommand()\l+ ~collisionTestSelfCommand()\l+ execute()\l}" alt="" coords="234,167,437,289"/>
+<area shape="rect" id="node2" href="$d6/dd8/classcollision_test_pair_command.html" title="Template for a given collideable testing collision against another collideable. ie. Ship against Rock. " alt="" coords="5,160,209,296"/>
+<area shape="rect" id="node3" href="$d4/d58/classcollision_test_self_command.html" title="Template for a given collideable testing collision against another collideable of the same type..." alt="" coords="234,167,437,289"/>
 </map>

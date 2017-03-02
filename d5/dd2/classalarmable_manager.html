@@ -95,6 +95,9 @@ $(document).ready(function(){initNavTree('d5/dd2/classalarmable_manager.html','.
 </div><!--header-->
 <div class="contents">
 
+<p>Manager for alarmables.  
+ <a href="../../d5/dd2/classalarmable_manager.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../dd/d0c/alarmable_manager_8h_source.html">alarmableManager.h</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for alarmableManager:</div>
@@ -108,7 +111,8 @@ Public Types</h2></td></tr>
 <a class="el" href="../../d5/dd2/classalarmable_manager.html#a7cfcb91ef5e12c083a959ce539c37cbba5ee991a7dd9406171fd63de3305e2593">ALARM_ID::ALARM1</a>, 
 <a class="el" href="../../d5/dd2/classalarmable_manager.html#a7cfcb91ef5e12c083a959ce539c37cbbac1e93ba853de39f692098d055bb3338a">ALARM_ID::ALARM2</a>, 
 <a class="el" href="../../d5/dd2/classalarmable_manager.html#a7cfcb91ef5e12c083a959ce539c37cbba3f2001dce6539786c2e71defe9298d5c">ALARM_ID::ALARM3</a>
- }</td></tr>
+ }<tr class="memdesc:a7cfcb91ef5e12c083a959ce539c37cbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Values that represent alarm numbers.  <a href="../../d5/dd2/classalarmable_manager.html#a7cfcb91ef5e12c083a959ce539c37cbb">More...</a><br /></td></tr>
+</td></tr>
 <tr class="separator:a7cfcb91ef5e12c083a959ce539c37cbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a458b06fab4638d803f745cc2b530c05d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dd2/classalarmable_manager.html#a458b06fab4638d803f745cc2b530c05d">AlarmEvent</a> = std::pair&lt; <a class="el" href="../../d1/d56/classalarmable.html">alarmable</a> *, <a class="el" href="../../d5/dd2/classalarmable_manager.html#a7cfcb91ef5e12c083a959ce539c37cbb">ALARM_ID</a> &gt;</td></tr>
 <tr class="separator:a458b06fab4638d803f745cc2b530c05d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -128,8 +132,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abe8c7f6eef4673dc8f325d88334ffdd2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/dd2/classalarmable_manager.html">alarmableManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dd2/classalarmable_manager.html#abe8c7f6eef4673dc8f325d88334ffdd2">operator=</a> (const <a class="el" href="../../d5/dd2/classalarmable_manager.html">alarmableManager</a> &amp;)=delete</td></tr>
 <tr class="separator:abe8c7f6eef4673dc8f325d88334ffdd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22b5618be7d4d47609c354cfe3547b35"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dd2/classalarmable_manager.html#a22b5618be7d4d47609c354cfe3547b35">registerAlarmable</a> (float time, <a class="el" href="../../d5/dd2/classalarmable_manager.html#a458b06fab4638d803f745cc2b530c05d">AlarmEvent</a> inEvent)</td></tr>
+<tr class="memdesc:a22b5618be7d4d47609c354cfe3547b35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers the alarmable.  <a href="#a22b5618be7d4d47609c354cfe3547b35">More...</a><br /></td></tr>
 <tr class="separator:a22b5618be7d4d47609c354cfe3547b35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae35981605baccc18f588e5a64dd73310"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dd2/classalarmable_manager.html#ae35981605baccc18f588e5a64dd73310">deregisterAlarmable</a> (<a class="el" href="../../d1/d56/classalarmable.html">alarmable</a> *alarm, <a class="el" href="../../d5/dd2/classalarmable_manager.html#a7cfcb91ef5e12c083a959ce539c37cbb">ALARM_ID</a> id)</td></tr>
+<tr class="memdesc:ae35981605baccc18f588e5a64dd73310"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deregisters the alarmable.  <a href="#ae35981605baccc18f588e5a64dd73310">More...</a><br /></td></tr>
 <tr class="separator:ae35981605baccc18f588e5a64dd73310"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
@@ -140,6 +146,7 @@ Static Public Attributes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:afaa68c6d19c0519a2c646d2d13168a39"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dd2/classalarmable_manager.html#afaa68c6d19c0519a2c646d2d13168a39">processElements</a> ()</td></tr>
+<tr class="memdesc:afaa68c6d19c0519a2c646d2d13168a39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Process the elements.  <a href="#afaa68c6d19c0519a2c646d2d13168a39">More...</a><br /></td></tr>
 <tr class="separator:afaa68c6d19c0519a2c646d2d13168a39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
@@ -153,8 +160,10 @@ Friends</h2></td></tr>
 <tr class="separator:a7b336b709d34fdf6c805ea3fa95dc66b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../dd/d0c/alarmable_manager_8h_source.html#l00008">8</a> of file <a class="el" href="../../dd/d0c/alarmable_manager_8h_source.html">alarmableManager.h</a>.</p>
+<div class="textblock"><p>Manager for alarmables. </p>
+<p>Braya, 3/1/2017. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../dd/d0c/alarmable_manager_8h_source.html#l00013">13</a> of file <a class="el" href="../../dd/d0c/alarmable_manager_8h_source.html">alarmableManager.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a269d2f19c2372169509f589e8007075f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a269d2f19c2372169509f589e8007075f">&#9670;&nbsp;</a></span>alarmableMapRef</h2>
@@ -168,7 +177,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d0c/alarmable_manager_8h_source.html#l00039">39</a> of file <a class="el" href="../../dd/d0c/alarmable_manager_8h_source.html">alarmableManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d0c/alarmable_manager_8h_source.html#l00071">71</a> of file <a class="el" href="../../dd/d0c/alarmable_manager_8h_source.html">alarmableManager.h</a>.</p>
 
 </div>
 </div>
@@ -184,7 +193,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d0c/alarmable_manager_8h_source.html#l00019">19</a> of file <a class="el" href="../../dd/d0c/alarmable_manager_8h_source.html">alarmableManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d0c/alarmable_manager_8h_source.html#l00030">30</a> of file <a class="el" href="../../dd/d0c/alarmable_manager_8h_source.html">alarmableManager.h</a>.</p>
 
 </div>
 </div>
@@ -200,7 +209,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d0c/alarmable_manager_8h_source.html#l00020">20</a> of file <a class="el" href="../../dd/d0c/alarmable_manager_8h_source.html">alarmableManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d0c/alarmable_manager_8h_source.html#l00031">31</a> of file <a class="el" href="../../dd/d0c/alarmable_manager_8h_source.html">alarmableManager.h</a>.</p>
 
 </div>
 </div>
@@ -224,6 +233,9 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Values that represent alarm numbers. </p>
+<p>Braya, 3/1/2017. </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a7cfcb91ef5e12c083a959ce539c37cbbaf3cf5df1efa3cae66e4492a1913d5536"></a>ALARM0&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a7cfcb91ef5e12c083a959ce539c37cbba5ee991a7dd9406171fd63de3305e2593"></a>ALARM1&#160;</td><td class="fielddoc"></td></tr>
@@ -231,7 +243,7 @@ Friends</h2></td></tr>
 <tr><td class="fieldname"><a id="a7cfcb91ef5e12c083a959ce539c37cbba3f2001dce6539786c2e71defe9298d5c"></a>ALARM3&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d0c/alarmable_manager_8h_source.html#l00011">11</a> of file <a class="el" href="../../dd/d0c/alarmable_manager_8h_source.html">alarmableManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d0c/alarmable_manager_8h_source.html#l00022">22</a> of file <a class="el" href="../../dd/d0c/alarmable_manager_8h_source.html">alarmableManager.h</a>.</p>
 
 </div>
 </div>
@@ -259,7 +271,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d0c/alarmable_manager_8h_source.html#l00030">30</a> of file <a class="el" href="../../dd/d0c/alarmable_manager_8h_source.html">alarmableManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d0c/alarmable_manager_8h_source.html#l00045">45</a> of file <a class="el" href="../../dd/d0c/alarmable_manager_8h_source.html">alarmableManager.h</a>.</p>
 
 </div>
 </div>
@@ -335,6 +347,16 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Deregisters the alarmable. </p>
+<p>Braya, 3/1/2017. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">alarm</td><td>[in,out] If non-null, the alarm. </td></tr>
+    <tr><td class="paramname">id</td><td>The identifier. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 <p class="definition">Definition at line <a class="el" href="../../db/de6/alarmable_manager_8cpp_source.html#l00014">14</a> of file <a class="el" href="../../db/de6/alarmable_manager_8cpp_source.html">alarmableManager.cpp</a>.</p>
 
 </div>
@@ -388,6 +410,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Process the elements. </p>
+<p>Braya, 3/1/2017. </p>
+
 <p class="definition">Definition at line <a class="el" href="../../db/de6/alarmable_manager_8cpp_source.html#l00019">19</a> of file <a class="el" href="../../db/de6/alarmable_manager_8cpp_source.html">alarmableManager.cpp</a>.</p>
 
 </div>
@@ -418,6 +443,16 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Registers the alarmable. </p>
+<p>Braya, 3/1/2017. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">time</td><td>The time. </td></tr>
+    <tr><td class="paramname">inEvent</td><td>The in event. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 <p class="definition">Definition at line <a class="el" href="../../db/de6/alarmable_manager_8cpp_source.html#l00009">9</a> of file <a class="el" href="../../db/de6/alarmable_manager_8cpp_source.html">alarmableManager.cpp</a>.</p>
 
 </div>
@@ -443,7 +478,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d0c/alarmable_manager_8h_source.html#l00026">26</a> of file <a class="el" href="../../dd/d0c/alarmable_manager_8h_source.html">alarmableManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d0c/alarmable_manager_8h_source.html#l00036">36</a> of file <a class="el" href="../../dd/d0c/alarmable_manager_8h_source.html">alarmableManager.h</a>.</p>
 
 </div>
 </div>
@@ -468,7 +503,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d0c/alarmable_manager_8h_source.html#l00018">18</a> of file <a class="el" href="../../dd/d0c/alarmable_manager_8h_source.html">alarmableManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d0c/alarmable_manager_8h_source.html#l00029">29</a> of file <a class="el" href="../../dd/d0c/alarmable_manager_8h_source.html">alarmableManager.h</a>.</p>
 
 </div>
 </div>
@@ -492,7 +527,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d0c/alarmable_manager_8h_source.html#l00024">24</a> of file <a class="el" href="../../dd/d0c/alarmable_manager_8h_source.html">alarmableManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d0c/alarmable_manager_8h_source.html#l00034">34</a> of file <a class="el" href="../../dd/d0c/alarmable_manager_8h_source.html">alarmableManager.h</a>.</p>
 
 </div>
 </div>

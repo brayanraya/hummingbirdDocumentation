@@ -95,19 +95,22 @@ $(document).ready(function(){initNavTree('de/d80/classdrawable_manager.html','..
 </div><!--header-->
 <div class="contents">
 
+<p>Manager for drawables.  
+ <a href="../../de/d80/classdrawable_manager.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../df/d74/drawable_manager_8h_source.html">drawableManager.h</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for drawableManager:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d5/dc2/classdrawable_manager__coll__graph.png" border="0" usemap="#drawable_manager_coll__map" alt="Collaboration graph"/></div>
 <map name="drawable_manager_coll__map" id="drawable_manager_coll__map">
-<area shape="rect" id="node3" href="../../dc/dc5/classdrawable.html" title="{drawable\n|+ myDeleteRef\l&#45; currentState\l|+ drawable()\l+ ~drawable()\l+ drawable()\l+ operator=()\l+ sceneDeregistraion()\l+ sceneRegistraion()\l+ submitDrawableDeregistration()\l+ submitDrawableRegistration()\l+ draw()\l}" alt="" coords="473,661,687,871"/>
-<area shape="rect" id="node9" href="../../dd/d1d/classdrawable_deregistraton_command.html" title="{drawableDeregistratonCommand\n||+ drawableDeregistratonCommand()\l+ ~drawableDeregistratonCommand()\l+ drawableDeregistratonCommand()\l+ operator=()\l+ drawableDeregistratonCommand()\l+ execute()\l}" alt="" coords="593,933,831,1084"/>
-<area shape="rect" id="node10" href="../../d9/da1/classdrawable_registraton_command.html" title="{drawableRegistratonCommand\n||+ drawableRegistratonCommand()\l+ ~drawableRegistratonCommand()\l+ drawableRegistratonCommand()\l+ operator=()\l+ drawableRegistratonCommand()\l+ execute()\l}" alt="" coords="96,933,323,1084"/>
-<area shape="rect" id="node4" href="../../d2/d62/classgame_objects.html" title="{gameObjects\n|&#45; currentState\l|+ gameObjects()\l+ ~gameObjects()\l+ gameObjects()\l+ operator=()\l+ connectToScene()\l+ disconnectToScene()\l+ sceneEntry()\l+ sceneExit()\l+ submitEntry()\l+ submitExit()\l}" alt="" coords="283,375,439,584"/>
-<area shape="rect" id="node6" href="../../d4/d3a/classgame_objects_entry_command.html" title="{gameObjectsEntryCommand\n||+ gameObjectsEntryCommand()\l+ gameObjectsEntryCommand()\l+ gameObjectsEntryCommand()\l+ operator=()\l+ ~gameObjectsEntryCommand()\l+ execute()\l}" alt="" coords="95,161,313,312"/>
-<area shape="rect" id="node8" href="../../d7/df5/classgame_objects_exit_command.html" title="{gameObjectsExitCommand\n||+ gameObjectsExitCommand()\l+ gameObjectsExitCommand()\l+ ~gameObjectsExitCommand()\l+ gameObjectsExitCommand()\l+ operator=()\l+ execute()\l}" alt="" coords="43,691,253,841"/>
-<area shape="rect" id="node7" href="../../d1/da3/classcommand_base.html" title="{commandBase\n||+ commandBase()\l+ ~commandBase()\l+ execute()\l}" alt="" coords="34,5,171,112"/>
+<area shape="rect" id="node3" href="../../dc/dc5/classdrawable.html" title="Allows inherited class to register and deregister for the engines draw cycle. " alt="" coords="473,661,687,871"/>
+<area shape="rect" id="node9" href="../../dd/d1d/classdrawable_deregistraton_command.html" title="A drawable deregistraton command. " alt="" coords="593,933,831,1084"/>
+<area shape="rect" id="node10" href="../../d9/da1/classdrawable_registraton_command.html" title="A drawable registraton command. " alt="" coords="96,933,323,1084"/>
+<area shape="rect" id="node4" href="../../d2/d62/classgame_objects.html" title="Basic game object skeleton. Inherited by every x&#45;able. " alt="" coords="283,375,439,584"/>
+<area shape="rect" id="node6" href="../../d4/d3a/classgame_objects_entry_command.html" title="A game objects entry command. " alt="" coords="95,161,313,312"/>
+<area shape="rect" id="node8" href="../../d7/df5/classgame_objects_exit_command.html" title="A game objects exit command. " alt="" coords="43,691,253,841"/>
+<area shape="rect" id="node7" href="../../d1/da3/classcommand_base.html" title="An empty base that all x&#45;able derive from to be added to the scene brokers list. " alt="" coords="34,5,171,112"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -153,8 +156,10 @@ Friends</h2></td></tr>
 <tr class="separator:a7b336b709d34fdf6c805ea3fa95dc66b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../df/d74/drawable_manager_8h_source.html#l00008">8</a> of file <a class="el" href="../../df/d74/drawable_manager_8h_source.html">drawableManager.h</a>.</p>
+<div class="textblock"><p>Manager for drawables. </p>
+<p>Braya, 3/1/2017. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../df/d74/drawable_manager_8h_source.html#l00013">13</a> of file <a class="el" href="../../df/d74/drawable_manager_8h_source.html">drawableManager.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="abcc0227febd98a79675acc55b345f209"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abcc0227febd98a79675acc55b345f209">&#9670;&nbsp;</a></span>drawableList</h2>
@@ -176,7 +181,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d74/drawable_manager_8h_source.html#l00011">11</a> of file <a class="el" href="../../df/d74/drawable_manager_8h_source.html">drawableManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d74/drawable_manager_8h_source.html#l00016">16</a> of file <a class="el" href="../../df/d74/drawable_manager_8h_source.html">drawableManager.h</a>.</p>
 
 </div>
 </div>
@@ -192,7 +197,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d74/drawable_manager_8h_source.html#l00033">33</a> of file <a class="el" href="../../df/d74/drawable_manager_8h_source.html">drawableManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d74/drawable_manager_8h_source.html#l00038">38</a> of file <a class="el" href="../../df/d74/drawable_manager_8h_source.html">drawableManager.h</a>.</p>
 
 </div>
 </div>
@@ -386,7 +391,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d74/drawable_manager_8h_source.html#l00014">14</a> of file <a class="el" href="../../df/d74/drawable_manager_8h_source.html">drawableManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d74/drawable_manager_8h_source.html#l00019">19</a> of file <a class="el" href="../../df/d74/drawable_manager_8h_source.html">drawableManager.h</a>.</p>
 
 </div>
 </div>
@@ -411,7 +416,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d74/drawable_manager_8h_source.html#l00012">12</a> of file <a class="el" href="../../df/d74/drawable_manager_8h_source.html">drawableManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d74/drawable_manager_8h_source.html#l00017">17</a> of file <a class="el" href="../../df/d74/drawable_manager_8h_source.html">drawableManager.h</a>.</p>
 
 </div>
 </div>

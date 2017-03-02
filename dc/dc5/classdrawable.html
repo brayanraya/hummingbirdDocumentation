@@ -92,13 +92,16 @@ $(document).ready(function(){initNavTree('dc/dc5/classdrawable.html','../../');}
 </div><!--header-->
 <div class="contents">
 
+<p>Allows inherited class to register and deregister for the engines draw cycle.  
+ <a href="../../dc/dc5/classdrawable.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../d5/dea/drawable_8h_source.html">drawable.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for drawable:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d8/d4d/classdrawable__inherit__graph.png" border="0" usemap="#drawable_inherit__map" alt="Inheritance graph"/></div>
 <map name="drawable_inherit__map" id="drawable_inherit__map">
-<area shape="rect" id="node2" href="../../d2/d62/classgame_objects.html" title="{gameObjects\n|+ myDeleteEnterRef\l+ myDeleteExitRef\l&#45; currentState\l&#45; pGameExitCommand\l&#45; pGameEntryCommand\l|+ gameObjects()\l+ ~gameObjects()\l+ gameObjects()\l+ operator=()\l+ connectToScene()\l+ disconnectToScene()\l+ sceneEntry()\l+ sceneExit()\l+ submitEntry()\l+ submitExit()\l}" alt="" coords="31,5,194,273"/>
+<area shape="rect" id="node2" href="../../d2/d62/classgame_objects.html" title="Basic game object skeleton. Inherited by every x&#45;able. " alt="" coords="31,5,194,273"/>
 </map>
 </div>
 <div class="dynheader">
@@ -106,12 +109,12 @@ Collaboration diagram for drawable:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../db/d89/classdrawable__coll__graph.png" border="0" usemap="#drawable_coll__map" alt="Collaboration graph"/></div>
 <map name="drawable_coll__map" id="drawable_coll__map">
-<area shape="rect" id="node7" href="../../dd/d1d/classdrawable_deregistraton_command.html" title="{drawableDeregistratonCommand\n||+ drawableDeregistratonCommand()\l+ ~drawableDeregistratonCommand()\l+ drawableDeregistratonCommand()\l+ operator=()\l+ drawableDeregistratonCommand()\l+ execute()\l}" alt="" coords="425,933,662,1084"/>
-<area shape="rect" id="node8" href="../../d9/da1/classdrawable_registraton_command.html" title="{drawableRegistratonCommand\n||+ drawableRegistratonCommand()\l+ ~drawableRegistratonCommand()\l+ drawableRegistratonCommand()\l+ operator=()\l+ drawableRegistratonCommand()\l+ execute()\l}" alt="" coords="155,933,382,1084"/>
-<area shape="rect" id="node2" href="../../d2/d62/classgame_objects.html" title="{gameObjects\n|&#45; currentState\l|+ gameObjects()\l+ ~gameObjects()\l+ gameObjects()\l+ operator=()\l+ connectToScene()\l+ disconnectToScene()\l+ sceneEntry()\l+ sceneExit()\l+ submitEntry()\l+ submitExit()\l}" alt="" coords="329,375,485,584"/>
-<area shape="rect" id="node4" href="../../d4/d3a/classgame_objects_entry_command.html" title="{gameObjectsEntryCommand\n||+ gameObjectsEntryCommand()\l+ gameObjectsEntryCommand()\l+ gameObjectsEntryCommand()\l+ operator=()\l+ ~gameObjectsEntryCommand()\l+ execute()\l}" alt="" coords="395,161,612,312"/>
-<area shape="rect" id="node6" href="../../d7/df5/classgame_objects_exit_command.html" title="{gameObjectsExitCommand\n||+ gameObjectsExitCommand()\l+ gameObjectsExitCommand()\l+ ~gameObjectsExitCommand()\l+ gameObjectsExitCommand()\l+ operator=()\l+ execute()\l}" alt="" coords="5,691,215,841"/>
-<area shape="rect" id="node5" href="../../d1/da3/classcommand_base.html" title="{commandBase\n||+ commandBase()\l+ ~commandBase()\l+ execute()\l}" alt="" coords="563,5,700,112"/>
+<area shape="rect" id="node7" href="../../dd/d1d/classdrawable_deregistraton_command.html" title="A drawable deregistraton command. " alt="" coords="425,933,662,1084"/>
+<area shape="rect" id="node8" href="../../d9/da1/classdrawable_registraton_command.html" title="A drawable registraton command. " alt="" coords="155,933,382,1084"/>
+<area shape="rect" id="node2" href="../../d2/d62/classgame_objects.html" title="Basic game object skeleton. Inherited by every x&#45;able. " alt="" coords="329,375,485,584"/>
+<area shape="rect" id="node4" href="../../d4/d3a/classgame_objects_entry_command.html" title="A game objects entry command. " alt="" coords="395,161,612,312"/>
+<area shape="rect" id="node6" href="../../d7/df5/classgame_objects_exit_command.html" title="A game objects exit command. " alt="" coords="5,691,215,841"/>
+<area shape="rect" id="node5" href="../../d1/da3/classcommand_base.html" title="An empty base that all x&#45;able derive from to be added to the scene brokers list. " alt="" coords="563,5,700,112"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -183,8 +186,10 @@ Private Attributes</h2></td></tr>
 <tr class="separator:af105a42bdfb60b3a33372fd2e539cfed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d5/dea/drawable_8h_source.html#l00011">11</a> of file <a class="el" href="../../d5/dea/drawable_8h_source.html">drawable.h</a>.</p>
+<div class="textblock"><p>Allows inherited class to register and deregister for the engines draw cycle. </p>
+<p>Braya, 3/1/2017. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d5/dea/drawable_8h_source.html#l00016">16</a> of file <a class="el" href="../../d5/dea/drawable_8h_source.html">drawable.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab35defb39f6862b73c6e4fec00cba12c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab35defb39f6862b73c6e4fec00cba12c">&#9670;&nbsp;</a></span>drawable() <span class="overload">[1/2]</span></h2>
@@ -274,7 +279,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/dea/drawable_8h_source.html#l00024">24</a> of file <a class="el" href="../../d5/dea/drawable_8h_source.html">drawable.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/dea/drawable_8h_source.html#l00029">29</a> of file <a class="el" href="../../d5/dea/drawable_8h_source.html">drawable.h</a>.</p>
 
 </div>
 </div>
@@ -401,7 +406,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/dea/drawable_8h_source.html#l00027">27</a> of file <a class="el" href="../../d5/dea/drawable_8h_source.html">drawable.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/dea/drawable_8h_source.html#l00032">32</a> of file <a class="el" href="../../d5/dea/drawable_8h_source.html">drawable.h</a>.</p>
 
 </div>
 </div>
@@ -417,7 +422,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/dea/drawable_8h_source.html#l00024">24</a> of file <a class="el" href="../../d5/dea/drawable_8h_source.html">drawable.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/dea/drawable_8h_source.html#l00029">29</a> of file <a class="el" href="../../d5/dea/drawable_8h_source.html">drawable.h</a>.</p>
 
 </div>
 </div>
@@ -441,7 +446,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/dea/drawable_8h_source.html#l00029">29</a> of file <a class="el" href="../../d5/dea/drawable_8h_source.html">drawable.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/dea/drawable_8h_source.html#l00034">34</a> of file <a class="el" href="../../d5/dea/drawable_8h_source.html">drawable.h</a>.</p>
 
 </div>
 </div>
@@ -465,7 +470,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/dea/drawable_8h_source.html#l00028">28</a> of file <a class="el" href="../../d5/dea/drawable_8h_source.html">drawable.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/dea/drawable_8h_source.html#l00033">33</a> of file <a class="el" href="../../d5/dea/drawable_8h_source.html">drawable.h</a>.</p>
 
 </div>
 </div>
