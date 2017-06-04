@@ -1,5 +1,5 @@
 <map id="gameObjectsExitCommand" name="gameObjectsExitCommand">
-<area shape="rect" id="node3" href="$d2/d62/classgame_objects.html" title="Basic game object skeleton. Inherited by every x&#45;able. " alt="" coords="195,375,351,584"/>
-<area shape="rect" id="node2" href="$d1/da3/classcommand_base.html" title="An empty base that all x&#45;able derive from to be added to the scene brokers list. " alt="" coords="431,5,569,112"/>
-<area shape="rect" id="node5" href="$d4/d3a/classgame_objects_entry_command.html" title="A game objects entry command. " alt="" coords="274,661,491,812"/>
+<area shape="rect" id="node4" href="$d2/d62/classgame_objects.html" title="Basic game object skeleton. Inherited by every x&#45;able. " alt="" coords="200,501,356,711"/>
+<area shape="rect" id="node2" href="$d1/da3/classcommand_base.html" title="An empty base that all x&#45;able derive from to be added to the scene brokers list. " alt="" coords="148,132,285,239"/>
+<area shape="rect" id="node6" href="$d4/d3a/classgame_objects_entry_command.html" title="A game objects entry command. " alt="" coords="5,788,223,939"/>
 </map>

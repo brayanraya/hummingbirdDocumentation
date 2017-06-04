@@ -1,11 +1,11 @@
 <map id="inputableDeregistratonCommand" name="inputableDeregistratonCommand">
-<area shape="rect" id="node9" href="$df/d07/structinputable_1_1_registration_data.html" title="A registration data. " alt="" coords="815,470,993,547"/>
-<area shape="rect" id="node2" href="$d1/da3/classcommand_base.html" title="An empty base that all x&#45;able derive from to be added to the scene brokers list. " alt="" coords="607,5,745,112"/>
-<area shape="rect" id="node6" href="$d4/d3a/classgame_objects_entry_command.html" title="A game objects entry command. " alt="" coords="266,169,483,319"/>
-<area shape="rect" id="node7" href="$d7/df5/classgame_objects_exit_command.html" title="A game objects exit command. " alt="" coords="278,753,487,904"/>
-<area shape="rect" id="node10" href="$db/d19/classinputable_registraton_command.html" title="An inputable registraton command. " alt="" coords="940,1253,1167,1419"/>
-<area shape="rect" id="node3" href="$dc/d51/classinputable.html" title="Allows inherited class to register a key and triggers with Key Release/Press. " alt="" coords="797,981,1011,1191"/>
-<area shape="rect" id="node4" href="$d2/d62/classgame_objects.html" title="Basic game object skeleton. Inherited by every x&#45;able. " alt="" coords="209,404,365,613"/>
-<area shape="rect" id="node11" title="STL iterator class. " alt="" coords="577,205,721,283"/>
-<area shape="rect" id="node12" title="STL iterator class. " alt="" coords="753,205,922,283"/>
+<area shape="rect" id="node10" href="$df/d07/structinputable_1_1_registration_data.html" title="A registration data. " alt="" coords="767,589,945,681"/>
+<area shape="rect" id="node2" href="$d1/da3/classcommand_base.html" title="An empty base that all x&#45;able derive from to be added to the scene brokers list. " alt="" coords="189,132,326,239"/>
+<area shape="rect" id="node7" href="$d4/d3a/classgame_objects_entry_command.html" title="A game objects entry command. " alt="" coords="149,295,366,446"/>
+<area shape="rect" id="node8" href="$d7/df5/classgame_objects_exit_command.html" title="A game objects exit command. " alt="" coords="43,817,253,968"/>
+<area shape="rect" id="node11" href="$db/d19/classinputable_registraton_command.html" title="An inputable registraton command. " alt="" coords="531,1303,757,1468"/>
+<area shape="rect" id="node5" href="$d2/d62/classgame_objects.html" title="Basic game object skeleton. Inherited by every x&#45;able. " alt="" coords="234,531,390,740"/>
+<area shape="rect" id="node4" href="$dc/d51/classinputable.html" title="Allows inherited class to register a key and triggers with Key Release/Press. " alt="" coords="537,1031,751,1240"/>
+<area shape="rect" id="node12" title="STL iterator class. " alt="" coords="784,332,928,409"/>
+<area shape="rect" id="node13" title="STL iterator class. " alt="" coords="953,332,1122,409"/>
 </map>

@@ -1,0 +1,7 @@
+<map id="frigate" name="frigate">
+<area shape="rect" id="node2" href="$de/d07/classupdateable.html" title="Allows inherited class to register and deregister for the engines update cylce. " alt="" coords="5,513,232,751"/>
+<area shape="rect" id="node3" href="$d2/d62/classgame_objects.html" title="Basic game object skeleton. Inherited by every x&#45;able. " alt="" coords="401,131,564,399"/>
+<area shape="rect" id="node5" href="$dc/dc5/classdrawable.html" title="Allows inherited class to register and deregister for the engines draw cycle. " alt="" coords="257,505,471,759"/>
+<area shape="rect" id="node6" href="$dc/d51/classinputable.html" title="Allows inherited class to register a key and triggers with Key Release/Press. " alt="" coords="496,527,709,737"/>
+<area shape="rect" id="node7" href="$d9/de2/classcollideable.html" title="Allows inherited class to define collision with another collidable. " alt="" coords="733,447,957,817"/>
+</map>

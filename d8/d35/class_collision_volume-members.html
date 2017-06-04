@@ -30,7 +30,7 @@
   <td id="projectlogo"><img alt="Logo" src="../../hummingbirdIcon.jpg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">HummingBird Engine
-   &#160;<span id="projectnumber">0.01</span>
+   &#160;<span id="projectnumber">0.02</span>
    </div>
    <div id="projectbrief">A Simple Game Engine by Brayan Raya</div>
   </td>
@@ -89,11 +89,15 @@ $(document).ready(function(){initNavTree('d5/d7c/class_collision_volume.html','.
 
 <p>This is the complete list of members for <a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html#aaed8d3ff1cd31d903ce8d41c93d8e392">CollisionVolume</a>()=default</td><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html#a19d051844d52f76a1aecc8505d873dba">computerData</a>(Model *mod, Matrix &amp;mat)</td><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html#a847c4818fcd0b0cb8d1e9733c8db553d">Intersect</a>(const CollisionVolume &amp;other)</td><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html#a0532d07c47cd872a266fd22ebe7c0bb6">Intersect</a>(const CollisionVolumeBSphere &amp;other)</td><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html#abe985f7965ef830b66350778a41d7045">~CollisionVolume</a>()=default</td><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html#aa7727339e04efff3f200438d2082239c">CollisionVolume</a>()</td><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html#af3d3381f788b0cf5e5a6e80e1b7455e8">ComputeData</a>(Model *mod, Matrix &amp;mat)=0</td><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html#abaefef2c2cb5fede5b9d84e93e3a51c6">ComputeData</a>(Model *mod, Matrix &amp;mat, const float &amp;scal)=0</td><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html#a57208a00b950551a7e234ee8dce03350">DebugView</a>(const Vect &amp;inColor) const =0</td><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html#a1ac2ea76b237cc61921ef8c7d3dd8137">Intersect</a>(const CollisionVolume &amp;other) const =0</td><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html#a49b395f4434291b02d3c026ff20b8669">Intersect</a>(const CollisionVolumeBSphere &amp;other) const =0</td><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html#a91d52a0e7d3f81d9a5fd2d7b9404af41">Intersect</a>(const CollisionVolumeAABB &amp;other) const =0</td><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html#a31ad4c11f9a87d759c4ebe44c20c4e78">Intersect</a>(const CollisionVolumeOBB &amp;other) const =0</td><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html#a9fc7adf37bd0eeac9fc358f0075d42d9">~CollisionVolume</a>()</td><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

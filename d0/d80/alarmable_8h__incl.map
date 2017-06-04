@@ -1,8 +1,8 @@
 <map id="alarmable.h" name="alarmable.h">
-<area shape="rect" id="node2" href="$d0/dcb/game_objects_8h.html" title="../../Game Objects\l/gameObjects.h" alt="" coords="341,80,471,121"/>
-<area shape="rect" id="node9" href="$dd/d0c/alarmable_manager_8h.html" title="../alarmable/alarmableManager.h" alt="" coords="651,87,862,114"/>
-<area shape="rect" id="node4" href="$d8/d15/regestration_state_8h.html" title="../Attributes/Shared\l Enum/regestrationState.h" alt="" coords="116,169,291,211"/>
-<area shape="rect" id="node6" href="$d4/d18/game_objects_entry_command_8h.html" title="gameObjectsEntryCommand.h" alt="" coords="378,177,578,203"/>
-<area shape="rect" id="node8" href="$d3/da6/game_objects_exit_command_8h.html" title="gameObjectsExitCommand.h" alt="" coords="602,177,794,203"/>
-<area shape="rect" id="node7" href="$d1/db5/command_base_8h.html" title="../Attributes/Command\l/commandBase.h" alt="" coords="511,259,664,300"/>
+<area shape="rect" id="node2" href="$d0/dcb/game_objects_8h.html" title="../../Game Objects\l/gameObjects.h" alt="" coords="257,80,387,121"/>
+<area shape="rect" id="node9" href="$dd/d0c/alarmable_manager_8h.html" title="../alarmable/alarmableManager.h" alt="" coords="567,87,778,114"/>
+<area shape="rect" id="node4" href="$d8/d15/regestration_state_8h.html" title="../Attributes/Shared\l Enum/regestrationState.h" alt="" coords="32,169,207,211"/>
+<area shape="rect" id="node6" href="$d4/d18/game_objects_entry_command_8h.html" title="gameObjectsEntryCommand.h" alt="" coords="294,177,494,203"/>
+<area shape="rect" id="node8" href="$d3/da6/game_objects_exit_command_8h.html" title="gameObjectsExitCommand.h" alt="" coords="518,177,710,203"/>
+<area shape="rect" id="node7" href="$d1/db5/command_base_8h.html" title="../Attributes/Command\l/commandBase.h" alt="" coords="317,259,471,300"/>
 </map>

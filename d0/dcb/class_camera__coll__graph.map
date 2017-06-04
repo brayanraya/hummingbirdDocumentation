@@ -1,0 +1,5 @@
+<map id="Camera" name="Camera">
+<area shape="rect" id="node2" href="$d5/df7/class_align16.html" title="{Align16\n||+ operator new()\l+ operator new[]()\l+ operator delete()\l+ operator delete[]()\l}" alt="" coords="93,5,229,127"/>
+<area shape="rect" id="node3" href="$d8/d1b/class_vect.html" title="{Vect\n|+ vm\l+ _x\l+ _y\l+ _z\l+ _w\l&#45; Matrix\l&#45; @14\l|+ Vect()\l+ Vect()\l+ operator=()\l+ ~Vect()\l+ Vect()\l+ operator[]()\l+ operator[]()\l+ operator[]()\l+ operator[]()\l+ operator[]()\land 32 more...\l}" alt="" coords="108,176,215,488"/>
+<area shape="rect" id="node4" href="$d6/d3f/class_matrix.html" title="{Matrix\n|+ _m0\l+ _m1\l+ _m2\l+ _m3\l+ _m4\l+ _m5\l+ _m6\l+ _m7\l+ _m8\l+ _m9\land 6 more...\l&#45; Vect\l&#45; @4\l|+ Matrix()\l+ operator=()\l+ Matrix()\l+ ~Matrix()\l+ Matrix()\l+ Matrix()\l+ Matrix()\l+ Matrix()\l+ Matrix()\l+ Matrix()\land 100 more...\l&#45; getAdj()\l&#45; setRotOrient()\l&#45; setRotInvOrient()\l&#45; privSetRotXYZ()\l}" alt="" coords="221,595,347,1053"/>
+</map>

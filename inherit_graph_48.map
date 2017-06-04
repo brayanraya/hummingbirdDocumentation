@@ -1,0 +1,13 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$d5/d8d/class_render_material.html" title="RenderMaterial" alt="" coords="5,224,115,251"/>
+<area shape="rect" id="node2" href="$df/d4f/class_graphics_object.html" title="GraphicsObject" alt="" coords="163,224,275,251"/>
+<area shape="rect" id="node3" href="$dd/d71/class_graphics_object___color_by_position.html" title="GraphicsObject_ColorByPosition" alt="" coords="323,5,535,32"/>
+<area shape="rect" id="node4" href="$de/dfc/class_graphics_object___color_no_texture.html" title="GraphicsObject_ColorNoTexture" alt="" coords="325,56,533,83"/>
+<area shape="rect" id="node5" href="$d7/dec/class_graphics_object___color_no_texture_light.html" title="GraphicsObject_ColorNoTexture\lLight" alt="" coords="325,107,533,149"/>
+<area shape="rect" id="node6" href="$d9/dd8/class_graphics_object___sprite.html" title="GraphicsObject_Sprite" alt="" coords="352,173,505,200"/>
+<area shape="rect" id="node7" href="$d0/d83/class_graphics_object___sprite_box.html" title="GraphicsObject_SpriteBox" alt="" coords="341,224,517,251"/>
+<area shape="rect" id="node8" href="$d6/dc7/class_graphics_object___texture_flat.html" title="GraphicsObject_TextureFlat" alt="" coords="337,275,521,301"/>
+<area shape="rect" id="node9" href="$df/d70/class_graphics_object___texture_light.html" title="GraphicsObject_TextureLight" alt="" coords="333,325,524,352"/>
+<area shape="rect" id="node10" href="$dd/dab/class_graphics_object___wireframe_auto_color.html" title="GraphicsObject_Wireframe\lAutoColor" alt="" coords="339,377,518,418"/>
+<area shape="rect" id="node11" href="$d7/dd9/class_graphics_object___wireframe_constant_color.html" title="GraphicsObject_Wireframe\lConstantColor" alt="" coords="339,442,518,483"/>
+</map>

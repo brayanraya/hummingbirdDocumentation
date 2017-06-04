@@ -20,6 +20,7 @@ var searchData=
   ['deeppink',['DeepPink',['../d9/d44/struct_color.html#a99f30654785f803510ea67ad8925d4a9',1,'Color']]],
   ['deepskyblue',['DeepSkyBlue',['../d9/d44/struct_color.html#a6d247016825d466d5a11fbfb9c3da58d',1,'Color']]],
   ['defaultcolor',['DefaultColor',['../d3/d4f/class_visualizer.html#a91aeb59e73415c060d9a7694604ee9f0',1,'Visualizer']]],
+  ['differencetonextpos',['differenceToNextPos',['../d1/dee/class_terrain.html#a212463a29e1ac85adc971951326e8ed4',1,'Terrain']]],
   ['dimgray',['DimGray',['../d9/d44/struct_color.html#a6cc267f277b77fa77e70f180c6403027',1,'Color']]],
   ['dodgerblue',['DodgerBlue',['../d9/d44/struct_color.html#a79902a574f8134aff02c9793f59da57a',1,'Color']]],
   ['drawablemanagerlist',['drawableManagerList',['../de/d80/classdrawable_manager.html#a766153a23e1720a7c3e987fbe68afd14',1,'drawableManager']]],

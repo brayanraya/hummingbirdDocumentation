@@ -1,0 +1,4 @@
+<map id="SB6M_VERTEX_ATTRIB_CHUNK_t" name="SB6M_VERTEX_ATTRIB_CHUNK_t">
+<area shape="rect" id="node2" href="$db/d7a/struct_s_b6_m___v_e_r_t_e_x___a_t_t_r_i_b___d_e_c_l__t.html" title="{SB6M_VERTEX_ATTRIB\l_DECL_t\n|+ name\l+ size\l+ type\l+ stride\l+ flags\l+ data_offset\l|}" alt="" coords="5,5,172,171"/>
+<area shape="rect" id="node3" href="$df/d57/struct_s_b6_m___c_h_u_n_k___h_e_a_d_e_r__t.html" title="{SB6M_CHUNK_HEADER_t\n|+ chunk_type\l+ chunk_name\l+ @24\l+ size\l|}" alt="" coords="196,27,379,149"/>
+</map>

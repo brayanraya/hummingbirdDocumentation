@@ -1,0 +1,35 @@
+<map id="toySoldier" name="toySoldier">
+<area shape="rect" id="node2" href="$dc/dc5/classdrawable.html" title="Allows inherited class to register and deregister for the engines draw cycle. " alt="" coords="2682,1498,2897,1722"/>
+<area shape="rect" id="node9" href="$dd/d1d/classdrawable_deregistraton_command.html" title="A drawable deregistraton command. " alt="" coords="2321,1873,2559,2023"/>
+<area shape="rect" id="node10" href="$d9/da1/classdrawable_registraton_command.html" title="A drawable registraton command. " alt="" coords="2700,1873,2927,2023"/>
+<area shape="rect" id="node3" href="$d2/d62/classgame_objects.html" title="Basic game object skeleton. Inherited by every x&#45;able. " alt="" coords="2321,1160,2477,1369"/>
+<area shape="rect" id="node6" href="$d4/d3a/classgame_objects_entry_command.html" title="A game objects entry command. " alt="" coords="2203,749,2421,899"/>
+<area shape="rect" id="node8" href="$d7/df5/classgame_objects_exit_command.html" title="A game objects exit command. " alt="" coords="2449,1535,2658,1685"/>
+<area shape="rect" id="node11" href="$de/d07/classupdateable.html" title="Allows inherited class to register and deregister for the engines update cylce. " alt="" coords="1416,1505,1643,1715"/>
+<area shape="rect" id="node14" href="$d1/d56/classalarmable.html" title="Allows inherited class to Set seconds based Alarms. " alt="" coords="1960,1483,2179,1737"/>
+<area shape="rect" id="node18" href="$d9/de2/classcollideable.html" title="Allows inherited class to define collision with another collidable. " alt="" coords="944,1476,1168,1744"/>
+<area shape="rect" id="node26" href="$dc/d51/classinputable.html" title="Allows inherited class to register a key and triggers with Key Release/Press. " alt="" coords="2972,1505,3185,1715"/>
+<area shape="rect" id="node4" href="$d5/df7/class_align16.html" title="{Align16\n||+ operator new()\l+ operator new[]()\l+ operator delete()\l+ operator delete[]()\l}" alt="" coords="1161,5,1297,127"/>
+<area shape="rect" id="node7" href="$d1/da3/classcommand_base.html" title="An empty base that all x&#45;able derive from to be added to the scene brokers list. " alt="" coords="1975,279,2113,385"/>
+<area shape="rect" id="node20" href="$d5/d7c/class_collision_volume.html" title="A general collision volume. " alt="" coords="1158,727,1301,921"/>
+<area shape="rect" id="node21" href="$d8/d1b/class_vect.html" title="{Vect\n|+ vm\l+ _x\l+ _y\l+ _z\l+ _w\l&#45; Matrix\l&#45; @14\l|+ Vect()\l+ Vect()\l+ operator=()\l+ ~Vect()\l+ Vect()\l+ operator[]()\l+ operator[]()\l+ operator[]()\l+ operator[]()\l+ operator[]()\land 32 more...\l}" alt="" coords="741,176,848,488"/>
+<area shape="rect" id="node22" href="$d6/d3f/class_matrix.html" title="{Matrix\n|+ _m0\l+ _m1\l+ _m2\l+ _m3\l+ _m4\l+ _m5\l+ _m6\l+ _m7\l+ _m8\l+ _m9\land 6 more...\l&#45; Vect\l&#45; @4\l|+ Matrix()\l+ operator=()\l+ Matrix()\l+ ~Matrix()\l+ Matrix()\l+ Matrix()\l+ Matrix()\l+ Matrix()\l+ Matrix()\l+ Matrix()\land 100 more...\l&#45; getAdj()\l&#45; setRotOrient()\l&#45; setRotInvOrient()\l&#45; privSetRotXYZ()\l}" alt="" coords="1007,595,1134,1053"/>
+<area shape="rect" id="node12" href="$d3/d09/classupdateable_deregistraton_command.html" title="An updateable deregistraton command. " alt="" coords="1422,1865,1663,2031"/>
+<area shape="rect" id="node13" href="$d1/dad/classupdateable_registraton_command.html" title="An updateable registraton command. " alt="" coords="1159,1873,1398,2023"/>
+<area shape="rect" id="node16" href="$df/d37/classalarmable_registraton_command.html" title="An alarmable registraton command. " alt="" coords="1955,1865,2186,2031"/>
+<area shape="rect" id="node17" href="$d3/db4/classalarmable_deregistraton_command.html" title="An alarmable deregistraton command. " alt="" coords="1688,1865,1931,2031"/>
+<area shape="rect" id="node29" href="$db/d19/classinputable_registraton_command.html" title="An inputable registraton command. " alt="" coords="3197,1865,3424,2031"/>
+<area shape="rect" id="node31" href="$d1/dbc/classinputable_deregistraton_command.html" title="An inputable deregistraton command. " alt="" coords="3617,1865,3855,2031"/>
+<area shape="rect" id="node15" href="$d1/dde/structalarmable_1_1_registration_data.html" title="{alarmable::RegistrationData\n|+ currentState\l+ myDeleteRef\l|}" alt="" coords="1979,2167,2162,2259"/>
+<area shape="rect" id="node19" href="$db/d2e/class_collision_volume_bounding_box.html" title="A general collision volume. " alt="" coords="958,1197,1178,1333"/>
+<area shape="rect" id="node23" href="$d8/d21/class_collision_volume_b_sphere.html" title="Volume and movement caluclations for the volume of bsphere. " alt="" coords="741,1145,934,1384"/>
+<area shape="rect" id="node24" href="$d0/de3/class_model.html" title="{Model\n|&#45; textNames\l&#45; vao\l&#45; vbo\l&#45; numTextures\l&#45; numVerts\l&#45; numTris\l&#45; radius\l|+ Model()\l+ Model()\l+ Model()\l+ Model()\l+ ~Model()\l+ getTextureName()\l+ getVectList()\l+ getVectNum()\l+ getTriangleList()\l+ getTriNum()\land 6 more...\l&#45; privCreateVAO()\l&#45; privCreateVAOFromFile()\l&#45; privBindAndLoadGPU()\l}" alt="" coords="489,646,663,1002"/>
+<area shape="rect" id="node33" href="$df/d70/class_graphics_object___texture_light.html" title="{GraphicsObject_TextureLight\n|+ textureID\l+ textureID2\l+ textureID3\l+ textureID4\l|+ GraphicsObject_TextureLight()\l+ GraphicsObject_TextureLight()\l+ GraphicsObject_TextureLight()\l+ GraphicsObject_TextureLight()\l+ ~GraphicsObject_TextureLight()\l+ GraphicsObject_TextureLight()\l# privSetState()\l# privSetDataGPU()\l# privDraw()\l# privRestoreState()\l}" alt="" coords="593,1483,812,1737"/>
+<area shape="rect" id="node34" href="$df/d4f/class_graphics_object.html" title="{GraphicsObject\n||+ GraphicsObject()\l+ ~GraphicsObject()\l+ GraphicsObject()\l+ Render()\l+ SetWorld()\l+ getModel()\l+ getWorld()\l}" alt="" coords="426,1182,566,1347"/>
+<area shape="rect" id="node25" href="$d5/dde/struct_triangle_index.html" title="{TriangleIndex\n|+ v0\l+ v1\l+ v2\l|+ set()\l}" alt="" coords="5,279,104,385"/>
+<area shape="rect" id="node28" href="$df/d07/structinputable_1_1_registration_data.html" title="A registration data. " alt="" coords="3221,2167,3400,2259"/>
+<area shape="rect" id="node30" title="STL iterator class. " alt="" coords="3448,1909,3592,1987"/>
+<area shape="rect" id="node32" title="STL iterator class. " alt="" coords="3003,1909,3173,1987"/>
+<area shape="rect" id="node35" href="$d5/d8d/class_render_material.html" title="{RenderMaterial\n||# privSetState()\l# privSetDataGPU()\l# privDraw()\l# privRestoreState()\l}" alt="" coords="163,763,299,885"/>
+<area shape="rect" id="node36" href="$d9/d89/class_shader_object.html" title="{ShaderObject\n|+ programObject\l|+ ShaderObject()\l+ SetActive()\l+ GetLocation()\l&#45; privCreateShader()\l&#45; privLoadNCompile()\l}" alt="" coords="323,756,464,892"/>
+</map>

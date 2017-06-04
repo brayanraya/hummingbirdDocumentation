@@ -1,2 +1,5 @@
 <map id="collideableGroupBase" name="collideableGroupBase">
+<area shape="rect" id="node2" href="$d0/d0a/class_collision_volume_a_a_b_b.html" title="{CollisionVolumeAABB\n|&#45; worldMinPoint\l&#45; worldMaxPoint\l|+ CollisionVolumeAABB()\l+ CollisionVolumeAABB()\l+ ~CollisionVolumeAABB()\l+ ComputeData()\l+ ComputeData()\l+ DebugView()\l+ Intersect()\l+ Intersect()\l+ Intersect()\l+ Intersect()\l+ getWorldMax()\l+ getWorldMin()\l+ setWorldMax()\l+ setWorldMin()\l}" alt="" coords="26,591,205,873"/>
+<area shape="rect" id="node3" href="$db/d2e/class_collision_volume_bounding_box.html" title="A general collision volume. " alt="" coords="5,376,225,541"/>
+<area shape="rect" id="node4" href="$d5/d7c/class_collision_volume.html" title="An abstract collision volume that will be inherited by other. " alt="" coords="44,132,187,327"/>
 </map>

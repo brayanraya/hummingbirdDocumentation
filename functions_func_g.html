@@ -30,7 +30,7 @@
   <td id="projectlogo"><img alt="Logo" src="hummingbirdIcon.jpg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">HummingBird Engine
-   &#160;<span id="projectnumber">0.01</span>
+   &#160;<span id="projectnumber">0.02</span>
    </div>
    <div id="projectbrief">A Simple Game Engine by Brayan Raya</div>
   </td>
@@ -97,11 +97,17 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>gameObjectsManager()
 : <a class="el" href="d9/d7a/classgame_objects_manager.html#a5bc41c864b8926ad4f6d572c06bcd0a1">gameObjectsManager</a>
 </li>
-<li>GetBSphere()
-: <a class="el" href="d9/de2/classcollideable.html#ab9b020e8b28e142a6692c8a393c1777d">collideable</a>
+<li>GetAllCellsBelow()
+: <a class="el" href="d1/dee/class_terrain.html#a39399ea13ea6ef7e38f8a40ca00470c5">Terrain</a>
 </li>
 <li>getCameraFromMap()
 : <a class="el" href="d4/d8a/classcamera_manager.html#a58bdf8e28b88436f30948c12af8742ee">cameraManager</a>
+</li>
+<li>GetCell()
+: <a class="el" href="d2/da6/class_terrain_rectangle_area_1_1iterator.html#a23fb659f2f538bf7a324615ef35370b2">TerrainRectangleArea::iterator</a>
+</li>
+<li>GetCells()
+: <a class="el" href="d1/dee/class_terrain.html#ade9b0dccae140eff56e29dcad3cd4fa9">Terrain</a>
 </li>
 <li>GetCenter()
 : <a class="el" href="d8/d21/class_collision_volume_b_sphere.html#a76767704f2bc926d5bb6cf70a6e8e0d8">CollisionVolumeBSphere</a>
@@ -109,11 +115,23 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>getColliderCollection()
 : <a class="el" href="d0/d9d/classcollideable_group.html#aefc7c7ab87e9544cab3ed50c2a800ca6">collideableGroup&lt; C &gt;</a>
 </li>
+<li>GetCollisionVolume()
+: <a class="el" href="d9/de2/classcollideable.html#a871e2a3b852b69997d83a1ada5f9dcc2">collideable</a>
+</li>
 <li>getCurrentScene()
 : <a class="el" href="d6/da0/classscene_manager.html#a17a3510122fd129d912a5be56101440b">sceneManager</a>
 </li>
+<li>getCurrentTerrain()
+: <a class="el" href="dc/de5/classterrain_manager.html#a3a967dc3611ef596bba48fd1ca26ab83">terrainManager</a>
+</li>
 <li>getCurrentTime()
 : <a class="el" href="d0/dc2/classtime_manager.html#a875b7d47968fd83ceae3056d5a30024d">timeManager</a>
+</li>
+<li>GetDefaultBSphere()
+: <a class="el" href="d9/de2/classcollideable.html#a4d51bfea315d07f23b788b66e81cf5cb">collideable</a>
+</li>
+<li>GetDifferenceBtwPos()
+: <a class="el" href="d1/dee/class_terrain.html#a29272dac70cac46455e19e5b87bae85a">Terrain</a>
 </li>
 <li>getFPS()
 : <a class="el" href="d0/dc2/classtime_manager.html#a15c5e16e49b06ecd6f59255c98501f48">timeManager</a>
@@ -121,20 +139,56 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>getFrameNumber()
 : <a class="el" href="d0/dc2/classtime_manager.html#a72491326498807a77f4ea744c4acddc9">timeManager</a>
 </li>
+<li>getGroupsAABB()
+: <a class="el" href="d0/d9d/classcollideable_group.html#a371b8877a6a6d307c6e4ba86f0a42897">collideableGroup&lt; C &gt;</a>
+</li>
+<li>getImageFromMap()
+: <a class="el" href="d2/d39/class_image_manager.html#a1b3b1f99a317f157fa645fc39454be6d">ImageManager</a>
+</li>
+<li>getLocalMax()
+: <a class="el" href="db/d2e/class_collision_volume_bounding_box.html#a85932d6532ca1c1041d8f3d46954ae66">CollisionVolumeBoundingBox</a>
+</li>
+<li>getLocalMin()
+: <a class="el" href="db/d2e/class_collision_volume_bounding_box.html#a5753a3501435e9f7e5ea3dac8d8c15e6">CollisionVolumeBoundingBox</a>
+</li>
+<li>GetMaxCorner()
+: <a class="el" href="d2/da6/class_terrain_rectangle_area_1_1iterator.html#a61920bba2f2a23d956f97d5e2fb2ce55">TerrainRectangleArea::iterator</a>
+</li>
+<li>GetMaxFromSphere()
+: <a class="el" href="d5/dd7/struct_calculations.html#acb074976fe9fda07cf9cc6cca42e0e8d">Calculations</a>
+</li>
+<li>GetMinCorner()
+: <a class="el" href="d2/da6/class_terrain_rectangle_area_1_1iterator.html#a217f019698ca36d9001f771747f4d82d">TerrainRectangleArea::iterator</a>
+</li>
+<li>GetMinFromSphere()
+: <a class="el" href="d5/dd7/struct_calculations.html#a7b48a68f00219af3935806e5a13d4754">Calculations</a>
+</li>
 <li>getModelFromMap()
 : <a class="el" href="dd/dec/classmodel_manager.html#a1817c7d36d29870ed4b87c8c133b4033">modelManager</a>
+</li>
+<li>GetOneCellBelow()
+: <a class="el" href="d1/dee/class_terrain.html#ad48f95d3cc2e1575cbf484d7e3b091bd">Terrain</a>
 </li>
 <li>GetRadius()
 : <a class="el" href="d8/d21/class_collision_volume_b_sphere.html#a80a12a6234a934af889e9cf1e5ffd684">CollisionVolumeBSphere</a>
 </li>
+<li>GetScale()
+: <a class="el" href="d1/dee/class_terrain.html#ae81f6a391d7a579a7de08db8b4afeeae">Terrain</a>
+</li>
 <li>getShaderFromMap()
 : <a class="el" href="db/da4/classshader_manager.html#ad8e4bc682fac2525b62ec610fa7f2946">shaderManager</a>
 </li>
-<li>getSpriteFromMap()
-: <a class="el" href="d2/ddd/class_sprite_manager.html#a213bbb76f0115aedb988ff785d6b4314">SpriteManager</a>
+<li>GetSide()
+: <a class="el" href="d1/dee/class_terrain.html#afe5a51532e5862dfcb63d8f99a37526a">Terrain</a>
+</li>
+<li>getSound()
+: <a class="el" href="d5/dd9/class_sound_manager.html#a7f78daee0e4ec6011f7a5524f7579bd0">SoundManager</a>
 </li>
 <li>getSystemTime()
 : <a class="el" href="d1/d12/classhummingbird_engine.html#a9838d7fb01cec012f96a70bfe716a551">hummingbirdEngine</a>
+</li>
+<li>getTerrainFromMap()
+: <a class="el" href="dc/de5/classterrain_manager.html#a1778d8fd6c1d490f1c9b2b4b3010b8d5">terrainManager</a>
 </li>
 <li>getTextureFromMap()
 : <a class="el" href="d5/d9d/classtexture_manager.html#a4eb37c202c018d062b5a4096cfeff6ce">textureManager</a>
@@ -147,6 +201,16 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 </li>
 <li>getWindowWidth()
 : <a class="el" href="d1/d12/classhummingbird_engine.html#af9604b02843c5f1ad5e7c4f22053f56f">hummingbirdEngine</a>
+</li>
+<li>getWorld()
+: <a class="el" href="db/d2e/class_collision_volume_bounding_box.html#ad91005ac4b56dcb66b0cc8306b06cf36">CollisionVolumeBoundingBox</a>
+, <a class="el" href="d8/d21/class_collision_volume_b_sphere.html#a85d110d320e5010d8c524bd0ab9b978a">CollisionVolumeBSphere</a>
+</li>
+<li>getWorldMax()
+: <a class="el" href="d0/d0a/class_collision_volume_a_a_b_b.html#a0ecd022da2f246ade94ae78da9a7ad82">CollisionVolumeAABB</a>
+</li>
+<li>getWorldMin()
+: <a class="el" href="d0/d0a/class_collision_volume_a_a_b_b.html#abefdc8a543d41b620c84522c3a183e11">CollisionVolumeAABB</a>
 </li>
 </ul>
 </div><!-- contents -->

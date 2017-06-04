@@ -1,0 +1,55 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$d5/df7/class_align16.html" title="Align16" alt="" coords="5,948,71,975"/>
+<area shape="rect" id="node2" href="$d5/da7/class_alien.html" title="Alien" alt="" coords="707,5,758,32"/>
+<area shape="rect" id="node3" href="$da/dbb/class_camera.html" title="Camera" alt="" coords="159,859,225,885"/>
+<area shape="rect" id="node4" href="$d5/d7c/class_collision_volume.html" title="An abstract collision volume that will be inherited by other. " alt="" coords="135,909,249,936"/>
+<area shape="rect" id="node9" href="$d1/da3/classcommand_base.html" title="An empty base that all x&#45;able derive from to be added to the scene brokers list. " alt="" coords="137,1024,247,1051"/>
+<area shape="rect" id="node24" href="$d9/dff/classcottage.html" title="cottage" alt="" coords="700,56,765,83"/>
+<area shape="rect" id="node25" href="$d2/d62/classgame_objects.html" title="Basic game object skeleton. Inherited by every x&#45;able. " alt="" coords="143,436,241,463"/>
+<area shape="rect" id="node34" href="$dc/ddd/classworld_plane.html" title="worldPlane" alt="" coords="690,563,775,589"/>
+<area shape="rect" id="node41" href="$db/dd9/class_h_u_d_sprites.html" title="HUDSprites" alt="" coords="687,715,778,741"/>
+<area shape="rect" id="node46" href="$d6/d3f/class_matrix.html" title="Matrix" alt="" coords="163,1075,221,1101"/>
+<area shape="rect" id="node47" href="$db/d08/class_quat.html" title="Quat" alt="" coords="167,1125,217,1152"/>
+<area shape="rect" id="node48" href="$d1/d08/struct_terrain_data.html" title="A Struct Containing the Min and Max values for the Cells in the Terrain to generate AABBs ..." alt="" coords="148,1176,236,1203"/>
+<area shape="rect" id="node49" href="$d7/d2f/class_terrain_rectangle_area.html" title="TerrainRectangleArea" alt="" coords="119,1227,265,1253"/>
+<area shape="rect" id="node50" href="$d8/d1b/class_vect.html" title="Vect" alt="" coords="167,1277,217,1304"/>
+<area shape="rect" id="node51" href="$d3/d4f/class_visualizer.html" title="SINGLETON: A debugging tool for seeing collidable areas. " alt="" coords="153,1328,231,1355"/>
+<area shape="rect" id="node5" href="$db/d2e/class_collision_volume_bounding_box.html" title="A general collision volume. " alt="" coords="343,821,535,848"/>
+<area shape="rect" id="node8" href="$d8/d21/class_collision_volume_b_sphere.html" title="Volume and movement caluclations for the volume of bsphere. " alt="" coords="356,872,521,899"/>
+<area shape="rect" id="node6" href="$d0/d0a/class_collision_volume_a_a_b_b.html" title="CollisionVolumeAABB" alt="" coords="657,917,808,944"/>
+<area shape="rect" id="node7" href="$d6/ded/class_collision_volume_o_b_b.html" title="CollisionVolumeOBB" alt="" coords="661,968,804,995"/>
+<area shape="rect" id="node10" href="$d3/db4/classalarmable_deregistraton_command.html" title="An alarmable deregistraton command. " alt="" coords="331,923,546,949"/>
+<area shape="rect" id="node11" href="$df/d37/classalarmable_registraton_command.html" title="An alarmable registraton command. " alt="" coords="337,973,540,1000"/>
+<area shape="rect" id="node12" href="$d8/dba/classcollideable_command_base.html" title="collideableCommandBase" alt="" coords="353,1024,525,1051"/>
+<area shape="rect" id="node15" href="$d4/d62/classcollideable_update_group_command.html" title="A collideable deregistraton command. " alt="" coords="313,1075,564,1101"/>
+<area shape="rect" id="node16" href="$dd/d1d/classdrawable_deregistraton_command.html" title="A drawable deregistraton command. " alt="" coords="334,1125,543,1152"/>
+<area shape="rect" id="node17" href="$d9/da1/classdrawable_registraton_command.html" title="A drawable registraton command. " alt="" coords="339,1176,538,1203"/>
+<area shape="rect" id="node18" href="$d4/d3a/classgame_objects_entry_command.html" title="A game objects entry command. " alt="" coords="344,1227,533,1253"/>
+<area shape="rect" id="node19" href="$d7/df5/classgame_objects_exit_command.html" title="A game objects exit command. " alt="" coords="348,1277,529,1304"/>
+<area shape="rect" id="node20" href="$d1/dbc/classinputable_deregistraton_command.html" title="An inputable deregistraton command. " alt="" coords="333,1328,544,1355"/>
+<area shape="rect" id="node21" href="$db/d19/classinputable_registraton_command.html" title="An inputable registraton command. " alt="" coords="339,1379,538,1405"/>
+<area shape="rect" id="node22" href="$d3/d09/classupdateable_deregistraton_command.html" title="An updateable deregistraton command. " alt="" coords="328,1429,549,1456"/>
+<area shape="rect" id="node23" href="$d1/dad/classupdateable_registraton_command.html" title="An updateable registraton command. " alt="" coords="333,1480,544,1507"/>
+<area shape="rect" id="node13" href="$d7/dd2/classcollideable_deregistraton_command.html" title="A collideable deregistraton command. " alt="" coords="653,1019,813,1061"/>
+<area shape="rect" id="node14" href="$d3/d0f/classcollideable_registraton_command.html" title="A collideable registraton command. " alt="" coords="612,1085,853,1112"/>
+<area shape="rect" id="node26" href="$d1/d56/classalarmable.html" title="Allows inherited class to Set seconds based Alarms. " alt="" coords="399,461,478,488"/>
+<area shape="rect" id="node35" href="$d9/de2/classcollideable.html" title="Allows inherited class to define collision with another collidable. " alt="" coords="397,360,480,387"/>
+<area shape="rect" id="node38" href="$dc/dc5/classdrawable.html" title="Allows inherited class to register and deregister for the engines draw cycle. " alt="" coords="402,309,475,336"/>
+<area shape="rect" id="node42" href="$dc/d51/classinputable.html" title="Allows inherited class to register a key and triggers with Key Release/Press. " alt="" coords="401,512,476,539"/>
+<area shape="rect" id="node45" href="$de/d07/classupdateable.html" title="Allows inherited class to register and deregister for the engines update cylce. " alt="" coords="396,411,481,437"/>
+<area shape="rect" id="node27" href="$d0/da3/classbullet.html" title="bullet" alt="" coords="706,259,759,285"/>
+<area shape="rect" id="node28" href="$d3/dab/classcottage_spawn_controller.html" title="cottageSpawnController" alt="" coords="653,613,812,640"/>
+<area shape="rect" id="node29" href="$d7/db7/class_enemt_bullet.html" title="EnemtBullet" alt="" coords="686,309,779,336"/>
+<area shape="rect" id="node30" href="$da/dd4/class_enemy_soldier.html" title="EnemySoldier" alt="" coords="681,360,784,387"/>
+<area shape="rect" id="node31" href="$dc/d2e/classplayer.html" title="player" alt="" coords="704,512,761,539"/>
+<area shape="rect" id="node32" href="$d9/dec/classtank.html" title="tank" alt="" coords="709,461,756,488"/>
+<area shape="rect" id="node33" href="$d1/d42/classtoy_soldier_spawn_controller.html" title="toySoldierSpawnController" alt="" coords="645,664,820,691"/>
+<area shape="rect" id="node36" href="$dd/ded/classfrigate.html" title="frigate" alt="" coords="704,411,761,437"/>
+<area shape="rect" id="node37" href="$d1/dee/class_terrain.html" title="Terrain. " alt="" coords="702,208,763,235"/>
+<area shape="rect" id="node39" href="$dc/d76/classground.html" title="ground" alt="" coords="702,107,763,133"/>
+<area shape="rect" id="node40" href="$d7/d05/class_h_u_d.html" title="HUD" alt="" coords="708,157,757,184"/>
+<area shape="rect" id="node43" href="$da/da6/classdefault_scene.html" title="defaultScene" alt="" coords="684,765,781,792"/>
+<area shape="rect" id="node44" href="$d8/d37/classgame_over_scene.html" title="gameOverScene" alt="" coords="674,816,791,843"/>
+<area shape="rect" id="node52" href="$df/db1/classscene.html" title="Basic scene skeleton. The parent to all user derived scenes " alt="" coords="410,771,467,797"/>
+<area shape="rect" id="node53" href="$d9/d01/classuser_scene.html" title="userScene" alt="" coords="691,867,775,893"/>
+</map>

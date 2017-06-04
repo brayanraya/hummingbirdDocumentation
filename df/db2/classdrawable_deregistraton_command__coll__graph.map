@@ -1,8 +1,8 @@
 <map id="drawableDeregistratonCommand" name="drawableDeregistratonCommand">
-<area shape="rect" id="node3" href="$dc/dc5/classdrawable.html" title="Allows inherited class to register and deregister for the engines draw cycle. " alt="" coords="40,661,254,871"/>
-<area shape="rect" id="node2" href="$d1/da3/classcommand_base.html" title="An empty base that all x&#45;able derive from to be added to the scene brokers list. " alt="" coords="645,5,782,112"/>
-<area shape="rect" id="node6" href="$d4/d3a/classgame_objects_entry_command.html" title="A game objects entry command. " alt="" coords="468,161,685,312"/>
-<area shape="rect" id="node7" href="$d7/df5/classgame_objects_exit_command.html" title="A game objects exit command. " alt="" coords="489,691,698,841"/>
-<area shape="rect" id="node8" href="$d9/da1/classdrawable_registraton_command.html" title="A drawable registraton command. " alt="" coords="166,933,392,1084"/>
-<area shape="rect" id="node4" href="$d2/d62/classgame_objects.html" title="Basic game object skeleton. Inherited by every x&#45;able. " alt="" coords="326,375,482,584"/>
+<area shape="rect" id="node4" href="$dc/dc5/classdrawable.html" title="Allows inherited class to register and deregister for the engines draw cycle. " alt="" coords="535,788,749,1012"/>
+<area shape="rect" id="node2" href="$d1/da3/classcommand_base.html" title="An empty base that all x&#45;able derive from to be added to the scene brokers list. " alt="" coords="215,132,352,239"/>
+<area shape="rect" id="node7" href="$d4/d3a/classgame_objects_entry_command.html" title="A game objects entry command. " alt="" coords="175,288,392,439"/>
+<area shape="rect" id="node8" href="$d7/df5/classgame_objects_exit_command.html" title="A game objects exit command. " alt="" coords="5,825,215,975"/>
+<area shape="rect" id="node9" href="$d9/da1/classdrawable_registraton_command.html" title="A drawable registraton command. " alt="" coords="671,1075,898,1225"/>
+<area shape="rect" id="node5" href="$d2/d62/classgame_objects.html" title="Basic game object skeleton. Inherited by every x&#45;able. " alt="" coords="176,501,332,711"/>
 </map>

@@ -1,0 +1,12 @@
+<map id="ik_SAudioStreamFormat.h" name="ik_SAudioStreamFormat.h">
+<area shape="rect" id="node2" href="$d9/d81/ik___i_sound_source_8h.html" title="ik_ISoundSource.h" alt="" coords="5,80,136,107"/>
+<area shape="rect" id="node4" href="$d7/d4a/irr_klang_8h.html" title="Main header file of the irrKlang sound library, the only file needed to include. " alt="" coords="321,229,399,256"/>
+<area shape="rect" id="node9" href="$dd/d10/ik___i_audio_stream_8h.html" title="ik_IAudioStream.h" alt="" coords="448,155,576,181"/>
+<area shape="rect" id="node10" href="$df/d46/ik___i_sound_mixed_output_receiver_8h.html" title="ik_ISoundMixedOutputReceiver.h" alt="" coords="160,80,373,107"/>
+<area shape="rect" id="node11" href="$d4/db1/ik___i_sound_stop_event_receiver_8h.html" title="ik_ISoundStopEventReceiver.h" alt="" coords="510,80,709,107"/>
+<area shape="rect" id="node3" href="$d2/dee/ik___i_audio_recorder_8h.html" title="ik_IAudioRecorder.h" alt="" coords="29,155,168,181"/>
+<area shape="rect" id="node8" href="$d2/d25/ik___i_sound_engine_8h.html" title="ik_ISoundEngine.h" alt="" coords="192,155,323,181"/>
+<area shape="rect" id="node5" href="$da/d83/_sound_manager_8cpp.html" title="SoundManager.cpp" alt="" coords="159,304,294,331"/>
+<area shape="rect" id="node6" href="$db/d80/player_8cpp.html" title="player.cpp" alt="" coords="319,304,401,331"/>
+<area shape="rect" id="node7" href="$d0/da4/toy_soldier_8cpp.html" title="toySoldier.cpp" alt="" coords="426,304,531,331"/>
+</map>

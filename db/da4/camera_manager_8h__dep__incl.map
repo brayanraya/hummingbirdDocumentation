@@ -1,5 +1,7 @@
 <map id="cameraManager.h" name="cameraManager.h">
-<area shape="rect" id="node2" href="$d0/d26/_visualizer_8cpp.html" title="Visualizer.cpp" alt="" coords="5,80,109,107"/>
-<area shape="rect" id="node3" href="$dc/d9d/hummingbird_engine_8cpp.html" title="hummingbirdEngine.cpp" alt="" coords="134,80,295,107"/>
-<area shape="rect" id="node4" href="$d0/df1/camera_manager_8cpp.html" title="cameraManager.cpp" alt="" coords="319,80,459,107"/>
+<area shape="rect" id="node2" href="$db/da2/_terrain_8cpp.html" title="Terrain.cpp" alt="" coords="5,80,92,107"/>
+<area shape="rect" id="node3" href="$d0/d26/_visualizer_8cpp.html" title="Visualizer.cpp" alt="" coords="117,80,221,107"/>
+<area shape="rect" id="node4" href="$d8/d70/hummingbird_core_8h.html" title="hummingbirdCore.h" alt="" coords="245,80,380,107"/>
+<area shape="rect" id="node5" href="$dc/d9d/hummingbird_engine_8cpp.html" title="hummingbirdEngine.cpp" alt="" coords="404,80,565,107"/>
+<area shape="rect" id="node6" href="$d0/df1/camera_manager_8cpp.html" title="cameraManager.cpp" alt="" coords="589,80,729,107"/>
 </map>

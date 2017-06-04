@@ -1,27 +1,27 @@
 <map id="scene" name="scene">
-<area shape="rect" id="node2" href="$de/d80/classdrawable_manager.html" title="Manager for drawables. " alt="" coords="1183,1563,1335,1728"/>
-<area shape="rect" id="node4" href="$dc/dc5/classdrawable.html" title="Allows inherited class to register and deregister for the engines draw cycle. " alt="" coords="1149,767,1364,976"/>
-<area shape="rect" id="node10" href="$dd/d1d/classdrawable_deregistraton_command.html" title="A drawable deregistraton command. " alt="" coords="1251,1046,1489,1197"/>
-<area shape="rect" id="node11" href="$d9/da1/classdrawable_registraton_command.html" title="A drawable registraton command. " alt="" coords="801,1046,1027,1197"/>
-<area shape="rect" id="node5" href="$d2/d62/classgame_objects.html" title="Basic game object skeleton. Inherited by every x&#45;able. " alt="" coords="1236,388,1392,597"/>
-<area shape="rect" id="node7" href="$d4/d3a/classgame_objects_entry_command.html" title="A game objects entry command. " alt="" coords="1069,175,1287,325"/>
-<area shape="rect" id="node9" href="$d7/df5/classgame_objects_exit_command.html" title="A game objects exit command. " alt="" coords="916,796,1125,947"/>
-<area shape="rect" id="node23" href="$dc/d51/classinputable.html" title="Allows inherited class to register a key and triggers with Key Release/Press. " alt="" coords="1667,767,1881,976"/>
-<area shape="rect" id="node34" href="$de/d07/classupdateable.html" title="Allows inherited class to register and deregister for the engines update cylce. " alt="" coords="346,767,573,976"/>
-<area shape="rect" id="node31" href="$d9/d7a/classgame_objects_manager.html" title="Manages game objects entry and exit of scene. " alt="" coords="1419,1883,1598,2048"/>
-<area shape="rect" id="node8" href="$d1/da3/classcommand_base.html" title="An empty base that all x&#45;able derive from to be added to the scene brokers list. " alt="" coords="1109,5,1247,112"/>
-<area shape="rect" id="node26" href="$db/d19/classinputable_registraton_command.html" title="An inputable registraton command. " alt="" coords="1790,1039,2017,1204"/>
-<area shape="rect" id="node28" href="$d1/dbc/classinputable_deregistraton_command.html" title="An inputable deregistraton command. " alt="" coords="2092,1039,2331,1204"/>
-<area shape="rect" id="node35" href="$d3/d09/classupdateable_deregistraton_command.html" title="An updateable deregistraton command. " alt="" coords="535,1039,776,1204"/>
-<area shape="rect" id="node36" href="$d1/dad/classupdateable_registraton_command.html" title="An updateable registraton command. " alt="" coords="5,1046,244,1197"/>
-<area shape="rect" id="node12" href="$d5/dd2/classalarmable_manager.html" title="Manager for alarmables. " alt="" coords="2599,2072,2757,2237"/>
-<area shape="rect" id="node14" href="$d1/dfc/classscene_registration_broker.html" title="A broker to execute commands throughout the scene in Queue Order. " alt="" coords="2361,621,2553,743"/>
-<area shape="rect" id="node16" href="$d6/daa/classcollideable_manager.html" title="Manager for collideables. " alt="" coords="2781,2072,2943,2237"/>
-<area shape="rect" id="node18" href="$de/deb/classcollision_test_command_base.html" title="An empty collision test base to midigate templete problems. " alt="" coords="2757,1381,2967,1487"/>
-<area shape="rect" id="node19" href="$d5/d35/classkeyboard_event_manager.html" title="Manager for an entire keyboard of key event. " alt="" coords="1691,2072,1876,2237"/>
-<area shape="rect" id="node21" href="$d4/d6a/classsingle_key_event_manager.html" title="Manager for a single key event. " alt="" coords="1579,1329,1769,1539"/>
-<area shape="rect" id="node25" href="$df/d07/structinputable_1_1_registration_data.html" title="A registration data. " alt="" coords="1965,1395,2143,1473"/>
-<area shape="rect" id="node27" title="STL iterator class. " alt="" coords="1969,211,2113,289"/>
-<area shape="rect" id="node29" title="STL iterator class. " alt="" coords="2355,1083,2524,1160"/>
-<area shape="rect" id="node32" href="$d9/dc7/classupdateable_manager.html" title="Manager for updateables. " alt="" coords="623,1563,787,1728"/>
+<area shape="rect" id="node2" href="$de/d80/classdrawable_manager.html" title="Manager for drawables. " alt="" coords="1744,1704,1896,1869"/>
+<area shape="rect" id="node4" href="$dc/dc5/classdrawable.html" title="Allows inherited class to register and deregister for the engines draw cycle. " alt="" coords="1991,893,2206,1117"/>
+<area shape="rect" id="node11" href="$dd/d1d/classdrawable_deregistraton_command.html" title="A drawable deregistraton command. " alt="" coords="2043,1187,2280,1338"/>
+<area shape="rect" id="node12" href="$d9/da1/classdrawable_registraton_command.html" title="A drawable registraton command. " alt="" coords="2344,1187,2571,1338"/>
+<area shape="rect" id="node5" href="$d2/d62/classgame_objects.html" title="Basic game object skeleton. Inherited by every x&#45;able. " alt="" coords="1290,515,1446,724"/>
+<area shape="rect" id="node8" href="$d4/d3a/classgame_objects_entry_command.html" title="A game objects entry command. " alt="" coords="1413,301,1630,452"/>
+<area shape="rect" id="node10" href="$d7/df5/classgame_objects_exit_command.html" title="A game objects exit command. " alt="" coords="1527,930,1737,1081"/>
+<area shape="rect" id="node24" href="$dc/d51/classinputable.html" title="Allows inherited class to register a key and triggers with Key Release/Press. " alt="" coords="731,901,944,1110"/>
+<area shape="rect" id="node34" href="$de/d07/classupdateable.html" title="Allows inherited class to register and deregister for the engines update cylce. " alt="" coords="1276,901,1503,1110"/>
+<area shape="rect" id="node9" href="$d1/da3/classcommand_base.html" title="An empty base that all x&#45;able derive from to be added to the scene brokers list. " alt="" coords="1562,132,1699,239"/>
+<area shape="rect" id="node31" href="$d9/d7a/classgame_objects_manager.html" title="Manages game objects entry and exit of scene. " alt="" coords="1215,2024,1393,2189"/>
+<area shape="rect" id="node27" href="$db/d19/classinputable_registraton_command.html" title="An inputable registraton command. " alt="" coords="97,1180,324,1345"/>
+<area shape="rect" id="node29" href="$d1/dbc/classinputable_deregistraton_command.html" title="An inputable deregistraton command. " alt="" coords="542,1180,781,1345"/>
+<area shape="rect" id="node35" href="$d3/d09/classupdateable_deregistraton_command.html" title="An updateable deregistraton command. " alt="" coords="1463,1180,1705,1345"/>
+<area shape="rect" id="node36" href="$d1/dad/classupdateable_registraton_command.html" title="An updateable registraton command. " alt="" coords="1201,1187,1439,1338"/>
+<area shape="rect" id="node13" href="$d5/dd2/classalarmable_manager.html" title="Manager for alarmables. " alt="" coords="605,2235,763,2401"/>
+<area shape="rect" id="node15" href="$d1/dfc/classscene_registration_broker.html" title="A broker to execute commands throughout the scene in Queue Order. " alt="" coords="2639,748,2831,869"/>
+<area shape="rect" id="node17" href="$d6/daa/classcollideable_manager.html" title="Manager for collideables. " alt="" coords="808,2213,984,2423"/>
+<area shape="rect" id="node19" href="$de/deb/classcollision_test_command_base.html" title="An empty collision test base to midigate templete problems. " alt="" coords="712,1522,923,1629"/>
+<area shape="rect" id="node20" href="$d5/d35/classkeyboard_event_manager.html" title="Manager for an entire keyboard of key event. " alt="" coords="1019,2235,1205,2401"/>
+<area shape="rect" id="node22" href="$d4/d6a/classsingle_key_event_manager.html" title="Manager for a single key event. " alt="" coords="947,1471,1136,1680"/>
+<area shape="rect" id="node26" href="$df/d07/structinputable_1_1_registration_data.html" title="A registration data. " alt="" coords="344,1529,523,1621"/>
+<area shape="rect" id="node28" title="STL iterator class. " alt="" coords="805,1224,949,1301"/>
+<area shape="rect" id="node30" title="STL iterator class. " alt="" coords="349,1224,518,1301"/>
+<area shape="rect" id="node32" href="$d9/dc7/classupdateable_manager.html" title="Manager for updateables. " alt="" coords="1558,1704,1722,1869"/>
 </map>

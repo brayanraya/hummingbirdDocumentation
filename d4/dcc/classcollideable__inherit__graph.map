@@ -1,3 +1,4 @@
 <map id="collideable" name="collideable">
-<area shape="rect" id="node2" href="$d2/d62/classgame_objects.html" title="Basic game object skeleton. Inherited by every x&#45;able. " alt="" coords="36,5,199,273"/>
+<area shape="rect" id="node4" href="$d1/dee/class_terrain.html" title="A Class that generates terrains using a tga file height map. " alt="" coords="35,865,200,1192"/>
+<area shape="rect" id="node2" href="$d2/d62/classgame_objects.html" title="Basic game object skeleton. Inherited by every x&#45;able. " alt="" coords="36,131,199,399"/>
 </map>

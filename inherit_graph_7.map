@@ -1,3 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$d8/d21/class_collision_volume_b_sphere.html" title="Volume and movement caluclations for the volume of bsphere. " alt="" coords="5,5,171,32"/>
+<area shape="rect" id="node1" href="$de/deb/classcollision_test_command_base.html" title="An empty collision test base to midigate templete problems. " alt="" coords="5,78,188,105"/>
+<area shape="rect" id="node2" href="$d6/dd8/classcollision_test_pair_command.html" title="Template for a given collideable testing collision against another collideable. ie. Ship against Rock. " alt="" coords="244,5,420,47"/>
+<area shape="rect" id="node3" href="$d4/d58/classcollision_test_self_command.html" title="Template for a given collideable testing collision against another collideable of the same type..." alt="" coords="245,71,419,112"/>
+<area shape="rect" id="node4" href="$d7/dcb/classcollision_test_terrain_command.html" title="Template for a given collideable testing collision against another collideable. ie. Ship against Rock. " alt="" coords="236,136,428,177"/>
 </map>

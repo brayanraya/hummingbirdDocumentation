@@ -1,0 +1,4 @@
+<map id="GraphicsObject_SpriteBox" name="GraphicsObject_SpriteBox">
+<area shape="rect" id="node2" href="$df/d4f/class_graphics_object.html" title="{GraphicsObject\n|# pModel\l# pWorld\l# pShaderObj\l|+ GraphicsObject()\l+ ~GraphicsObject()\l+ GraphicsObject()\l+ Render()\l+ SetWorld()\l+ getModel()\l+ getWorld()\l}" alt="" coords="33,175,173,369"/>
+<area shape="rect" id="node3" href="$d5/d8d/class_render_material.html" title="{RenderMaterial\n||# privSetState()\l# privSetDataGPU()\l# privDraw()\l# privRestoreState()\l}" alt="" coords="35,5,171,127"/>
+</map>

@@ -30,7 +30,7 @@
   <td id="projectlogo"><img alt="Logo" src="../../hummingbirdIcon.jpg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">HummingBird Engine
-   &#160;<span id="projectnumber">0.01</span>
+   &#160;<span id="projectnumber">0.02</span>
    </div>
    <div id="projectbrief">A Simple Game Engine by Brayan Raya</div>
   </td>
@@ -94,7 +94,7 @@ $(document).ready(function(){initNavTree('d3/d4f/class_visualizer.html','../../'
 </div><!--header-->
 <div class="contents">
 
-<p>A debugging tool for seeing collidable areas.  
+<p>SINGLETON: A debugging tool for seeing collidable areas.  
  <a href="../../d3/d4f/class_visualizer.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="../../d1/dd3/_visualizer_8h_source.html">Visualizer.h</a>&gt;</code></p>
@@ -107,13 +107,28 @@ Inheritance diagram for Visualizer:</div>
 Collaboration diagram for Visualizer:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d9/dfc/class_visualizer__coll__graph.png" border="0" usemap="#_visualizer_coll__map" alt="Collaboration graph"/></div>
+<map name="_visualizer_coll__map" id="_visualizer_coll__map">
+<area shape="rect" id="node4" href="../../dd/d34/structvisualizer_data.html" title="A struct constaining Location and Color for our Visualizer to place the BSpheres and AABBs in the cor..." alt="" coords="127,5,258,112"/>
+</map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:adf6e9385c77bb3f800fac17e7b1468b4"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4f/class_visualizer.html#adf6e9385c77bb3f800fac17e7b1468b4">renderBSphere</a> (const <a class="el" href="../../d8/d21/class_collision_volume_b_sphere.html">CollisionVolumeBSphere</a> &amp;S, const Vect &amp;col=<a class="el" href="../../d3/d4f/class_visualizer.html#a91aeb59e73415c060d9a7694604ee9f0">DefaultColor</a>)</td></tr>
-<tr class="memdesc:adf6e9385c77bb3f800fac17e7b1468b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders BSphere on Screen.  <a href="#adf6e9385c77bb3f800fac17e7b1468b4">More...</a><br /></td></tr>
+<tr class="memdesc:adf6e9385c77bb3f800fac17e7b1468b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepares a bSpheres data to be placed in a queue for printing.  <a href="#adf6e9385c77bb3f800fac17e7b1468b4">More...</a><br /></td></tr>
 <tr class="separator:adf6e9385c77bb3f800fac17e7b1468b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abefb28736ff0a0bc37cdbd132ff74bd4"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4f/class_visualizer.html#abefb28736ff0a0bc37cdbd132ff74bd4">renderAABB</a> (const <a class="el" href="../../d0/d0a/class_collision_volume_a_a_b_b.html">CollisionVolumeAABB</a> &amp;S, const Vect &amp;col=<a class="el" href="../../d3/d4f/class_visualizer.html#a91aeb59e73415c060d9a7694604ee9f0">DefaultColor</a>)</td></tr>
+<tr class="memdesc:abefb28736ff0a0bc37cdbd132ff74bd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepares a AABB data to be placed in a queue for printing.  <a href="#abefb28736ff0a0bc37cdbd132ff74bd4">More...</a><br /></td></tr>
+<tr class="separator:abefb28736ff0a0bc37cdbd132ff74bd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4272ce7bd50aba9b6e2011a772ed0a44"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4f/class_visualizer.html#a4272ce7bd50aba9b6e2011a772ed0a44">renderOBB</a> (const <a class="el" href="../../d6/ded/class_collision_volume_o_b_b.html">CollisionVolumeOBB</a> &amp;S, const Vect &amp;col=<a class="el" href="../../d3/d4f/class_visualizer.html#a91aeb59e73415c060d9a7694604ee9f0">DefaultColor</a>)</td></tr>
+<tr class="memdesc:a4272ce7bd50aba9b6e2011a772ed0a44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepares a OBB data to be placed in a queue for printing.  <a href="#a4272ce7bd50aba9b6e2011a772ed0a44">More...</a><br /></td></tr>
+<tr class="separator:a4272ce7bd50aba9b6e2011a772ed0a44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4882383d3995638779af0ade80ed6a08"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4f/class_visualizer.html#a4882383d3995638779af0ade80ed6a08">showCollisionVolume</a> (const <a class="el" href="../../d9/de2/classcollideable.html">collideable</a> *inCollideable, const Vect &amp;col=<a class="el" href="../../d3/d4f/class_visualizer.html#a91aeb59e73415c060d9a7694604ee9f0">DefaultColor</a>)</td></tr>
+<tr class="memdesc:a4882383d3995638779af0ade80ed6a08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Double Dispatch: Prepares a Collidable of unknown type to be placed in a queue for later Rendering.  <a href="#a4882383d3995638779af0ade80ed6a08">More...</a><br /></td></tr>
+<tr class="separator:a4882383d3995638779af0ade80ed6a08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d1fd172c9e6ddd8ddac49e77e34563c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4f/class_visualizer.html#a8d1fd172c9e6ddd8ddac49e77e34563c">renderAll</a> ()</td></tr>
+<tr class="memdesc:a8d1fd172c9e6ddd8ddac49e77e34563c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pops all data from all queues and renders visual volumes to the Screen.  <a href="#a8d1fd172c9e6ddd8ddac49e77e34563c">More...</a><br /></td></tr>
+<tr class="separator:a8d1fd172c9e6ddd8ddac49e77e34563c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -126,35 +141,50 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a1deadc2181bf14d0e3e893e48ea85cd9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/d4f/class_visualizer.html">Visualizer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4f/class_visualizer.html#a1deadc2181bf14d0e3e893e48ea85cd9">operator=</a> (const <a class="el" href="../../d3/d4f/class_visualizer.html">Visualizer</a> &amp;)=delete</td></tr>
 <tr class="separator:a1deadc2181bf14d0e3e893e48ea85cd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefb91d1543d71e9d7827cd747be849e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4f/class_visualizer.html#aefb91d1543d71e9d7827cd747be849e0">privRenderBSphere</a> (Matrix &amp;S, const Vect &amp;col)</td></tr>
-<tr class="memdesc:aefb91d1543d71e9d7827cd747be849e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders the Bsphere <a href="#aefb91d1543d71e9d7827cd747be849e0">More...</a><br /></td></tr>
+<tr class="memdesc:aefb91d1543d71e9d7827cd747be849e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds the Bsphere information into a <a class="el" href="../../dd/d34/structvisualizer_data.html" title="A struct constaining Location and Color for our Visualizer to place the BSpheres and AABBs in the cor...">visualizerData</a> and places it into the appropriate Queue to be rendered later.  <a href="#aefb91d1543d71e9d7827cd747be849e0">More...</a><br /></td></tr>
 <tr class="separator:aefb91d1543d71e9d7827cd747be849e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a481813f5887c73677f6504d977455acc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4f/class_visualizer.html#a481813f5887c73677f6504d977455acc">privRenderAABB</a> (Matrix &amp;S, const Vect &amp;col)</td></tr>
+<tr class="memdesc:a481813f5887c73677f6504d977455acc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds the Bsphere information into a <a class="el" href="../../dd/d34/structvisualizer_data.html" title="A struct constaining Location and Color for our Visualizer to place the BSpheres and AABBs in the cor...">visualizerData</a> and places it into the appropriate Queue to be rendered later.  <a href="#a481813f5887c73677f6504d977455acc">More...</a><br /></td></tr>
+<tr class="separator:a481813f5887c73677f6504d977455acc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4372aaba620840e8aa251e558182ce5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4f/class_visualizer.html#ab4372aaba620840e8aa251e558182ce5">privShowCollisionVolume</a> (const <a class="el" href="../../d9/de2/classcollideable.html">collideable</a> *inCollideable, const Vect &amp;col) const</td></tr>
+<tr class="memdesc:ab4372aaba620840e8aa251e558182ce5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Double Dispatch: Used to call renderBSphere/renderAABB/renderOVBB below.  <a href="#ab4372aaba620840e8aa251e558182ce5">More...</a><br /></td></tr>
+<tr class="separator:ab4372aaba620840e8aa251e558182ce5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdcb70e620dac9f5e78da12d9424f415"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4f/class_visualizer.html#afdcb70e620dac9f5e78da12d9424f415">privRenderAll</a> ()</td></tr>
+<tr class="memdesc:afdcb70e620dac9f5e78da12d9424f415"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pops all data from all queues and renders visual volumes to the Screen.  <a href="#afdcb70e620dac9f5e78da12d9424f415">More...</a><br /></td></tr>
+<tr class="separator:afdcb70e620dac9f5e78da12d9424f415"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
 <tr class="memitem:ad4c7951128b7a02c6253e4a1e715fd59"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d3/d4f/class_visualizer.html">Visualizer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4f/class_visualizer.html#ad4c7951128b7a02c6253e4a1e715fd59">Instance</a> ()</td></tr>
 <tr class="memdesc:ad4c7951128b7a02c6253e4a1e715fd59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instance creator for the singleton.  <a href="#ad4c7951128b7a02c6253e4a1e715fd59">More...</a><br /></td></tr>
 <tr class="separator:ad4c7951128b7a02c6253e4a1e715fd59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f965217cb559e5cdbd3fd1a6d855e20"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4f/class_visualizer.html#a3f965217cb559e5cdbd3fd1a6d855e20">Delete</a> ()</td></tr>
-<tr class="memdesc:a3f965217cb559e5cdbd3fd1a6d855e20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes this object.  <a href="#a3f965217cb559e5cdbd3fd1a6d855e20">More...</a><br /></td></tr>
-<tr class="separator:a3f965217cb559e5cdbd3fd1a6d855e20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a3632f74b2f490d27fe7dbcdd46263e8d"><td class="memItemLeft" align="right" valign="top">GraphicsObject_WireframeConstantColor *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4f/class_visualizer.html#a3632f74b2f490d27fe7dbcdd46263e8d">WFUnitSphere</a></td></tr>
 <tr class="separator:a3632f74b2f490d27fe7dbcdd46263e8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ee8b8b85c18fac391f8bd93b16a2d5b"><td class="memItemLeft" align="right" valign="top">GraphicsObject_WireframeConstantColor *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4f/class_visualizer.html#a5ee8b8b85c18fac391f8bd93b16a2d5b">WFUnitBox</a></td></tr>
+<tr class="separator:a5ee8b8b85c18fac391f8bd93b16a2d5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee3c553e796cbc8758408afba74ea8a1"><td class="memItemLeft" align="right" valign="top">std::list&lt; <a class="el" href="../../dd/d34/structvisualizer_data.html">visualizerData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4f/class_visualizer.html#aee3c553e796cbc8758408afba74ea8a1">listofSpheresCollide</a></td></tr>
+<tr class="separator:aee3c553e796cbc8758408afba74ea8a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a083fd2f213945e50abc9e0962f6d665b"><td class="memItemLeft" align="right" valign="top">std::list&lt; <a class="el" href="../../dd/d34/structvisualizer_data.html">visualizerData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4f/class_visualizer.html#a083fd2f213945e50abc9e0962f6d665b">listofSpheresNotCollide</a></td></tr>
+<tr class="separator:a083fd2f213945e50abc9e0962f6d665b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72c3c990b8156a6ef0c3557f0faefbc1"><td class="memItemLeft" align="right" valign="top">std::list&lt; <a class="el" href="../../dd/d34/structvisualizer_data.html">visualizerData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4f/class_visualizer.html#a72c3c990b8156a6ef0c3557f0faefbc1">listofBoxesCollide</a></td></tr>
+<tr class="separator:a72c3c990b8156a6ef0c3557f0faefbc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37f7327d5c432979613b2290831fc556"><td class="memItemLeft" align="right" valign="top">std::list&lt; <a class="el" href="../../dd/d34/structvisualizer_data.html">visualizerData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4f/class_visualizer.html#a37f7327d5c432979613b2290831fc556">listofBoxesNotCollide</a></td></tr>
+<tr class="separator:a37f7327d5c432979613b2290831fc556"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
 <tr class="memitem:a2c4424f22a3664ae9947e3a13df24f4b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d3/d4f/class_visualizer.html">Visualizer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4f/class_visualizer.html#a2c4424f22a3664ae9947e3a13df24f4b">currentInstanceVisualizer</a> = nullptr</td></tr>
 <tr class="separator:a2c4424f22a3664ae9947e3a13df24f4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91aeb59e73415c060d9a7694604ee9f0"><td class="memItemLeft" align="right" valign="top">static const Vect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4f/class_visualizer.html#a91aeb59e73415c060d9a7694604ee9f0">DefaultColor</a> = <a class="el" href="../../d9/d44/struct_color.html#ade6abd8d82ec2f0f31fb0d14b6ef6be0">Color::AliceBlue</a></td></tr>
+<tr class="memitem:a91aeb59e73415c060d9a7694604ee9f0"><td class="memItemLeft" align="right" valign="top">static const Vect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4f/class_visualizer.html#a91aeb59e73415c060d9a7694604ee9f0">DefaultColor</a> = <a class="el" href="../../d9/d44/struct_color.html#a3d421e68ccc8c241d921f513066d817e">Color::Blue</a></td></tr>
 <tr class="separator:a91aeb59e73415c060d9a7694604ee9f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A debugging tool for seeing collidable areas. </p>
-<p>Braya, 3/2/2017. </p>
+<div class="textblock"><p>SINGLETON: A debugging tool for seeing collidable areas. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/dd3/_visualizer_8h_source.html#l00015">15</a> of file <a class="el" href="../../d1/dd3/_visualizer_8h_source.html">Visualizer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/dd3/_visualizer_8h_source.html#l00032">32</a> of file <a class="el" href="../../d1/dd3/_visualizer_8h_source.html">Visualizer.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a104487003c9fea602e26c072aae27efc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a104487003c9fea602e26c072aae27efc">&#9670;&nbsp;</a></span>Visualizer() <span class="overload">[1/2]</span></h2>
@@ -179,7 +209,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d26/_visualizer_8cpp_source.html#l00008">8</a> of file <a class="el" href="../../d0/d26/_visualizer_8cpp_source.html">Visualizer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d26/_visualizer_8cpp_source.html#l00014">14</a> of file <a class="el" href="../../d0/d26/_visualizer_8cpp_source.html">Visualizer.cpp</a>.</p>
 
 </div>
 </div>
@@ -206,7 +236,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d26/_visualizer_8cpp_source.html#l00015">15</a> of file <a class="el" href="../../d0/d26/_visualizer_8cpp_source.html">Visualizer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d26/_visualizer_8cpp_source.html#l00021">21</a> of file <a class="el" href="../../d0/d26/_visualizer_8cpp_source.html">Visualizer.cpp</a>.</p>
 
 </div>
 </div>
@@ -237,36 +267,6 @@ Static Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a3f965217cb559e5cdbd3fd1a6d855e20"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3f965217cb559e5cdbd3fd1a6d855e20">&#9670;&nbsp;</a></span>Delete()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Visualizer::Delete </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Deletes this object. </p>
-<p>Braya, 3/2/2017. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d0/d26/_visualizer_8cpp_source.html#l00026">26</a> of file <a class="el" href="../../d0/d26/_visualizer_8cpp_source.html">Visualizer.cpp</a>.</p>
-
-</div>
-</div>
 <a id="ad4c7951128b7a02c6253e4a1e715fd59"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad4c7951128b7a02c6253e4a1e715fd59">&#9670;&nbsp;</a></span>Instance()</h2>
 
@@ -292,9 +292,9 @@ Static Private Attributes</h2></td></tr>
 
 <p>Instance creator for the singleton. </p>
 <p>Braya, 3/2/2017. </p>
-<dl class="section return"><dt>Returns</dt><dd>A reference to a <a class="el" href="../../d3/d4f/class_visualizer.html" title="A debugging tool for seeing collidable areas. ">Visualizer</a>. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to a <a class="el" href="../../d3/d4f/class_visualizer.html" title="SINGLETON: A debugging tool for seeing collidable areas. ">Visualizer</a>. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/dd3/_visualizer_8h_source.html#l00033">33</a> of file <a class="el" href="../../d1/dd3/_visualizer_8h_source.html">Visualizer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/dd3/_visualizer_8h_source.html#l00053">53</a> of file <a class="el" href="../../d1/dd3/_visualizer_8h_source.html">Visualizer.h</a>.</p>
 
 </div>
 </div>
@@ -321,6 +321,82 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a481813f5887c73677f6504d977455acc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a481813f5887c73677f6504d977455acc">&#9670;&nbsp;</a></span>privRenderAABB()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Visualizer::privRenderAABB </td>
+          <td>(</td>
+          <td class="paramtype">Matrix &amp;&#160;</td>
+          <td class="paramname"><em>S</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vect &amp;&#160;</td>
+          <td class="paramname"><em>col</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Adds the Bsphere information into a <a class="el" href="../../dd/d34/structvisualizer_data.html" title="A struct constaining Location and Color for our Visualizer to place the BSpheres and AABBs in the cor...">visualizerData</a> and places it into the appropriate Queue to be rendered later. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">S</td><td>The Position in World Space. </td></tr>
+    <tr><td class="paramname">col</td><td>The color. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d0/d26/_visualizer_8cpp_source.html#l00040">40</a> of file <a class="el" href="../../d0/d26/_visualizer_8cpp_source.html">Visualizer.cpp</a>.</p>
+
+</div>
+</div>
+<a id="afdcb70e620dac9f5e78da12d9424f415"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdcb70e620dac9f5e78da12d9424f415">&#9670;&nbsp;</a></span>privRenderAll()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Visualizer::privRenderAll </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pops all data from all queues and renders visual volumes to the Screen. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d0/d26/_visualizer_8cpp_source.html#l00058">58</a> of file <a class="el" href="../../d0/d26/_visualizer_8cpp_source.html">Visualizer.cpp</a>.</p>
 
 </div>
 </div>
@@ -358,17 +434,139 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Renders the Bsphere</p>
-<p>Braya, 3/2/2017. </p>
+<p>Adds the Bsphere information into a <a class="el" href="../../dd/d34/structvisualizer_data.html" title="A struct constaining Location and Color for our Visualizer to place the BSpheres and AABBs in the cor...">visualizerData</a> and places it into the appropriate Queue to be rendered later. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">S</td><td>[in,out] The Matrix to process. </td></tr>
-    <tr><td class="paramname">col</td><td>The col. </td></tr>
+    <tr><td class="paramname">S</td><td>The Position in World Space. </td></tr>
+    <tr><td class="paramname">col</td><td>The color. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d26/_visualizer_8cpp_source.html#l00019">19</a> of file <a class="el" href="../../d0/d26/_visualizer_8cpp_source.html">Visualizer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d26/_visualizer_8cpp_source.html#l00027">27</a> of file <a class="el" href="../../d0/d26/_visualizer_8cpp_source.html">Visualizer.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ab4372aaba620840e8aa251e558182ce5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4372aaba620840e8aa251e558182ce5">&#9670;&nbsp;</a></span>privShowCollisionVolume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Visualizer::privShowCollisionVolume </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d9/de2/classcollideable.html">collideable</a> *&#160;</td>
+          <td class="paramname"><em>inCollideable</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vect &amp;&#160;</td>
+          <td class="paramname"><em>col</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Double Dispatch: Used to call renderBSphere/renderAABB/renderOVBB below. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inCollideable</td><td>The in collideable.</td></tr>
+    <tr><td class="paramname">col</td><td>The col.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d0/d26/_visualizer_8cpp_source.html#l00053">53</a> of file <a class="el" href="../../d0/d26/_visualizer_8cpp_source.html">Visualizer.cpp</a>.</p>
+
+</div>
+</div>
+<a id="abefb28736ff0a0bc37cdbd132ff74bd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abefb28736ff0a0bc37cdbd132ff74bd4">&#9670;&nbsp;</a></span>renderAABB()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Visualizer::renderAABB </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d0/d0a/class_collision_volume_a_a_b_b.html">CollisionVolumeAABB</a> &amp;&#160;</td>
+          <td class="paramname"><em>S</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vect &amp;&#160;</td>
+          <td class="paramname"><em>col</em> = <code><a class="el" href="../../d3/d4f/class_visualizer.html#a91aeb59e73415c060d9a7694604ee9f0">DefaultColor</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Prepares a AABB data to be placed in a queue for printing. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">S</td><td>The AABB.</td></tr>
+    <tr><td class="paramname">col</td><td>The <a class="el" href="../../d9/d44/struct_color.html" title="Color definitions in RGBA. ">Color</a>.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d0/d26/_visualizer_8cpp_source.html#l00124">124</a> of file <a class="el" href="../../d0/d26/_visualizer_8cpp_source.html">Visualizer.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a8d1fd172c9e6ddd8ddac49e77e34563c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d1fd172c9e6ddd8ddac49e77e34563c">&#9670;&nbsp;</a></span>renderAll()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Visualizer::renderAll </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pops all data from all queues and renders visual volumes to the Screen. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d1/dd3/_visualizer_8h_source.html#l00127">127</a> of file <a class="el" href="../../d1/dd3/_visualizer_8h_source.html">Visualizer.h</a>.</p>
 
 </div>
 </div>
@@ -406,12 +604,110 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Renders BSphere on Screen. </p>
-<hr/>
- <h2>Public API </h2>
-<p>Braya, 3/2/2017. </p>
+<p>Prepares a bSpheres data to be placed in a queue for printing. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">S</td><td>The BSphere.</td></tr>
+    <tr><td class="paramname">col</td><td>The <a class="el" href="../../d9/d44/struct_color.html" title="Color definitions in RGBA. ">Color</a>.</td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d26/_visualizer_8cpp_source.html#l00030">30</a> of file <a class="el" href="../../d0/d26/_visualizer_8cpp_source.html">Visualizer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d26/_visualizer_8cpp_source.html#l00117">117</a> of file <a class="el" href="../../d0/d26/_visualizer_8cpp_source.html">Visualizer.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a4272ce7bd50aba9b6e2011a772ed0a44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4272ce7bd50aba9b6e2011a772ed0a44">&#9670;&nbsp;</a></span>renderOBB()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Visualizer::renderOBB </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d6/ded/class_collision_volume_o_b_b.html">CollisionVolumeOBB</a> &amp;&#160;</td>
+          <td class="paramname"><em>S</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vect &amp;&#160;</td>
+          <td class="paramname"><em>col</em> = <code><a class="el" href="../../d3/d4f/class_visualizer.html#a91aeb59e73415c060d9a7694604ee9f0">DefaultColor</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Prepares a OBB data to be placed in a queue for printing. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">S</td><td>The OBB.</td></tr>
+    <tr><td class="paramname">col</td><td>The <a class="el" href="../../d9/d44/struct_color.html" title="Color definitions in RGBA. ">Color</a>.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d0/d26/_visualizer_8cpp_source.html#l00134">134</a> of file <a class="el" href="../../d0/d26/_visualizer_8cpp_source.html">Visualizer.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a4882383d3995638779af0ade80ed6a08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4882383d3995638779af0ade80ed6a08">&#9670;&nbsp;</a></span>showCollisionVolume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Visualizer::showCollisionVolume </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d9/de2/classcollideable.html">collideable</a> *&#160;</td>
+          <td class="paramname"><em>inCollideable</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vect &amp;&#160;</td>
+          <td class="paramname"><em>col</em> = <code><a class="el" href="../../d3/d4f/class_visualizer.html#a91aeb59e73415c060d9a7694604ee9f0">DefaultColor</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Double Dispatch: Prepares a Collidable of unknown type to be placed in a queue for later Rendering. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">S</td><td>The OBB.</td></tr>
+    <tr><td class="paramname">col</td><td>The <a class="el" href="../../d9/d44/struct_color.html" title="Color definitions in RGBA. ">Color</a>.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d0/d26/_visualizer_8cpp_source.html#l00145">145</a> of file <a class="el" href="../../d0/d26/_visualizer_8cpp_source.html">Visualizer.cpp</a>.</p>
 
 </div>
 </div>
@@ -435,10 +731,8 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<hr/>
- <h2>private variables </h2>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/dd3/_visualizer_8h_source.html#l00062">62</a> of file <a class="el" href="../../d1/dd3/_visualizer_8h_source.html">Visualizer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/dd3/_visualizer_8h_source.html#l00090">90</a> of file <a class="el" href="../../d1/dd3/_visualizer_8h_source.html">Visualizer.h</a>.</p>
 
 </div>
 </div>
@@ -452,7 +746,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const Vect Visualizer::DefaultColor = <a class="el" href="../../d9/d44/struct_color.html#ade6abd8d82ec2f0f31fb0d14b6ef6be0">Color::AliceBlue</a></td>
+          <td class="memname">const Vect Visualizer::DefaultColor = <a class="el" href="../../d9/d44/struct_color.html#a3d421e68ccc8c241d921f513066d817e">Color::Blue</a></td>
         </tr>
       </table>
   </td>
@@ -462,7 +756,127 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/dd3/_visualizer_8h_source.html#l00063">63</a> of file <a class="el" href="../../d1/dd3/_visualizer_8h_source.html">Visualizer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/dd3/_visualizer_8h_source.html#l00091">91</a> of file <a class="el" href="../../d1/dd3/_visualizer_8h_source.html">Visualizer.h</a>.</p>
+
+</div>
+</div>
+<a id="a72c3c990b8156a6ef0c3557f0faefbc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72c3c990b8156a6ef0c3557f0faefbc1">&#9670;&nbsp;</a></span>listofBoxesCollide</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::list&lt;<a class="el" href="../../dd/d34/structvisualizer_data.html">visualizerData</a>&gt; Visualizer::listofBoxesCollide</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/dd3/_visualizer_8h_source.html#l00097">97</a> of file <a class="el" href="../../d1/dd3/_visualizer_8h_source.html">Visualizer.h</a>.</p>
+
+</div>
+</div>
+<a id="a37f7327d5c432979613b2290831fc556"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37f7327d5c432979613b2290831fc556">&#9670;&nbsp;</a></span>listofBoxesNotCollide</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::list&lt;<a class="el" href="../../dd/d34/structvisualizer_data.html">visualizerData</a>&gt; Visualizer::listofBoxesNotCollide</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/dd3/_visualizer_8h_source.html#l00098">98</a> of file <a class="el" href="../../d1/dd3/_visualizer_8h_source.html">Visualizer.h</a>.</p>
+
+</div>
+</div>
+<a id="aee3c553e796cbc8758408afba74ea8a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee3c553e796cbc8758408afba74ea8a1">&#9670;&nbsp;</a></span>listofSpheresCollide</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::list&lt;<a class="el" href="../../dd/d34/structvisualizer_data.html">visualizerData</a>&gt; Visualizer::listofSpheresCollide</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/dd3/_visualizer_8h_source.html#l00095">95</a> of file <a class="el" href="../../d1/dd3/_visualizer_8h_source.html">Visualizer.h</a>.</p>
+
+</div>
+</div>
+<a id="a083fd2f213945e50abc9e0962f6d665b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a083fd2f213945e50abc9e0962f6d665b">&#9670;&nbsp;</a></span>listofSpheresNotCollide</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::list&lt;<a class="el" href="../../dd/d34/structvisualizer_data.html">visualizerData</a>&gt; Visualizer::listofSpheresNotCollide</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/dd3/_visualizer_8h_source.html#l00096">96</a> of file <a class="el" href="../../d1/dd3/_visualizer_8h_source.html">Visualizer.h</a>.</p>
+
+</div>
+</div>
+<a id="a5ee8b8b85c18fac391f8bd93b16a2d5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ee8b8b85c18fac391f8bd93b16a2d5b">&#9670;&nbsp;</a></span>WFUnitBox</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GraphicsObject_WireframeConstantColor* Visualizer::WFUnitBox</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/dd3/_visualizer_8h_source.html#l00093">93</a> of file <a class="el" href="../../d1/dd3/_visualizer_8h_source.html">Visualizer.h</a>.</p>
 
 </div>
 </div>
@@ -486,7 +900,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/dd3/_visualizer_8h_source.html#l00064">64</a> of file <a class="el" href="../../d1/dd3/_visualizer_8h_source.html">Visualizer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/dd3/_visualizer_8h_source.html#l00092">92</a> of file <a class="el" href="../../d1/dd3/_visualizer_8h_source.html">Visualizer.h</a>.</p>
 
 </div>
 </div>

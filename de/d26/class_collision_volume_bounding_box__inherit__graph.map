@@ -1,0 +1,5 @@
+<map id="CollisionVolumeBoundingBox" name="CollisionVolumeBoundingBox">
+<area shape="rect" id="node4" href="$d0/d0a/class_collision_volume_a_a_b_b.html" title="{CollisionVolumeAABB\n|&#45; worldMinPoint\l&#45; worldMaxPoint\l|+ CollisionVolumeAABB()\l+ CollisionVolumeAABB()\l+ ~CollisionVolumeAABB()\l+ ComputeData()\l+ ComputeData()\l+ DebugView()\l+ Intersect()\l+ Intersect()\l+ Intersect()\l+ Intersect()\l+ getWorldMax()\l+ getWorldMin()\l+ setWorldMax()\l+ setWorldMin()\l}" alt="" coords="5,587,184,869"/>
+<area shape="rect" id="node5" href="$d6/ded/class_collision_volume_o_b_b.html" title="{CollisionVolumeOBB\n||+ CollisionVolumeOBB()\l+ ~CollisionVolumeOBB()\l+ ComputeData()\l+ ComputeData()\l+ DebugView()\l+ Intersect()\l+ Intersect()\l+ Intersect()\l+ Intersect()\l}" alt="" coords="208,631,379,825"/>
+<area shape="rect" id="node2" href="$d5/d7c/class_collision_volume.html" title="An abstract collision volume that will be inherited by other. " alt="" coords="122,131,265,325"/>
+</map>

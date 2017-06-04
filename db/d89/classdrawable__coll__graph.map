@@ -1,8 +1,8 @@
 <map id="drawable" name="drawable">
-<area shape="rect" id="node7" href="$dd/d1d/classdrawable_deregistraton_command.html" title="A drawable deregistraton command. " alt="" coords="425,933,662,1084"/>
-<area shape="rect" id="node8" href="$d9/da1/classdrawable_registraton_command.html" title="A drawable registraton command. " alt="" coords="155,933,382,1084"/>
-<area shape="rect" id="node2" href="$d2/d62/classgame_objects.html" title="Basic game object skeleton. Inherited by every x&#45;able. " alt="" coords="329,375,485,584"/>
-<area shape="rect" id="node4" href="$d4/d3a/classgame_objects_entry_command.html" title="A game objects entry command. " alt="" coords="395,161,612,312"/>
-<area shape="rect" id="node6" href="$d7/df5/classgame_objects_exit_command.html" title="A game objects exit command. " alt="" coords="5,691,215,841"/>
-<area shape="rect" id="node5" href="$d1/da3/classcommand_base.html" title="An empty base that all x&#45;able derive from to be added to the scene brokers list. " alt="" coords="563,5,700,112"/>
+<area shape="rect" id="node8" href="$dd/d1d/classdrawable_deregistraton_command.html" title="A drawable deregistraton command. " alt="" coords="5,1075,243,1225"/>
+<area shape="rect" id="node9" href="$d9/da1/classdrawable_registraton_command.html" title="A drawable registraton command. " alt="" coords="428,1075,655,1225"/>
+<area shape="rect" id="node2" href="$d2/d62/classgame_objects.html" title="Basic game object skeleton. Inherited by every x&#45;able. " alt="" coords="214,501,370,711"/>
+<area shape="rect" id="node5" href="$d4/d3a/classgame_objects_entry_command.html" title="A game objects entry command. " alt="" coords="158,288,375,439"/>
+<area shape="rect" id="node7" href="$d7/df5/classgame_objects_exit_command.html" title="A game objects exit command. " alt="" coords="553,825,762,975"/>
+<area shape="rect" id="node6" href="$d1/da3/classcommand_base.html" title="An empty base that all x&#45;able derive from to be added to the scene brokers list. " alt="" coords="198,132,335,239"/>
 </map>

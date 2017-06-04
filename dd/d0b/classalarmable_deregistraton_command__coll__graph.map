@@ -1,9 +1,9 @@
 <map id="alarmableDeregistratonCommand" name="alarmableDeregistratonCommand">
-<area shape="rect" id="node8" href="$d1/dde/structalarmable_1_1_registration_data.html" title="{alarmable::RegistrationData\n|+ currentState\l+ myDeleteRef\l|}" alt="" coords="34,448,217,540"/>
-<area shape="rect" id="node2" href="$d1/da3/classcommand_base.html" title="An empty base that all x&#45;able derive from to be added to the scene brokers list. " alt="" coords="735,5,873,112"/>
-<area shape="rect" id="node6" href="$d4/d3a/classgame_objects_entry_command.html" title="A game objects entry command. " alt="" coords="578,169,795,319"/>
-<area shape="rect" id="node7" href="$d7/df5/classgame_objects_exit_command.html" title="A game objects exit command. " alt="" coords="599,727,809,878"/>
-<area shape="rect" id="node9" href="$df/d37/classalarmable_registraton_command.html" title="An alarmable registraton command. " alt="" coords="155,992,386,1157"/>
-<area shape="rect" id="node3" href="$d1/d56/classalarmable.html" title="Allows inherited class to Set seconds based Alarms. " alt="" coords="161,676,380,929"/>
-<area shape="rect" id="node4" href="$d2/d62/classgame_objects.html" title="Basic game object skeleton. Inherited by every x&#45;able. " alt="" coords="437,389,593,599"/>
+<area shape="rect" id="node9" href="$d1/dde/structalarmable_1_1_registration_data.html" title="{alarmable::RegistrationData\n|+ currentState\l+ myDeleteRef\l|}" alt="" coords="849,575,1032,667"/>
+<area shape="rect" id="node2" href="$d1/da3/classcommand_base.html" title="An empty base that all x&#45;able derive from to be added to the scene brokers list. " alt="" coords="200,132,337,239"/>
+<area shape="rect" id="node7" href="$d4/d3a/classgame_objects_entry_command.html" title="A game objects entry command. " alt="" coords="160,295,377,446"/>
+<area shape="rect" id="node8" href="$d7/df5/classgame_objects_exit_command.html" title="A game objects exit command. " alt="" coords="5,854,215,1005"/>
+<area shape="rect" id="node10" href="$df/d37/classalarmable_registraton_command.html" title="An alarmable registraton command. " alt="" coords="668,1119,899,1284"/>
+<area shape="rect" id="node5" href="$d2/d62/classgame_objects.html" title="Basic game object skeleton. Inherited by every x&#45;able. " alt="" coords="236,516,392,725"/>
+<area shape="rect" id="node4" href="$d1/d56/classalarmable.html" title="Allows inherited class to Set seconds based Alarms. " alt="" coords="674,803,893,1056"/>
 </map>

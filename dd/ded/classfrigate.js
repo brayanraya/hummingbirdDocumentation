@@ -1,0 +1,26 @@
+var classfrigate =
+[
+    [ "frigate", "dd/ded/classfrigate.html#a7361f4a91c38d2a97732519854c01768", null ],
+    [ "frigate", "dd/ded/classfrigate.html#ad291920cdc277391ddfcab8ad53b45b7", null ],
+    [ "~frigate", "dd/ded/classfrigate.html#a99f1590cc4d727e4cabcd03407f59b23", null ],
+    [ "collision", "dd/ded/classfrigate.html#a74a1028b1ea319343de4e47556dcd802", null ],
+    [ "collision", "dd/ded/classfrigate.html#ac6de9db7aee932ec262e3c50005c5db2", null ],
+    [ "draw", "dd/ded/classfrigate.html#a754df83369d4ac42eb27fc21a3d32584", null ],
+    [ "keyPress", "dd/ded/classfrigate.html#ada911a90c33f0a2cf29f1ad94fab2b6d", null ],
+    [ "keyRelease", "dd/ded/classfrigate.html#a0ae5ca3f185eea4adb6532136c18452a", null ],
+    [ "sceneEntry", "dd/ded/classfrigate.html#a7486189c84c1aa85289dc586103f3d5f", null ],
+    [ "sceneEntry1", "dd/ded/classfrigate.html#a9d138195f10760106ed8dbc6652aa4ab", null ],
+    [ "sceneExit", "dd/ded/classfrigate.html#aef33b06589cabf0ac760c0ab1a5e4193", null ],
+    [ "sceneExit1", "dd/ded/classfrigate.html#a1aa20257cd274040ea5aba82ed4219e8", null ],
+    [ "update", "dd/ded/classfrigate.html#a5e0beda460d8a37bb86d29ffae4f20e0", null ],
+    [ "dead", "dd/ded/classfrigate.html#ae9a2a6b40c188e18a5fbd52d47df9787", null ],
+    [ "myPosition", "dd/ded/classfrigate.html#a6d520d331938ae7b9dde992c04851ac6", null ],
+    [ "myRot", "dd/ded/classfrigate.html#a5153b6b6b0813e7a8944f612b52c534a", null ],
+    [ "myScale", "dd/ded/classfrigate.html#abfe036d01752ac51bab52f64d25ee219", null ],
+    [ "pGObj_SpaceFrigateLight", "dd/ded/classfrigate.html#aefe66897b295f83f355caefbdd9008fc", null ],
+    [ "ScaleFactor", "dd/ded/classfrigate.html#a9c273e4757260e47fa34c4a6085bd6d9", null ],
+    [ "ShipRotAng", "dd/ded/classfrigate.html#a89c8c67db5ea67b125094e7f14ed4f76", null ],
+    [ "ShipTransSpeed", "dd/ded/classfrigate.html#ad6bb8ef40ac3100d8885c327291800ad", null ],
+    [ "toggleCam", "dd/ded/classfrigate.html#a4de2e2c3f87e66236bf6f8324031494d", null ],
+    [ "world", "dd/ded/classfrigate.html#a3c97cbab725391b81799644ccca19fb8", null ]
+];

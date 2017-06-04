@@ -5,6 +5,7 @@ var classcamera_manager =
     [ "cameraManager", "d4/d8a/classcamera_manager.html#a8866738bc26a5e619f617ef3de92f00f", null ],
     [ "controlGodCam", "d4/d8a/classcamera_manager.html#aa629bf7848452f055233d586df4156fc", null ],
     [ "currentCam", "d4/d8a/classcamera_manager.html#a1c2cf00fe804d05616e26ace451c3341", null ],
+    [ "currentHUD", "d4/d8a/classcamera_manager.html#a914b009dba9a9b72deec0ec77336b68e", null ],
     [ "getCameraFromMap", "d4/d8a/classcamera_manager.html#a58bdf8e28b88436f30948c12af8742ee", null ],
     [ "Instance", "d4/d8a/classcamera_manager.html#a39bf987aa28c6ed2cc3e7701ee8cabe7", null ],
     [ "isGodCamOn", "d4/d8a/classcamera_manager.html#a8c564a438d61859f38a4a405efca54b4", null ],
@@ -28,6 +29,7 @@ var classcamera_manager =
     [ "active", "d4/d8a/classcamera_manager.html#a6a94a0bab98fa8d488156a21bf962257", null ],
     [ "beforeGodCam", "d4/d8a/classcamera_manager.html#a16c886440f7820f957b8a16f53c56012", null ],
     [ "currentCameraBeingUsed", "d4/d8a/classcamera_manager.html#a004d5e9d1f06677e3fd412ecf32c7a48", null ],
+    [ "currentHUDBeingUsed", "d4/d8a/classcamera_manager.html#aa34bcee84e92764be7723726ac0a6129", null ],
     [ "currentInstanceCameraManager", "d4/d8a/classcamera_manager.html#a182130cb2930712f6a83280c40ec5fa4", null ],
     [ "godCam", "d4/d8a/classcamera_manager.html#a0b9eca9845d44f576164d34bc43894fb", null ],
     [ "mapOfUserNamesToPointers", "d4/d8a/classcamera_manager.html#aaf4ce8a04b43088a5d6c3aabf70dcf4d", null ]

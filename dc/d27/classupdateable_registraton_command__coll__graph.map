@@ -1,8 +1,8 @@
 <map id="updateableRegistratonCommand" name="updateableRegistratonCommand">
-<area shape="rect" id="node3" href="$de/d07/classupdateable.html" title="Allows inherited class to register and deregister for the engines update cylce. " alt="" coords="19,661,246,871"/>
-<area shape="rect" id="node2" href="$d1/da3/classcommand_base.html" title="An empty base that all x&#45;able derive from to be added to the scene brokers list. " alt="" coords="632,5,769,112"/>
-<area shape="rect" id="node6" href="$d4/d3a/classgame_objects_entry_command.html" title="A game objects entry command. " alt="" coords="464,161,681,312"/>
-<area shape="rect" id="node7" href="$d7/df5/classgame_objects_exit_command.html" title="A game objects exit command. " alt="" coords="480,691,689,841"/>
-<area shape="rect" id="node8" href="$d3/d09/classupdateable_deregistraton_command.html" title="An updateable deregistraton command. " alt="" coords="156,933,397,1099"/>
-<area shape="rect" id="node4" href="$d2/d62/classgame_objects.html" title="Basic game object skeleton. Inherited by every x&#45;able. " alt="" coords="323,375,479,584"/>
+<area shape="rect" id="node4" href="$de/d07/classupdateable.html" title="Allows inherited class to register and deregister for the engines update cylce. " alt="" coords="526,788,753,997"/>
+<area shape="rect" id="node2" href="$d1/da3/classcommand_base.html" title="An empty base that all x&#45;able derive from to be added to the scene brokers list. " alt="" coords="221,132,359,239"/>
+<area shape="rect" id="node7" href="$d4/d3a/classgame_objects_entry_command.html" title="A game objects entry command. " alt="" coords="181,288,399,439"/>
+<area shape="rect" id="node8" href="$d7/df5/classgame_objects_exit_command.html" title="A game objects exit command. " alt="" coords="5,817,215,968"/>
+<area shape="rect" id="node9" href="$d3/d09/classupdateable_deregistraton_command.html" title="An updateable deregistraton command. " alt="" coords="672,1060,913,1225"/>
+<area shape="rect" id="node5" href="$d2/d62/classgame_objects.html" title="Basic game object skeleton. Inherited by every x&#45;able. " alt="" coords="173,501,329,711"/>
 </map>

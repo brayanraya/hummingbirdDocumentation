@@ -30,7 +30,7 @@
   <td id="projectlogo"><img alt="Logo" src="hummingbirdIcon.jpg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">HummingBird Engine
-   &#160;<span id="projectnumber">0.01</span>
+   &#160;<span id="projectnumber">0.02</span>
    </div>
    <div id="projectbrief">A Simple Game Engine by Brayan Raya</div>
   </td>
@@ -85,6 +85,12 @@ $(document).ready(function(){initNavTree('functions_func_p.html','');});
 &#160;
 
 <h3><a id="index_p"></a>- p -</h3><ul>
+<li>playSound()
+: <a class="el" href="d5/dd9/class_sound_manager.html#aa01f0868738440f628836a0b73024ab9">SoundManager</a>
+</li>
+<li>pointAndRadiusHelper()
+: <a class="el" href="d5/dd7/struct_calculations.html#a736dcdb3b7612b13f5a4c4de22a6b2ab">Calculations</a>
+</li>
 <li>privateControlGodCam()
 : <a class="el" href="d4/d8a/classcamera_manager.html#ac3a0c2871e91cf69bbc743b357aff43a">cameraManager</a>
 </li>
@@ -97,14 +103,26 @@ $(document).ready(function(){initNavTree('functions_func_p.html','');});
 <li>privateGetColliderCollection()
 : <a class="el" href="d0/d9d/classcollideable_group.html#a9f7c9ab7ad8514115e9675cbe2e254f3">collideableGroup&lt; C &gt;</a>
 </li>
+<li>privateGetCurrentTerrain()
+: <a class="el" href="dc/de5/classterrain_manager.html#a7f1c08db69688cb6f8d1570bdf0e5dda">terrainManager</a>
+</li>
+<li>privateGetGroupsAABB()
+: <a class="el" href="d0/d9d/classcollideable_group.html#a94b400ac6a64961f0292b087e51b5951">collideableGroup&lt; C &gt;</a>
+</li>
+<li>privateGetImageFromMap()
+: <a class="el" href="d2/d39/class_image_manager.html#a4ac978e1578e2af9ccef2ea93dbb7704">ImageManager</a>
+</li>
 <li>privateGetModelFromMap()
 : <a class="el" href="dd/dec/classmodel_manager.html#af2ff929ae801a6e0a92b4c8a01158a62">modelManager</a>
 </li>
 <li>privateGetShaderFromMap()
 : <a class="el" href="db/da4/classshader_manager.html#adf29b8ca1bf49f94b381381567a530bb">shaderManager</a>
 </li>
-<li>privateGetSpriteFromMap()
-: <a class="el" href="d2/ddd/class_sprite_manager.html#a7ea71191a14770b987743bdb06a0592e">SpriteManager</a>
+<li>privateGetSound()
+: <a class="el" href="d5/dd9/class_sound_manager.html#ae32ea96344385ac72fca75fc5326a711">SoundManager</a>
+</li>
+<li>privateGetTerrainFromMap()
+: <a class="el" href="dc/de5/classterrain_manager.html#af02a81f1f4e41c16aa7fdad70d1a2fc3">terrainManager</a>
 </li>
 <li>privateGetTextureFromMap()
 : <a class="el" href="d5/d9d/classtexture_manager.html#aa4a733f739f250962a010dad264d09fe">textureManager</a>
@@ -115,17 +133,23 @@ $(document).ready(function(){initNavTree('functions_func_p.html','');});
 <li>privateLoadDefaultCameras()
 : <a class="el" href="d4/d8a/classcamera_manager.html#ac286f394aae590e5b2a0462c766c86e0">cameraManager</a>
 </li>
+<li>privateLoadDefaultImages()
+: <a class="el" href="d2/d39/class_image_manager.html#ac96103e24e74f99f9ec76233c8d04ac8">ImageManager</a>
+</li>
 <li>privateLoadDefaultModels()
 : <a class="el" href="dd/dec/classmodel_manager.html#ad9f6c9b33b01eaca6ac4509d3c781278">modelManager</a>
 </li>
 <li>privateLoadDefaultShaders()
 : <a class="el" href="db/da4/classshader_manager.html#a4c43ba2385be55ecaa849492dc06558c">shaderManager</a>
 </li>
-<li>privateLoadDefaultSprites()
-: <a class="el" href="d2/ddd/class_sprite_manager.html#a20b9924a41c57ddaa4afebe3cfc1e905">SpriteManager</a>
+<li>privateLoadDefaultTerrains()
+: <a class="el" href="dc/de5/classterrain_manager.html#a222665c0f5d1b7226ba5be71b2fa71bb">terrainManager</a>
 </li>
 <li>privateLoadDefaultTextures()
 : <a class="el" href="d5/d9d/classtexture_manager.html#a0eac08e8195d6ee0753b20c952a9c685">textureManager</a>
+</li>
+<li>privateLoadImage()
+: <a class="el" href="d2/d39/class_image_manager.html#a942ae86f0255c4236233f5ef09889dbd">ImageManager</a>
 </li>
 <li>privateLoadModel()
 : <a class="el" href="dd/dec/classmodel_manager.html#a8a1076c54cd4e93e226647fbec35e986">modelManager</a>
@@ -133,17 +157,32 @@ $(document).ready(function(){initNavTree('functions_func_p.html','');});
 <li>privateLoadShader()
 : <a class="el" href="db/da4/classshader_manager.html#a92608d863ccb58bcd295429f9af433fb">shaderManager</a>
 </li>
-<li>privateLoadSprite()
-: <a class="el" href="d2/ddd/class_sprite_manager.html#add14905af6100c013968fbe73aaf8d2e">SpriteManager</a>
+<li>privateLoadSound()
+: <a class="el" href="d5/dd9/class_sound_manager.html#aab0167a2fd840a4990807cb8a5e9556c">SoundManager</a>
+</li>
+<li>privateLoadTerrain()
+: <a class="el" href="dc/de5/classterrain_manager.html#a1e50591a8a913331aa0e4cfa30b9d652">terrainManager</a>
 </li>
 <li>privateLoadTexture()
 : <a class="el" href="d5/d9d/classtexture_manager.html#ab910119bf53a03cca66376f13ea69f12">textureManager</a>
 </li>
+<li>privatePlaySound()
+: <a class="el" href="d5/dd9/class_sound_manager.html#ab9fb0b6753df7fcf31de9cde3788152e">SoundManager</a>
+</li>
+<li>privatePutTerrainInScene()
+: <a class="el" href="dc/de5/classterrain_manager.html#a12254253a7b63547d9fd96e0cfcc4bbc">terrainManager</a>
+</li>
 <li>privateRegisterCollideableGroup()
 : <a class="el" href="d0/d9d/classcollideable_group.html#ae0383c220a3e4f6596e62d961cb6accc">collideableGroup&lt; C &gt;</a>
 </li>
+<li>privateRemoveTerrainInScene()
+: <a class="el" href="dc/de5/classterrain_manager.html#a8e4ecfe5190bc3dd69983bbb5b2a6534">terrainManager</a>
+</li>
 <li>privateSetOrientAndPosition()
 : <a class="el" href="d4/d8a/classcamera_manager.html#ae081e3ea2bed7d243010e82ba82060e0">cameraManager</a>
+</li>
+<li>privateStopSound()
+: <a class="el" href="d5/dd9/class_sound_manager.html#a57941c5dac9e47813022700c16224dd8">SoundManager</a>
 </li>
 <li>privateSwitchOffGodCam()
 : <a class="el" href="d4/d8a/classcamera_manager.html#aab9c9bef4052d0d7ae4fafbf2b8e40e0">cameraManager</a>
@@ -151,8 +190,14 @@ $(document).ready(function(){initNavTree('functions_func_p.html','');});
 <li>privateSwitchToGodCam()
 : <a class="el" href="d4/d8a/classcamera_manager.html#a770e0af1d358791793e0098194fdcaf4">cameraManager</a>
 </li>
+<li>privateTerminate()
+: <a class="el" href="d5/dd9/class_sound_manager.html#a2c5a0580c2bd467ffe1cdccec427ebc3">SoundManager</a>
+</li>
 <li>privateUnloadAllCameras()
 : <a class="el" href="d4/d8a/classcamera_manager.html#a7b3e958520d23d2848503fc0ea99acd9">cameraManager</a>
+</li>
+<li>privateUnloadAllImages()
+: <a class="el" href="d2/d39/class_image_manager.html#a1ebe9ea1beefc90bdf3c55d813cbde8a">ImageManager</a>
 </li>
 <li>privateUnloadAllModels()
 : <a class="el" href="dd/dec/classmodel_manager.html#a23a642c158abe66898c2f796494a70fc">modelManager</a>
@@ -160,8 +205,11 @@ $(document).ready(function(){initNavTree('functions_func_p.html','');});
 <li>privateUnloadAllShaders()
 : <a class="el" href="db/da4/classshader_manager.html#ad3666d86ce97068c820c2cde37dddfb1">shaderManager</a>
 </li>
-<li>privateUnloadAllSprites()
-: <a class="el" href="d2/ddd/class_sprite_manager.html#af0f8d556b5b7ea6ec711d9f48216d776">SpriteManager</a>
+<li>privateUnloadAllSounds()
+: <a class="el" href="d5/dd9/class_sound_manager.html#af1af8d3966debe9d4c7d0f81c542effc">SoundManager</a>
+</li>
+<li>privateUnloadAllTerrains()
+: <a class="el" href="dc/de5/classterrain_manager.html#a16deba26d301b89595131d4b7c8e0211">terrainManager</a>
 </li>
 <li>privateUnloadAllTextures()
 : <a class="el" href="d5/d9d/classtexture_manager.html#aff1f50f187235b919bb33a8b06c3b2ef">textureManager</a>
@@ -169,17 +217,23 @@ $(document).ready(function(){initNavTree('functions_func_p.html','');});
 <li>privateUnloadSpecificCamera()
 : <a class="el" href="d4/d8a/classcamera_manager.html#aa166aeaf55052fb2513a3ad50e6d4165">cameraManager</a>
 </li>
+<li>privateUnloadSpecificImage()
+: <a class="el" href="d2/d39/class_image_manager.html#a5cedb06ec1d89a7aae556b37e31c2a0d">ImageManager</a>
+</li>
 <li>privateUnloadSpecificModel()
 : <a class="el" href="dd/dec/classmodel_manager.html#a9f5cc95406e88e212b2413977aac2678">modelManager</a>
 </li>
 <li>privateUnloadSpecificShader()
 : <a class="el" href="db/da4/classshader_manager.html#afe37674f0a578c007f008dfc823e99ac">shaderManager</a>
 </li>
-<li>privateUnloadSpecificSprite()
-: <a class="el" href="d2/ddd/class_sprite_manager.html#a20121cd60a575a019dd24d68a5d4a34a">SpriteManager</a>
+<li>privateUnloadSpecificTerrain()
+: <a class="el" href="dc/de5/classterrain_manager.html#aa9224f94b6e27117dad843d058165e7f">terrainManager</a>
 </li>
 <li>privateUnloadSpecificTexture()
 : <a class="el" href="d5/d9d/classtexture_manager.html#a895d19da63065c478725bd05b2012b2a">textureManager</a>
+</li>
+<li>privateupdate()
+: <a class="el" href="d0/d9d/classcollideable_group.html#ad3bc3cf65510d6b440bb7300481007fa">collideableGroup&lt; C &gt;</a>
 </li>
 <li>privChangeCurrentScene()
 : <a class="el" href="d6/da0/classscene_manager.html#a1ef44826a2667cea67b4ed1f166a2adf">sceneManager</a>
@@ -187,14 +241,26 @@ $(document).ready(function(){initNavTree('functions_func_p.html','');});
 <li>privEndAllScenes()
 : <a class="el" href="d6/da0/classscene_manager.html#a11c74b9c88c30c2885bd82260e07e5e6">sceneManager</a>
 </li>
+<li>privEndCurrentScene()
+: <a class="el" href="d6/da0/classscene_manager.html#abec5fdb60532ce865f52a913eaa2372e">sceneManager</a>
+</li>
 <li>privProcessTime()
 : <a class="el" href="d0/dc2/classtime_manager.html#a839b43fcc9e198a2dcf086bd80fd4dab">timeManager</a>
+</li>
+<li>privRenderAABB()
+: <a class="el" href="d3/d4f/class_visualizer.html#a481813f5887c73677f6504d977455acc">Visualizer</a>
+</li>
+<li>privRenderAll()
+: <a class="el" href="d3/d4f/class_visualizer.html#afdcb70e620dac9f5e78da12d9424f415">Visualizer</a>
 </li>
 <li>privRenderBSphere()
 : <a class="el" href="d3/d4f/class_visualizer.html#aefb91d1543d71e9d7827cd747be849e0">Visualizer</a>
 </li>
 <li>privSetStartScene()
 : <a class="el" href="d6/da0/classscene_manager.html#aefa2d2e9c7f3397774b25e40af7f13bf">sceneManager</a>
+</li>
+<li>privShowCollisionVolume()
+: <a class="el" href="d3/d4f/class_visualizer.html#ab4372aaba620840e8aa251e558182ce5">Visualizer</a>
 </li>
 <li>privSwapScenes()
 : <a class="el" href="d6/da0/classscene_manager.html#a620043557243915b584dba6d8dbd3c17">sceneManager</a>
@@ -210,6 +276,12 @@ $(document).ready(function(){initNavTree('functions_func_p.html','');});
 </li>
 <li>processTime()
 : <a class="el" href="d0/dc2/classtime_manager.html#af2c20504a00db096c5bcf3d7c211abe0">timeManager</a>
+</li>
+<li>Projection()
+: <a class="el" href="d5/dd7/struct_calculations.html#a0ec542e139a7e2f49d731224ef4ba93f">Calculations</a>
+</li>
+<li>PutTerrainInScene()
+: <a class="el" href="dc/de5/classterrain_manager.html#a552e1ea43d79ea7639f3f5ccd35c5237">terrainManager</a>
 </li>
 </ul>
 </div><!-- contents -->

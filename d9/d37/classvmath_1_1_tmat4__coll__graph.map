@@ -1,0 +1,4 @@
+<map id="vmath::Tmat4&lt; T &gt;" name="vmath::Tmat4&lt; T &gt;">
+<area shape="rect" id="node2" href="$dd/d8d/classvmath_1_1mat_n_m.html" title="{vmath::matNM\&lt; T, 4, 4 \&gt;\n||+ matNM()\l+ matNM()\l+ matNM()\l+ matNM()\l+ operator=()\l+ operator+()\l+ operator+=()\l+ operator&#45;()\l+ operator&#45;=()\l+ operator*()\land 8 more...\l+ identity()\l+ width()\l+ height()\l# assign()\l}" alt="" coords="5,476,172,759"/>
+<area shape="rect" id="node3" href="$d7/d57/classvmath_1_1vec_n.html" title="{vmath::vecN\&lt; T, h \&gt;\n||+ vecN()\l+ vecN()\l+ vecN()\l+ operator=()\l+ operator=()\l+ operator+()\l+ operator+=()\l+ operator&#45;()\l+ operator&#45;()\l+ operator&#45;=()\land 11 more...\l+ size()\l+ random()\l# assign()\l}" alt="" coords="19,145,158,413"/>
+</map>

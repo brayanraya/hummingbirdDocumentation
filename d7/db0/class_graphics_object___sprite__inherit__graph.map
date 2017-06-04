@@ -1,0 +1,4 @@
+<map id="GraphicsObject_Sprite" name="GraphicsObject_Sprite">
+<area shape="rect" id="node2" href="$df/d4f/class_graphics_object.html" title="{GraphicsObject\n|# pModel\l# pWorld\l# pShaderObj\l|+ GraphicsObject()\l+ ~GraphicsObject()\l+ GraphicsObject()\l+ Render()\l+ SetWorld()\l+ getModel()\l+ getWorld()\l}" alt="" coords="22,175,162,369"/>
+<area shape="rect" id="node3" href="$d5/d8d/class_render_material.html" title="{RenderMaterial\n||# privSetState()\l# privSetDataGPU()\l# privDraw()\l# privRestoreState()\l}" alt="" coords="24,5,160,127"/>
+</map>

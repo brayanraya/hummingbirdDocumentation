@@ -4,6 +4,7 @@ var classdrawable =
     [ "~drawable", "dc/dc5/classdrawable.html#afa759fcca69f10cb7447c6a7fe49e426", null ],
     [ "drawable", "dc/dc5/classdrawable.html#a9147911acead33b9b52703ca4face639", null ],
     [ "draw", "dc/dc5/classdrawable.html#a3589177b4f506332c644a25937cdb574", null ],
+    [ "drawHUD", "dc/dc5/classdrawable.html#a4845f67b7277f4d077ac5b4bb9eff314", null ],
     [ "operator=", "dc/dc5/classdrawable.html#a058867a02405d92ff4267fe39f728078", null ],
     [ "sceneDeregistraion", "dc/dc5/classdrawable.html#a466eef1850b74999878100131cf8043d", null ],
     [ "sceneRegistraion", "dc/dc5/classdrawable.html#a9fc0a846ca328e50c22da0190e5ef360", null ],

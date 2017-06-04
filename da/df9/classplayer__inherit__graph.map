@@ -1,0 +1,8 @@
+<map id="player" name="player">
+<area shape="rect" id="node2" href="$dc/dc5/classdrawable.html" title="Allows inherited class to register and deregister for the engines draw cycle. " alt="" coords="5,505,220,759"/>
+<area shape="rect" id="node3" href="$d2/d62/classgame_objects.html" title="Basic game object skeleton. Inherited by every x&#45;able. " alt="" coords="523,131,686,399"/>
+<area shape="rect" id="node5" href="$de/d07/classupdateable.html" title="Allows inherited class to register and deregister for the engines update cylce. " alt="" coords="245,513,471,751"/>
+<area shape="rect" id="node6" href="$d1/d56/classalarmable.html" title="Allows inherited class to Set seconds based Alarms. " alt="" coords="495,505,714,759"/>
+<area shape="rect" id="node7" href="$d9/de2/classcollideable.html" title="Allows inherited class to define collision with another collidable. " alt="" coords="738,447,962,817"/>
+<area shape="rect" id="node8" href="$dc/d51/classinputable.html" title="Allows inherited class to register a key and triggers with Key Release/Press. " alt="" coords="986,527,1199,737"/>
+</map>

@@ -30,7 +30,7 @@
   <td id="projectlogo"><img alt="Logo" src="hummingbirdIcon.jpg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">HummingBird Engine
-   &#160;<span id="projectnumber">0.01</span>
+   &#160;<span id="projectnumber">0.02</span>
    </div>
    <div id="projectbrief">A Simple Game Engine by Brayan Raya</div>
   </td>
@@ -88,6 +88,12 @@ $(document).ready(function(){initNavTree('functions_vars_c.html','');});
 <li>CadetBlue
 : <a class="el" href="d9/d44/struct_color.html#ac8f4d4a39019e42552d8bc2775177602">Color</a>
 </li>
+<li>Cell
+: <a class="el" href="d2/da6/class_terrain_rectangle_area_1_1iterator.html#ab59ec885e80f1ae3e914cbb4c11c4368">TerrainRectangleArea::iterator</a>
+</li>
+<li>cells
+: <a class="el" href="d1/dee/class_terrain.html#a58066e6b8586e3575c3b0596eb988d1c">Terrain</a>
+</li>
 <li>Center
 : <a class="el" href="d8/d21/class_collision_volume_b_sphere.html#aeb0bbfc2660e84697b3a1e20e9c8c169">CollisionVolumeBSphere</a>
 </li>
@@ -100,6 +106,7 @@ $(document).ready(function(){initNavTree('functions_vars_c.html','');});
 <li>Collection1
 : <a class="el" href="d6/dd8/classcollision_test_pair_command.html#a69d0fa75b68a25b29be5607ff9044250">collisionTestPairCommand&lt; C1, C2 &gt;</a>
 , <a class="el" href="d4/d58/classcollision_test_self_command.html#a36f70c782047703433532bc251ae34e0">collisionTestSelfCommand&lt; C1 &gt;</a>
+, <a class="el" href="d7/dcb/classcollision_test_terrain_command.html#a028f4d9ca4c7106b444dca989e4a179e">collisionTestTerrainCommand&lt; C1 &gt;</a>
 </li>
 <li>Collection2
 : <a class="el" href="d6/dd8/classcollision_test_pair_command.html#af0141edaca72243cc18789bb1156a903">collisionTestPairCommand&lt; C1, C2 &gt;</a>
@@ -107,6 +114,10 @@ $(document).ready(function(){initNavTree('functions_vars_c.html','');});
 <li>collideablePointer
 : <a class="el" href="d7/dd2/classcollideable_deregistraton_command.html#aa1c6cf7533ca5fc7ee178262e0b1af82">collideableDeregistratonCommand&lt; C &gt;</a>
 , <a class="el" href="d3/d0f/classcollideable_registraton_command.html#a794fd57abf86b073a617cd7d35d9103f">collideableRegistratonCommand&lt; C &gt;</a>
+, <a class="el" href="d4/d62/classcollideable_update_group_command.html#a8a9051b705771be69a17b47c6d7a68fe">collideableUpdateGroupCommand&lt; C &gt;</a>
+</li>
+<li>Color
+: <a class="el" href="dd/d34/structvisualizer_data.html#af8ecfd760255109baba671e4fe562c82">visualizerData</a>
 </li>
 <li>commandManagerList
 : <a class="el" href="d1/dfc/classscene_registration_broker.html#a3a1b7ee584f3e784ce19ded687aa47ee">sceneRegistrationBroker</a>
@@ -129,6 +140,12 @@ $(document).ready(function(){initNavTree('functions_vars_c.html','');});
 <li>currentFPS
 : <a class="el" href="d0/dc2/classtime_manager.html#af14291756fdc3dfaf4ac162a5a6f9bed">timeManager</a>
 </li>
+<li>currentHorizontal
+: <a class="el" href="d2/da6/class_terrain_rectangle_area_1_1iterator.html#a3b8eb729a50b63eb914a5762d61c8564">TerrainRectangleArea::iterator</a>
+</li>
+<li>currentHUDBeingUsed
+: <a class="el" href="d4/d8a/classcamera_manager.html#aa34bcee84e92764be7723726ac0a6129">cameraManager</a>
+</li>
 <li>currentInstanceCameraManager
 : <a class="el" href="d4/d8a/classcamera_manager.html#a182130cb2930712f6a83280c40ec5fa4">cameraManager</a>
 </li>
@@ -137,6 +154,9 @@ $(document).ready(function(){initNavTree('functions_vars_c.html','');});
 </li>
 <li>currentInstanceGroup
 : <a class="el" href="d0/d9d/classcollideable_group.html#a0dd0c66f40823dd446dfcc2880fcce35">collideableGroup&lt; C &gt;</a>
+</li>
+<li>currentInstanceImageManager
+: <a class="el" href="d2/d39/class_image_manager.html#ac82d9fb4b10bef49bdf906c3af2f293a">ImageManager</a>
 </li>
 <li>currentInstancemodelManager
 : <a class="el" href="dd/dec/classmodel_manager.html#ace867272be773126b3c397885739a3a5">modelManager</a>
@@ -147,8 +167,11 @@ $(document).ready(function(){initNavTree('functions_vars_c.html','');});
 <li>currentInstanceShaderManager
 : <a class="el" href="db/da4/classshader_manager.html#a87c80f33c91716b5e21a4ed8332a652e">shaderManager</a>
 </li>
-<li>currentInstanceSpriteManager
-: <a class="el" href="d2/ddd/class_sprite_manager.html#aad89b96e643426a3e302ae0dfda37c97">SpriteManager</a>
+<li>currentInstanceSoundManager
+: <a class="el" href="d5/dd9/class_sound_manager.html#ad8e012bc1e6eb26d014ec2f158920c3e">SoundManager</a>
+</li>
+<li>currentInstanceTerrainManager
+: <a class="el" href="dc/de5/classterrain_manager.html#a0f9e2de77bed21d8a601b94cdde06c12">terrainManager</a>
 </li>
 <li>currentInstanceTextureManager
 : <a class="el" href="d5/d9d/classtexture_manager.html#add5555aa8dfeee6c9a256dc54d640adc">textureManager</a>
@@ -175,6 +198,9 @@ $(document).ready(function(){initNavTree('functions_vars_c.html','');});
 </li>
 <li>currentTime
 : <a class="el" href="d0/dc2/classtime_manager.html#a774f19bec396bd0945c600adb84724fc">timeManager</a>
+</li>
+<li>currentVertical
+: <a class="el" href="d2/da6/class_terrain_rectangle_area_1_1iterator.html#a5d7f9e47b2e8e0979764fa93ea5cf290">TerrainRectangleArea::iterator</a>
 </li>
 <li>Cyan
 : <a class="el" href="d9/d44/struct_color.html#a8c8484c46a6306e964a0236585715de1">Color</a>

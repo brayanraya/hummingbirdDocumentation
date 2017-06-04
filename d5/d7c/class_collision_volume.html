@@ -30,7 +30,7 @@
   <td id="projectlogo"><img alt="Logo" src="../../hummingbirdIcon.jpg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">HummingBird Engine
-   &#160;<span id="projectnumber">0.01</span>
+   &#160;<span id="projectnumber">0.02</span>
    </div>
    <div id="projectbrief">A Simple Game Engine by Brayan Raya</div>
   </td>
@@ -86,14 +86,25 @@ $(document).ready(function(){initNavTree('d5/d7c/class_collision_volume.html','.
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="../../d8/d35/class_collision_volume-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">CollisionVolume Class Reference</div>  </div>
+<div class="title">CollisionVolume Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A general collision volume.  
+<p>An abstract collision volume that will be inherited by other.  
  <a href="../../d5/d7c/class_collision_volume.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="../../d7/d9a/_collision_volume_8h_source.html">CollisionVolume.h</a>&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for CollisionVolume:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d9/d93/class_collision_volume__inherit__graph.png" border="0" usemap="#_collision_volume_inherit__map" alt="Inheritance graph"/></div>
+<map name="_collision_volume_inherit__map" id="_collision_volume_inherit__map">
+<area shape="rect" id="node3" href="../../db/d2e/class_collision_volume_bounding_box.html" title="A general collision volume. " alt="" coords="83,425,303,590"/>
+<area shape="rect" id="node6" href="../../d8/d21/class_collision_volume_b_sphere.html" title="Volume and movement caluclations for the volume of bsphere. " alt="" coords="327,373,521,641"/>
+<area shape="rect" id="node4" href="../../d0/d0a/class_collision_volume_a_a_b_b.html" title="{CollisionVolumeAABB\n|&#45; worldMinPoint\l&#45; worldMaxPoint\l|+ CollisionVolumeAABB()\l+ CollisionVolumeAABB()\l+ ~CollisionVolumeAABB()\l+ ComputeData()\l+ ComputeData()\l+ DebugView()\l+ Intersect()\l+ Intersect()\l+ Intersect()\l+ Intersect()\l+ getWorldMax()\l+ getWorldMin()\l+ setWorldMax()\l+ setWorldMin()\l}" alt="" coords="5,689,184,972"/>
+<area shape="rect" id="node5" href="../../d6/ded/class_collision_volume_o_b_b.html" title="{CollisionVolumeOBB\n||+ CollisionVolumeOBB()\l+ ~CollisionVolumeOBB()\l+ ComputeData()\l+ ComputeData()\l+ DebugView()\l+ Intersect()\l+ Intersect()\l+ Intersect()\l+ Intersect()\l}" alt="" coords="208,733,379,928"/>
+</map>
+</div>
 <div class="dynheader">
 Collaboration diagram for CollisionVolume:</div>
 <div class="dyncontent">
@@ -102,31 +113,35 @@ Collaboration diagram for CollisionVolume:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aaed8d3ff1cd31d903ce8d41c93d8e392"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d7c/class_collision_volume.html#aaed8d3ff1cd31d903ce8d41c93d8e392">CollisionVolume</a> ()=default</td></tr>
-<tr class="separator:aaed8d3ff1cd31d903ce8d41c93d8e392"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe985f7965ef830b66350778a41d7045"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d7c/class_collision_volume.html#abe985f7965ef830b66350778a41d7045">~CollisionVolume</a> ()=default</td></tr>
-<tr class="separator:abe985f7965ef830b66350778a41d7045"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19d051844d52f76a1aecc8505d873dba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d7c/class_collision_volume.html#a19d051844d52f76a1aecc8505d873dba">computerData</a> (Model *mod, Matrix &amp;mat)</td></tr>
-<tr class="separator:a19d051844d52f76a1aecc8505d873dba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a847c4818fcd0b0cb8d1e9733c8db553d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d7c/class_collision_volume.html#a847c4818fcd0b0cb8d1e9733c8db553d">Intersect</a> (const <a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a> &amp;other)</td></tr>
-<tr class="separator:a847c4818fcd0b0cb8d1e9733c8db553d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0532d07c47cd872a266fd22ebe7c0bb6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d7c/class_collision_volume.html#a0532d07c47cd872a266fd22ebe7c0bb6">Intersect</a> (const <a class="el" href="../../d8/d21/class_collision_volume_b_sphere.html">CollisionVolumeBSphere</a> &amp;other)</td></tr>
-<tr class="separator:a0532d07c47cd872a266fd22ebe7c0bb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7727339e04efff3f200438d2082239c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d7c/class_collision_volume.html#aa7727339e04efff3f200438d2082239c">CollisionVolume</a> ()</td></tr>
+<tr class="separator:aa7727339e04efff3f200438d2082239c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fc7adf37bd0eeac9fc358f0075d42d9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d7c/class_collision_volume.html#a9fc7adf37bd0eeac9fc358f0075d42d9">~CollisionVolume</a> ()</td></tr>
+<tr class="separator:a9fc7adf37bd0eeac9fc358f0075d42d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3d3381f788b0cf5e5a6e80e1b7455e8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d7c/class_collision_volume.html#af3d3381f788b0cf5e5a6e80e1b7455e8">ComputeData</a> (Model *mod, Matrix &amp;mat)=0</td></tr>
+<tr class="separator:af3d3381f788b0cf5e5a6e80e1b7455e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abaefef2c2cb5fede5b9d84e93e3a51c6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d7c/class_collision_volume.html#abaefef2c2cb5fede5b9d84e93e3a51c6">ComputeData</a> (Model *mod, Matrix &amp;mat, const float &amp;scal)=0</td></tr>
+<tr class="separator:abaefef2c2cb5fede5b9d84e93e3a51c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57208a00b950551a7e234ee8dce03350"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d7c/class_collision_volume.html#a57208a00b950551a7e234ee8dce03350">DebugView</a> (const Vect &amp;inColor) const =0</td></tr>
+<tr class="separator:a57208a00b950551a7e234ee8dce03350"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ac2ea76b237cc61921ef8c7d3dd8137"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d7c/class_collision_volume.html#a1ac2ea76b237cc61921ef8c7d3dd8137">Intersect</a> (const <a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a> &amp;other) const =0</td></tr>
+<tr class="separator:a1ac2ea76b237cc61921ef8c7d3dd8137"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49b395f4434291b02d3c026ff20b8669"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d7c/class_collision_volume.html#a49b395f4434291b02d3c026ff20b8669">Intersect</a> (const <a class="el" href="../../d8/d21/class_collision_volume_b_sphere.html">CollisionVolumeBSphere</a> &amp;other) const =0</td></tr>
+<tr class="separator:a49b395f4434291b02d3c026ff20b8669"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91d52a0e7d3f81d9a5fd2d7b9404af41"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d7c/class_collision_volume.html#a91d52a0e7d3f81d9a5fd2d7b9404af41">Intersect</a> (const <a class="el" href="../../d0/d0a/class_collision_volume_a_a_b_b.html">CollisionVolumeAABB</a> &amp;other) const =0</td></tr>
+<tr class="separator:a91d52a0e7d3f81d9a5fd2d7b9404af41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31ad4c11f9a87d759c4ebe44c20c4e78"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d7c/class_collision_volume.html#a31ad4c11f9a87d759c4ebe44c20c4e78">Intersect</a> (const <a class="el" href="../../d6/ded/class_collision_volume_o_b_b.html">CollisionVolumeOBB</a> &amp;other) const =0</td></tr>
+<tr class="separator:a31ad4c11f9a87d759c4ebe44c20c4e78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A general collision volume. </p>
-<p>Braya, 3/2/2017. </p>
+<div class="textblock"><p>An abstract collision volume that will be inherited by other. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d9a/_collision_volume_8h_source.html#l00013">13</a> of file <a class="el" href="../../d7/d9a/_collision_volume_8h_source.html">CollisionVolume.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d9a/_collision_volume_8h_source.html#l00011">11</a> of file <a class="el" href="../../d7/d9a/_collision_volume_8h_source.html">CollisionVolume.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aaed8d3ff1cd31d903ce8d41c93d8e392"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaed8d3ff1cd31d903ce8d41c93d8e392">&#9670;&nbsp;</a></span>CollisionVolume()</h2>
+<a id="aa7727339e04efff3f200438d2082239c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7727339e04efff3f200438d2082239c">&#9670;&nbsp;</a></span>CollisionVolume()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">CollisionVolume::CollisionVolume </td>
@@ -135,23 +150,17 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/dcf/_base_01_volumes_2_collision_volume_8cpp_source.html#l00008">8</a> of file <a class="el" href="../../de/dcf/_base_01_volumes_2_collision_volume_8cpp_source.html">Base Volumes/CollisionVolume.cpp</a>.</p>
 
 </div>
 </div>
-<a id="abe985f7965ef830b66350778a41d7045"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe985f7965ef830b66350778a41d7045">&#9670;&nbsp;</a></span>~CollisionVolume()</h2>
+<a id="a9fc7adf37bd0eeac9fc358f0075d42d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fc7adf37bd0eeac9fc358f0075d42d9">&#9670;&nbsp;</a></span>~CollisionVolume()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">CollisionVolume::~CollisionVolume </td>
@@ -160,24 +169,24 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/dcf/_base_01_volumes_2_collision_volume_8cpp_source.html#l00013">13</a> of file <a class="el" href="../../de/dcf/_base_01_volumes_2_collision_volume_8cpp_source.html">Base Volumes/CollisionVolume.cpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a19d051844d52f76a1aecc8505d873dba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19d051844d52f76a1aecc8505d873dba">&#9670;&nbsp;</a></span>computerData()</h2>
+<a id="af3d3381f788b0cf5e5a6e80e1b7455e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3d3381f788b0cf5e5a6e80e1b7455e8">&#9670;&nbsp;</a></span>ComputeData() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void CollisionVolume::computerData </td>
+          <td class="memname">void CollisionVolume::ComputeData </td>
           <td>(</td>
           <td class="paramtype">Model *&#160;</td>
           <td class="paramname"><em>mod</em>, </td>
@@ -194,55 +203,218 @@ Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d6c/_collision_volume_8cpp_source.html#l00004">4</a> of file <a class="el" href="../../d2/d6c/_collision_volume_8cpp_source.html">CollisionVolume.cpp</a>.</p>
+<p>Implemented in <a class="el" href="../../d8/d21/class_collision_volume_b_sphere.html#af31253fd2080b95e7f90a4ff0754342a">CollisionVolumeBSphere</a>, <a class="el" href="../../d6/ded/class_collision_volume_o_b_b.html#ac5a63149f735fac74572d0f7df271e2b">CollisionVolumeOBB</a>, and <a class="el" href="../../d0/d0a/class_collision_volume_a_a_b_b.html#af4ef62e2a68d86a241a635ab242ebfbb">CollisionVolumeAABB</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="../../de/dcf/_base_01_volumes_2_collision_volume_8cpp_source.html#l00017">17</a> of file <a class="el" href="../../de/dcf/_base_01_volumes_2_collision_volume_8cpp_source.html">Base Volumes/CollisionVolume.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a847c4818fcd0b0cb8d1e9733c8db553d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a847c4818fcd0b0cb8d1e9733c8db553d">&#9670;&nbsp;</a></span>Intersect() <span class="overload">[1/2]</span></h2>
+<a id="abaefef2c2cb5fede5b9d84e93e3a51c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abaefef2c2cb5fede5b9d84e93e3a51c6">&#9670;&nbsp;</a></span>ComputeData() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CollisionVolume::ComputeData </td>
+          <td>(</td>
+          <td class="paramtype">Model *&#160;</td>
+          <td class="paramname"><em>mod</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Matrix &amp;&#160;</td>
+          <td class="paramname"><em>mat</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float &amp;&#160;</td>
+          <td class="paramname"><em>scal</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="../../d8/d21/class_collision_volume_b_sphere.html#a8e8f853d4871fec3748ffc8a5ad0cccf">CollisionVolumeBSphere</a>, <a class="el" href="../../d6/ded/class_collision_volume_o_b_b.html#ab0acb969087363499ac59bfd6cc8b632">CollisionVolumeOBB</a>, and <a class="el" href="../../d0/d0a/class_collision_volume_a_a_b_b.html#a693934107c4aa7138f61fbaa7ed955d1">CollisionVolumeAABB</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="../../de/dcf/_base_01_volumes_2_collision_volume_8cpp_source.html#l00021">21</a> of file <a class="el" href="../../de/dcf/_base_01_volumes_2_collision_volume_8cpp_source.html">Base Volumes/CollisionVolume.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a57208a00b950551a7e234ee8dce03350"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57208a00b950551a7e234ee8dce03350">&#9670;&nbsp;</a></span>DebugView()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CollisionVolume::DebugView </td>
+          <td>(</td>
+          <td class="paramtype">const Vect &amp;&#160;</td>
+          <td class="paramname"><em>inColor</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="../../d8/d21/class_collision_volume_b_sphere.html#a35c4ccf7e26195cd321343af19c4f3e8">CollisionVolumeBSphere</a>, <a class="el" href="../../d6/ded/class_collision_volume_o_b_b.html#a1e1e174a54c2c7a3afb4d35b059bb10a">CollisionVolumeOBB</a>, and <a class="el" href="../../d0/d0a/class_collision_volume_a_a_b_b.html#a7a082dbc5d3994b86b67174377386a32">CollisionVolumeAABB</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="../../de/dcf/_base_01_volumes_2_collision_volume_8cpp_source.html#l00025">25</a> of file <a class="el" href="../../de/dcf/_base_01_volumes_2_collision_volume_8cpp_source.html">Base Volumes/CollisionVolume.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a1ac2ea76b237cc61921ef8c7d3dd8137"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ac2ea76b237cc61921ef8c7d3dd8137">&#9670;&nbsp;</a></span>Intersect() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool CollisionVolume::Intersect </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a> &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d6c/_collision_volume_8cpp_source.html#l00010">10</a> of file <a class="el" href="../../d2/d6c/_collision_volume_8cpp_source.html">CollisionVolume.cpp</a>.</p>
+<p>Implemented in <a class="el" href="../../d8/d21/class_collision_volume_b_sphere.html#af7c9a4844c02cae30f73ed6bcdaebca0">CollisionVolumeBSphere</a>, <a class="el" href="../../d6/ded/class_collision_volume_o_b_b.html#ae607cdd4dd7a0f232b98a7d28074b1e7">CollisionVolumeOBB</a>, and <a class="el" href="../../d0/d0a/class_collision_volume_a_a_b_b.html#adb31f48e20dc80b441a3e0659db3e2ef">CollisionVolumeAABB</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="../../de/dcf/_base_01_volumes_2_collision_volume_8cpp_source.html#l00029">29</a> of file <a class="el" href="../../de/dcf/_base_01_volumes_2_collision_volume_8cpp_source.html">Base Volumes/CollisionVolume.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a0532d07c47cd872a266fd22ebe7c0bb6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0532d07c47cd872a266fd22ebe7c0bb6">&#9670;&nbsp;</a></span>Intersect() <span class="overload">[2/2]</span></h2>
+<a id="a49b395f4434291b02d3c026ff20b8669"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49b395f4434291b02d3c026ff20b8669">&#9670;&nbsp;</a></span>Intersect() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool CollisionVolume::Intersect </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../d8/d21/class_collision_volume_b_sphere.html">CollisionVolumeBSphere</a> &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d6c/_collision_volume_8cpp_source.html#l00016">16</a> of file <a class="el" href="../../d2/d6c/_collision_volume_8cpp_source.html">CollisionVolume.cpp</a>.</p>
+<p>Implemented in <a class="el" href="../../d8/d21/class_collision_volume_b_sphere.html#a9e167bfa1446d94448288b035707e955">CollisionVolumeBSphere</a>, <a class="el" href="../../d6/ded/class_collision_volume_o_b_b.html#ac144a45cab0cf4071decb36922020bb0">CollisionVolumeOBB</a>, and <a class="el" href="../../d0/d0a/class_collision_volume_a_a_b_b.html#a4dcf897dd8b5a7846313e4da5bdbc250">CollisionVolumeAABB</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="../../de/dcf/_base_01_volumes_2_collision_volume_8cpp_source.html#l00034">34</a> of file <a class="el" href="../../de/dcf/_base_01_volumes_2_collision_volume_8cpp_source.html">Base Volumes/CollisionVolume.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a91d52a0e7d3f81d9a5fd2d7b9404af41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91d52a0e7d3f81d9a5fd2d7b9404af41">&#9670;&nbsp;</a></span>Intersect() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CollisionVolume::Intersect </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d0/d0a/class_collision_volume_a_a_b_b.html">CollisionVolumeAABB</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="../../d8/d21/class_collision_volume_b_sphere.html#a5b7cf8e0da86418cb39133880ea8e236">CollisionVolumeBSphere</a>, <a class="el" href="../../d6/ded/class_collision_volume_o_b_b.html#a4c443bbc888715a26b4a24d7c82664b3">CollisionVolumeOBB</a>, and <a class="el" href="../../d0/d0a/class_collision_volume_a_a_b_b.html#af5d92a5bb9b698251dc7c9c4425f0085">CollisionVolumeAABB</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="../../de/dcf/_base_01_volumes_2_collision_volume_8cpp_source.html#l00039">39</a> of file <a class="el" href="../../de/dcf/_base_01_volumes_2_collision_volume_8cpp_source.html">Base Volumes/CollisionVolume.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a31ad4c11f9a87d759c4ebe44c20c4e78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31ad4c11f9a87d759c4ebe44c20c4e78">&#9670;&nbsp;</a></span>Intersect() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CollisionVolume::Intersect </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d6/ded/class_collision_volume_o_b_b.html">CollisionVolumeOBB</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="../../d8/d21/class_collision_volume_b_sphere.html#aa29a4cb51aa920a54333d94e3d1f01b6">CollisionVolumeBSphere</a>, <a class="el" href="../../d6/ded/class_collision_volume_o_b_b.html#a31c7fee818d558086a3ee5fc6da9d9cd">CollisionVolumeOBB</a>, and <a class="el" href="../../d0/d0a/class_collision_volume_a_a_b_b.html#a0f83ba55e2717d6c29b7477ad95a6a5c">CollisionVolumeAABB</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="../../de/dcf/_base_01_volumes_2_collision_volume_8cpp_source.html#l00044">44</a> of file <a class="el" href="../../de/dcf/_base_01_volumes_2_collision_volume_8cpp_source.html">Base Volumes/CollisionVolume.cpp</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="../../d7/d9a/_collision_volume_8h_source.html">CollisionVolume.h</a></li>
-<li><a class="el" href="../../d2/d6c/_collision_volume_8cpp_source.html">CollisionVolume.cpp</a></li>
+<li><a class="el" href="../../de/dcf/_base_01_volumes_2_collision_volume_8cpp_source.html">Base Volumes/CollisionVolume.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

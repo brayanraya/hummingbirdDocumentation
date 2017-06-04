@@ -1,0 +1,4 @@
+<map id="SB6M_CHUNK_SUB_OBJECT_LIST_t" name="SB6M_CHUNK_SUB_OBJECT_LIST_t">
+<area shape="rect" id="node2" href="$df/d57/struct_s_b6_m___c_h_u_n_k___h_e_a_d_e_r__t.html" title="{SB6M_CHUNK_HEADER_t\n|+ chunk_type\l+ chunk_name\l+ @24\l+ size\l|}" alt="" coords="5,5,188,127"/>
+<area shape="rect" id="node3" href="$d7/d01/struct_s_b6_m___s_u_b___o_b_j_e_c_t___d_e_c_l__t.html" title="{SB6M_SUB_OBJECT_DECL_t\n|+ first\l+ count\l|}" alt="" coords="212,20,413,112"/>
+</map>

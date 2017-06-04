@@ -1,0 +1,5 @@
+<map id="Model" name="Model">
+<area shape="rect" id="node2" href="$d5/dde/struct_triangle_index.html" title="{TriangleIndex\n|+ v0\l+ v1\l+ v2\l|+ set()\l}" alt="" coords="5,279,104,385"/>
+<area shape="rect" id="node3" href="$d8/d1b/class_vect.html" title="{Vect\n|+ vm\l+ _x\l+ _y\l+ _z\l+ _w\l&#45; Matrix\l&#45; @14\l|+ Vect()\l+ Vect()\l+ operator=()\l+ ~Vect()\l+ Vect()\l+ operator[]()\l+ operator[]()\l+ operator[]()\l+ operator[]()\l+ operator[]()\land 32 more...\l}" alt="" coords="128,176,235,488"/>
+<area shape="rect" id="node4" href="$d5/df7/class_align16.html" title="{Align16\n||+ operator new()\l+ operator new[]()\l+ operator delete()\l+ operator delete[]()\l}" alt="" coords="113,5,249,127"/>
+</map>

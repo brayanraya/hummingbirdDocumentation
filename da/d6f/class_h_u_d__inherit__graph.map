@@ -1,0 +1,4 @@
+<map id="HUD" name="HUD">
+<area shape="rect" id="node2" href="$dc/dc5/classdrawable.html" title="Allows inherited class to register and deregister for the engines draw cycle. " alt="" coords="5,447,220,700"/>
+<area shape="rect" id="node3" href="$d2/d62/classgame_objects.html" title="Basic game object skeleton. Inherited by every x&#45;able. " alt="" coords="31,131,194,399"/>
+</map>

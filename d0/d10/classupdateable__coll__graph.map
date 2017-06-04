@@ -1,8 +1,8 @@
 <map id="updateable" name="updateable">
-<area shape="rect" id="node7" href="$d3/d09/classupdateable_deregistraton_command.html" title="An updateable deregistraton command. " alt="" coords="435,933,676,1099"/>
-<area shape="rect" id="node8" href="$d1/dad/classupdateable_registraton_command.html" title="An updateable registraton command. " alt="" coords="149,941,388,1091"/>
-<area shape="rect" id="node2" href="$d2/d62/classgame_objects.html" title="Basic game object skeleton. Inherited by every x&#45;able. " alt="" coords="337,375,493,584"/>
-<area shape="rect" id="node4" href="$d4/d3a/classgame_objects_entry_command.html" title="A game objects entry command. " alt="" coords="403,161,620,312"/>
-<area shape="rect" id="node6" href="$d7/df5/classgame_objects_exit_command.html" title="A game objects exit command. " alt="" coords="5,691,215,841"/>
-<area shape="rect" id="node5" href="$d1/da3/classcommand_base.html" title="An empty base that all x&#45;able derive from to be added to the scene brokers list. " alt="" coords="573,5,711,112"/>
+<area shape="rect" id="node8" href="$d3/d09/classupdateable_deregistraton_command.html" title="An updateable deregistraton command. " alt="" coords="5,1060,247,1225"/>
+<area shape="rect" id="node9" href="$d1/dad/classupdateable_registraton_command.html" title="An updateable registraton command. " alt="" coords="448,1067,687,1218"/>
+<area shape="rect" id="node2" href="$d2/d62/classgame_objects.html" title="Basic game object skeleton. Inherited by every x&#45;able. " alt="" coords="220,501,376,711"/>
+<area shape="rect" id="node5" href="$d4/d3a/classgame_objects_entry_command.html" title="A game objects entry command. " alt="" coords="161,288,379,439"/>
+<area shape="rect" id="node7" href="$d7/df5/classgame_objects_exit_command.html" title="A game objects exit command. " alt="" coords="565,817,775,968"/>
+<area shape="rect" id="node6" href="$d1/da3/classcommand_base.html" title="An empty base that all x&#45;able derive from to be added to the scene brokers list. " alt="" coords="201,132,339,239"/>
 </map>

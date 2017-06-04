@@ -1,0 +1,5 @@
+<map id="scene" name="scene">
+<area shape="rect" id="node2" href="$da/da6/classdefault_scene.html" title="{defaultScene\n||+ defaultScene()\l+ ~defaultScene()\l+ sceneEnd()\l+ initialize()\l+ keyPress()\l+ keyRelease()\l+ sceneEntry()\l+ sceneExit()\l}" alt="" coords="5,424,131,604"/>
+<area shape="rect" id="node3" href="$d8/d37/classgame_over_scene.html" title="{gameOverScene\n||+ gameOverScene()\l+ ~gameOverScene()\l+ sceneEnd()\l+ initialize()\l+ keyPress()\l+ keyRelease()\l+ sceneEntry()\l+ sceneExit()\l}" alt="" coords="155,424,301,604"/>
+<area shape="rect" id="node4" href="$d9/d01/classuser_scene.html" title="{userScene\n|&#45; floor\l&#45; ship\l&#45; guy\l&#45; onScreen\l&#45; vroom\l&#45; terra\l&#45; enemySpawner\l&#45; frigateANDbullet\l&#45; frigateANDplayer\l&#45; tankANDplayer\l&#45; playerANDTerrain\l|+ userScene()\l+ ~userScene()\l+ sceneEnd()\l+ initialize()\l}" alt="" coords="325,380,456,648"/>
+</map>

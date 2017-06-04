@@ -1,6 +1,16 @@
 var NAVTREE =
 [
   [ "HummingBird Engine", "index.html", [
+    [ "HummingBird 0.02 API documentation", "index.html", [
+      [ "Contents", "index.html#contents", null ],
+      [ "Introduction", "index.html#intro", null ],
+      [ "Features Within Hummingbird Engine.", "index.html#features", null ],
+      [ "Tips and Tricks", "index.html#tipsandtricks", null ],
+      [ "Starting up the Engine", "index.html#concept", null ]
+    ] ],
+    [ "Namespaces", null, [
+      [ "Namespace List", "namespaces.html", "namespaces" ]
+    ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -21,7 +31,7 @@ var NAVTREE =
         [ "Functions", "globals_func.html", null ],
         [ "Variables", "globals_vars.html", null ],
         [ "Enumerations", "globals_enum.html", null ],
-        [ "Enumerator", "globals_eval.html", null ]
+        [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
   ] ]
@@ -30,10 +40,11 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d4/d3a/classgame_objects_entry_command.html#a83f1438475562a5fdc1d1f029078b61c",
-"d9/d44/struct_color.html#a3d421e68ccc8c241d921f513066d817e",
-"dc/d51/classinputable.html#a3968df4c40434f32ef17a66ad46828df",
-"functions_vars_m.html"
+"d2/da6/class_terrain_rectangle_area_1_1iterator.html#ab59ec885e80f1ae3e914cbb4c11c4368",
+"d5/dd9/class_sound_manager.html",
+"d9/d44/struct_color.html#a83f0a7b4c07f8a2687210b4d7382843b",
+"dc/d79/collideable_test_terrain_command_8cpp_source.html",
+"functions_f.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

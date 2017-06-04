@@ -1,5 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$de/deb/classcollision_test_command_base.html" title="An empty collision test base to midigate templete problems. " alt="" coords="5,46,188,73"/>
-<area shape="rect" id="node2" href="$d6/dd8/classcollision_test_pair_command.html" title="Template for a given collideable testing collision against another collideable. ie. Ship against Rock. " alt="" coords="236,5,412,47"/>
-<area shape="rect" id="node3" href="$d4/d58/classcollision_test_self_command.html" title="Template for a given collideable testing collision against another collideable of the same type..." alt="" coords="237,71,411,112"/>
+<area shape="rect" id="node1" href="$dd/d27/classcollideable_group_base.html" title="An empty base that all collideable groups derive from to be added to the collidable managers list..." alt="" coords="5,56,153,83"/>
+<area shape="rect" id="node2" href="$d0/d9d/classcollideable_group.html" title="Groups collideables of type C together. " alt="" coords="205,5,356,32"/>
+<area shape="rect" id="node3" href="$d0/d9d/classcollideable_group.html" title="collideableGroup\&lt; C1 \&gt;" alt="" coords="201,56,360,83"/>
+<area shape="rect" id="node4" href="$d0/d9d/classcollideable_group.html" title="collideableGroup\&lt; C2 \&gt;" alt="" coords="201,107,360,133"/>
 </map>

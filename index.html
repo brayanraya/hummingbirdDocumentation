@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>HummingBird Engine: Main Page</title>
+<title>HummingBird Engine: HummingBird 0.02 API documentation</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -30,7 +30,7 @@
   <td id="projectlogo"><img alt="Logo" src="hummingbirdIcon.jpg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">HummingBird Engine
-   &#160;<span id="projectnumber">0.01</span>
+   &#160;<span id="projectnumber">0.02</span>
    </div>
    <div id="projectbrief">A Simple Game Engine by Brayan Raya</div>
   </td>
@@ -83,10 +83,97 @@ $(document).ready(function(){initNavTree('index.html','');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">HummingBird Engine Documentation</div>  </div>
+<div class="title">HummingBird 0.02 API documentation </div>  </div>
 </div><!--header-->
 <div class="contents">
-</div><!-- contents -->
+<div class="textblock"><h1><a class="anchor" id="contents"></a>
+Contents</h1>
+<p>General:<br />
+ <a class="el" href="index.html#intro">Introduction</a> <br />
+ <a class="el" href="index.html#features">Features Within Hummingbird Engine.</a> <br />
+ <a class="el" href="index.html#tipsandtricks">Tips and Tricks</a> <br />
+ <a class="el" href="index.html#concept">Starting up the Engine</a> <br />
+ <br />
+ </p>
+<h1><a class="anchor" id="intro"></a>
+Introduction</h1>
+<p>Welcome to the Hummingbird Engine Documentation. This page should give you a short overview over the Hummingbird Engine, a simple Game Engine built around the Azul Core.</p>
+<p>The Hummingbird Engine is intended to be an easy-to-use 3d game engine, so this documentation is an important part of it. If you have any questions or suggestions just send an email to <a href="#" onclick="location.href='mai'+'lto:'+'bra'+'ya'+'nra'+'ya'+'@gm'+'ai'+'l.c'+'om'; return false;">braya<span style="display: none;">.nosp@m.</span>nray<span style="display: none;">.nosp@m.</span>a@gma<span style="display: none;">.nosp@m.</span>il.c<span style="display: none;">.nosp@m.</span>om</a>.</p>
+<p><br />
+</p>
+<h1><a class="anchor" id="features"></a>
+Features Within Hummingbird Engine.</h1>
+<p>The Hummingbird Engine is a simple 3D cross platform game engine written in C++ with IrrKlang and the Azul Core API. It has many features availible for novice and expert game designers: including Alarms, Collision, and Sound. </p><ul>
+<li>
+Tiered Collsion </li>
+<li>
+Alarm Callbacks </li>
+<li>
+Automated Managers </li>
+<li>
+Game Pause and Step Feature </li>
+<li>
+<a class="el" href="d1/dee/class_terrain.html" title="A Class that generates terrains using a tga file height map. ">Terrain</a> Generation Via Hightmap </li>
+<li>
+God Mode Camera </li>
+</ul>
+<p>IrrKlang supplys the sound functionality with the following types </p><ul>
+<li>
+RIFF WAVE (*.wav) </li>
+<li>
+Ogg Vorbis (*.ogg) </li>
+<li>
+MPEG-1 Audio Layer 3 (*.mp3) </li>
+<li>
+Free Lossless Audio Codec (*.flac) </li>
+<li>
+Amiga Modules (*.mod) </li>
+<li>
+Impulse Tracker (*.it) </li>
+<li>
+Scream Tracker 3 (*.s3d) </li>
+<li>
+Fast Tracker 2 (*.xm) </li>
+</ul>
+<p>Azul supplys the texture functionality with the following types </p><ul>
+<li>
+TARGA (*.tga) </li>
+<li>
+PNG (*.png) </li>
+</ul>
+<p>Azul supplys the Model functionality with the following types </p><ul>
+<li>
+AZUL (*.azul) </li>
+</ul>
+<p><br />
+ <br />
+ <br />
+ </p>
+<h1><a class="anchor" id="tipsandtricks"></a>
+Tips and Tricks</h1>
+<p>This section lists a few tips you might consider when messing around with Hummingbird:</p>
+<ul>
+<li>
+<p class="startli">Alarms(as well as many other types) will triggers an Exception if you attempt to assign the same alarm more than once.</p>
+<p class="endli"></p>
+</li>
+<li>
+<p class="startli">Remember that you are able to create factories for game objects to make things simpler. </p>
+<p class="endli"></p>
+</li>
+<li>
+<p class="startli">There is a userSettings.cpp that can be used for 1 time user defined settings like window size and clear color.</p>
+<p class="endli"></p>
+</li>
+</ul>
+<p><br />
+</p>
+<h1><a class="anchor" id="concept"></a>
+Starting up the Engine</h1>
+<p>The Hummingbird Engine is designed so that it is very easy to create everything, its interface should be very simple to use. The very first order of buisness is to modify the userSettings.cpp</p>
+<div class="fragment"><div class="line"><span class="comment">// ...</span></div><div class="line">  setWindowName(<span class="stringliteral">&quot;Hummingbird Engine&quot;</span>); </div><div class="line">  setWidthHeight(1147, 631); <span class="comment">// </span></div><div class="line">  SetClearColor(0.000000000f, 0.749019623f, 1.000000000f, 1.000000000f); <span class="comment">//DeepSkyBlue</span></div><div class="line"><span class="comment">// ...</span></div></div><!-- fragment --><p>The Hummingbird Engine will next need access to all the models, textures, sounds, etc. This information is located in the userResources.cpp and the respective folders are in the root directory under the Assets Folder. Remember the First string is the name you will need later to create Game Objets later. </p><div class="fragment"><div class="line"><span class="comment">// ...</span></div><div class="line">  <span class="comment">//---------------------------------------------------------------------------------------------------------</span></div><div class="line">  <span class="comment">// Load the Models</span></div><div class="line">  <span class="comment">//---------------------------------------------------------------------------------------------------------</span></div><div class="line">  <a class="code" href="dd/dec/classmodel_manager.html#a02514ac043f441c1d99adb588cb39861">modelManager::loadModel</a>(<span class="stringliteral">&quot;pModelT99B&quot;</span>, <span class="stringliteral">&quot;t99body.azul&quot;</span>);              <span class="comment">//MultiMesh Azul Model</span></div><div class="line">  <a class="code" href="dd/dec/classmodel_manager.html#a02514ac043f441c1d99adb588cb39861">modelManager::loadModel</a>(<span class="stringliteral">&quot;pModelT99T&quot;</span>, <span class="stringliteral">&quot;t99turret.azul&quot;</span>);            <span class="comment">//MultiMesh Azul Model</span></div><div class="line">  <a class="code" href="dd/dec/classmodel_manager.html#a02514ac043f441c1d99adb588cb39861">modelManager::loadModel</a>(<span class="stringliteral">&quot;pToySoldier&quot;</span>, <span class="stringliteral">&quot;raya_toySoldier.azul&quot;</span>);     <span class="comment">//MultiTexture Azul Model</span></div><div class="line">  <span class="comment">//---------------------------------------------------------------------------------------------------------</span></div><div class="line">  <span class="comment">// Load the Shaders</span></div><div class="line">  <span class="comment">//---------------------------------------------------------------------------------------------------------</span></div><div class="line">  <a class="code" href="db/da4/classshader_manager.html#a0df94ecec5057285b0b6baacd80ddaee">shaderManager::loadShader</a>(<span class="stringliteral">&quot;pShaderObject_texture&quot;</span>, <span class="stringliteral">&quot;textureFlatRender&quot;</span>); <span class="comment">//OpenGL Shader Language</span></div><div class="line">  <span class="comment">//---------------------------------------------------------------------------------------------------------</span></div><div class="line">  <span class="comment">// Load the Textures</span></div><div class="line">  <span class="comment">//---------------------------------------------------------------------------------------------------------</span></div><div class="line">  <a class="code" href="d5/d9d/classtexture_manager.html#a7c877ac4136d9a16e5e0ea0133d50664">textureManager::loadTexture</a>(<span class="stringliteral">&quot;pSpaceFrigateTex&quot;</span>, <span class="stringliteral">&quot;space_frigate.tga&quot;</span>); <span class="comment">//TGA for Textures only</span></div><div class="line">  <a class="code" href="d5/d9d/classtexture_manager.html#a7c877ac4136d9a16e5e0ea0133d50664">textureManager::loadTexture</a>(<span class="stringliteral">&quot;pStitch&quot;</span>, <span class="stringliteral">&quot;stitch.png&quot;</span>); <span class="comment">//PNG or TGA for images</span></div><div class="line">  <span class="comment">//---------------------------------------------------------------------------------------------------------</span></div><div class="line">  <span class="comment">// Load the Images</span></div><div class="line">  <span class="comment">//---------------------------------------------------------------------------------------------------------</span></div><div class="line">  <a class="code" href="d2/d39/class_image_manager.html#a24278d28a977502f2161123edb2bd403">ImageManager::loadImage</a>(<span class="stringliteral">&quot;pImageGreen&quot;</span>, <span class="stringliteral">&quot;pAliensTex&quot;</span>); <span class="comment">//Uses previous Texture file and uses the whole </span></div><div class="line">                                                        <span class="comment">//texture to create and image</span></div><div class="line">  <a class="code" href="d2/d39/class_image_manager.html#a24278d28a977502f2161123edb2bd403">ImageManager::loadImage</a>(<span class="stringliteral">&quot;pImage1&quot;</span>, <span class="stringliteral">&quot;pFontTex&quot;</span>, 20,380,30,40);</div><div class="line">  <span class="comment">//---------------------------------------------------------------------------------------------------------</span></div><div class="line">  <span class="comment">// Load the Terrain</span></div><div class="line">  <span class="comment">//---------------------------------------------------------------------------------------------------------</span></div><div class="line">  <a class="code" href="dc/de5/classterrain_manager.html#af29253e4df38f070f9d915fb5fbb88df">terrainManager::loadTerrain</a>(<span class="stringliteral">&quot;pBumpy&quot;</span>, <span class="stringliteral">&quot;HMTest1.tga&quot;</span>, <span class="stringliteral">&quot;pTextPlane&quot;</span>, 2000);</div><div class="line">  <span class="comment">//---------------------------------------------------------------------------------------------------------</span></div><div class="line">  <span class="comment">// Load the Terrain</span></div><div class="line">  <span class="comment">//---------------------------------------------------------------------------------------------------------</span></div><div class="line">  <a class="code" href="d5/dd9/class_sound_manager.html#ad31fb255fe82a2220b71a4b4764ef9db">SoundManager::loadSound</a>(<span class="stringliteral">&quot;GunShot&quot;</span>, <span class="stringliteral">&quot;Gunshot.wav&quot;</span>);</div><div class="line">  <span class="comment">//---------------------------------------------------------------------------------------------------------</span></div><div class="line">  <span class="comment">// Load the Start Scene</span></div><div class="line">  <span class="comment">//---------------------------------------------------------------------------------------------------------</span></div><div class="line">  <a class="code" href="d6/da0/classscene_manager.html#ab700b644efecf22a22b698f82bf757a4">sceneManager::setStartScene</a>(<span class="keyword">new</span> defaultScene);</div><div class="line"><span class="comment">// ...</span></div></div><!-- fragment --><p>Note the Start Scene has been set to be the defaultSceneClass. This is a scene that has nothing inside of it. We can create our own sceneClass by deriving from Scene. Below you will see an example of a User Created Scene. </p><div class="fragment"><div class="line"><span class="comment">// ...</span></div><div class="line"><span class="preprocessor">#include &quot;<a class="code" href="d8/d70/hummingbird_core_8h.html">HummingBirdCore.h</a>&quot;</span></div><div class="line"><span class="keyword">class </span>userScene : <span class="keyword">public</span> <a class="code" href="df/db1/classscene.html">scene</a></div><div class="line">  {</div><div class="line">  <span class="keyword">public</span>:</div><div class="line">      userScene();</div><div class="line">      ~userScene();</div><div class="line">      <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="df/db1/classscene.html#aad15f66be9b02370f4a34048d59b32a9">sceneEnd</a>();</div><div class="line">      <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="df/db1/classscene.html#a982c06a5a0409ecd1d698ecc9866eac1">initialize</a>();</div><div class="line">  <span class="keyword">private</span>:</div><div class="line">      gameObjectType* name;</div><div class="line">      std::list&lt;collisionTestCommandBase*&gt;::iterator frigateANDbullet;</div><div class="line">  }</div><div class="line"><span class="comment">// ...</span></div></div><!-- fragment --><p>SceneEnd() and Initialize() should remove all objects from the screen. In this case we would call name-&gt;SceneExit() and name-&gt;SceneEntry() respectively. Also in the SceneEnd() and Initialize() we declare the terrain and register collision pairs. </p><div class="fragment"><div class="line">  <span class="comment">// ...</span></div><div class="line">*<span class="keywordtype">void</span> userScene::initialize()</div><div class="line">    {</div><div class="line">        SetTerrain(<span class="stringliteral">&quot;pBumpy&quot;</span>);</div><div class="line">        SetCollisionTerrain&lt;toySoldier&gt;();</div><div class="line">        guy = <span class="keyword">new</span> toySoldier();</div><div class="line">        vroom = <span class="keyword">new</span> tank();</div><div class="line">        tankANDSoldier = registerCollideablePair&lt;tank, toySoldier&gt;();</div><div class="line">    }</div><div class="line">  <span class="comment">// ...</span></div></div><!-- fragment --><p>Lets now take a look how we create those game objects. The first thing is to derive your gameObject class from Updateable, Drawable, Alarmable, Collidable and Inputable for every system type you want. A class with all 5 active will look something like this: </p><div class="fragment"><div class="line"><span class="comment">// ...</span></div><div class="line">  <span class="keyword">class </span>thisObjectClass: <span class="keyword">public</span> <a class="code" href="dc/dc5/classdrawable.html">drawable</a>, <span class="keyword">public</span> <a class="code" href="de/d07/classupdateable.html">updateable</a>, <span class="keyword">public</span> <a class="code" href="d1/d56/classalarmable.html">alarmable</a>, <span class="keyword">public</span> <a class="code" href="d9/de2/classcollideable.html">collideable</a>,<span class="keyword">public</span> <a class="code" href="dc/d51/classinputable.html">inputable</a></div><div class="line">  {</div><div class="line">  <span class="keyword">public</span>:</div><div class="line">      thisObjectClass();                                  <span class="comment">//Default Constuctor</span></div><div class="line">      ~thisObjectClass();                                 <span class="comment">//Destuctor</span></div><div class="line"></div><div class="line">      <span class="keywordtype">void</span> <a class="code" href="d2/d62/classgame_objects.html#a9930f106ecb4cf94629b371273e2e8b3">sceneEntry</a>();                                  <span class="comment">//Scene Entry: All GameObjects use this.</span></div><div class="line">      <span class="keywordtype">void</span> <a class="code" href="d2/d62/classgame_objects.html#a9b059416b5f3bc4c06550a2a5f46ac1b">sceneExit</a>();                                   <span class="comment">//Scene Exit: All GameObjects use this.</span></div><div class="line">      <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="dc/dc5/classdrawable.html#a3589177b4f506332c644a25937cdb574">draw</a>() <span class="keyword">override</span>;                       <span class="comment">//Renders Object on Screen: All Drawables use this.</span></div><div class="line">      <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="dc/dc5/classdrawable.html#a4845f67b7277f4d077ac5b4bb9eff314">drawHUD</a>() <span class="keyword">override</span>;                    <span class="comment">//Renders Sprites on Screen after draw() calls: All Drawables use this.</span></div><div class="line">      <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="de/d07/classupdateable.html#a50e711685a070239a62c4d82ef6d1c72">update</a>() <span class="keyword">override</span>;                     <span class="comment">//Updates Object: All Updateables use this.</span></div><div class="line">      <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="dc/d51/classinputable.html#a06bbdb58405addc55e3948cbc6c58ad4">keyPress</a>(AZUL_KEY k) <span class="keyword">override</span>;         <span class="comment">//Callback when KeyPressed: All Inputables use this.</span></div><div class="line">      <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="dc/d51/classinputable.html#aa0f2c3ace9b928a01ef716fd435f7e38">keyRelease</a>(AZUL_KEY k) <span class="keyword">override</span>;       <span class="comment">//Callback when KeyRelease: All Inputables use this.</span></div><div class="line">      <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="d1/d56/classalarmable.html#a9e3f59cd29588174926dd06bbd467331">alarm0</a>()<span class="keyword">override</span>;                      <span class="comment">//Called when Alarm0 was set and has currently Triggered: </span></div><div class="line">                                                          <span class="comment">//All Alarmables use this.</span></div><div class="line"></div><div class="line">      <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="d1/d56/classalarmable.html#aa2c022abe491409b0e7a8bb7ef2f4b15">alarm1</a>()<span class="keyword">override</span>;                      <span class="comment">//Called when Alarm1 was set and has currently Triggered:</span></div><div class="line">                                                          <span class="comment">//All Alarmables use this.</span></div><div class="line"></div><div class="line">      <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="d1/d56/classalarmable.html#a038d2015cca8bc6542e5c21573bd9e05">alarm2</a>()<span class="keyword">override</span>;                      <span class="comment">//Called when Alarm2 was set and has currently Triggered:</span></div><div class="line">                                                          <span class="comment">//All Alarmables use this.</span></div><div class="line"></div><div class="line">      <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="d1/d56/classalarmable.html#a52b51a92ad405e104c26cc19b56c9fff">alarm3</a>()<span class="keyword">override</span>;                      <span class="comment">//Called when Alarm3 was set and has currently Triggered:</span></div><div class="line">                                                          <span class="comment">//All Alarmables use this.</span></div><div class="line"></div><div class="line">      <span class="keywordtype">void</span> <a class="code" href="d9/de2/classcollideable.html#a4918a909ed556c298d5beca41300a308">collision</a>(OtherObjectClass*);                  <span class="comment">//Called when A collision between chosen Collision Volume has occured. </span></div><div class="line">                                                          <span class="comment">//NOTE: The OtherObjectClass must be comparable to the registerCollidiblePair in the current Scene.</span></div><div class="line">                                                          <span class="comment">// AND the OtherObjectClass must have the same call but with (thisObjectClass*) as the variable.</span></div><div class="line">      <span class="keywordtype">void</span> <a class="code" href="d9/de2/classcollideable.html#a60053f4a4de22bfebd8a775ea1be088f">TerrainCollision</a>()<span class="keyword">override</span>;                    <span class="comment">//Called when a collision between the object collides with terrain.</span></div><div class="line">                                                          <span class="comment">//Note: This will only be called if SetCollisionTerrain&lt;C1&gt;(); is called in Scene with the current Object as C1;</span></div><div class="line">  }</div></div><!-- fragment --><p> That should cover the basics of how to get an object on to the scene. Thank you for selecting to use the Hummingbird Engine. Additional Infomation is available in the hyperlinks above. Have fun and make your games fun! :D <br />
+ </p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

@@ -1,0 +1,4 @@
+<map id="GraphicsObject_ColorNoTextureLight" name="GraphicsObject_ColorNoTextureLight">
+<area shape="rect" id="node2" href="$df/d4f/class_graphics_object.html" title="{GraphicsObject\n|# pModel\l# pWorld\l# pShaderObj\l|+ GraphicsObject()\l+ ~GraphicsObject()\l+ GraphicsObject()\l+ Render()\l+ SetWorld()\l+ getModel()\l+ getWorld()\l}" alt="" coords="49,175,189,369"/>
+<area shape="rect" id="node3" href="$d5/d8d/class_render_material.html" title="{RenderMaterial\n||# privSetState()\l# privSetDataGPU()\l# privDraw()\l# privRestoreState()\l}" alt="" coords="51,5,187,127"/>
+</map>

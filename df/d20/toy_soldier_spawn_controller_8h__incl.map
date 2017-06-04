@@ -1,0 +1,9 @@
+<map id="toySoldierSpawnController.h" name="toySoldierSpawnController.h">
+<area shape="rect" id="node2" href="$dc/df9/alarmable_8h.html" title="../Hummingbird Engine\l/Scene Manager/Attributes\l/Alarmable/alarmable.h" alt="" coords="408,80,585,136"/>
+<area shape="rect" id="node3" href="$d0/dcb/game_objects_8h.html" title="../../Game Objects\l/gameObjects.h" alt="" coords="257,184,387,225"/>
+<area shape="rect" id="node10" href="$dd/d0c/alarmable_manager_8h.html" title="../alarmable/alarmableManager.h" alt="" coords="567,191,778,218"/>
+<area shape="rect" id="node5" href="$d8/d15/regestration_state_8h.html" title="../Attributes/Shared\l Enum/regestrationState.h" alt="" coords="32,273,207,315"/>
+<area shape="rect" id="node7" href="$d4/d18/game_objects_entry_command_8h.html" title="gameObjectsEntryCommand.h" alt="" coords="294,281,494,307"/>
+<area shape="rect" id="node9" href="$d3/da6/game_objects_exit_command_8h.html" title="gameObjectsExitCommand.h" alt="" coords="518,281,710,307"/>
+<area shape="rect" id="node8" href="$d1/db5/command_base_8h.html" title="../Attributes/Command\l/commandBase.h" alt="" coords="317,363,471,404"/>
+</map>

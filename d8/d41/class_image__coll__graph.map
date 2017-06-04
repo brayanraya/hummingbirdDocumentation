@@ -1,0 +1,4 @@
+<map id="Image" name="Image">
+<area shape="rect" id="node2" href="$d8/d1e/struct_rect.html" title="{Rect\n|+ x\l+ y\l+ width\l+ height\l|+ Rect()\l+ Rect()\l+ clear()\l}" alt="" coords="5,101,76,251"/>
+<area shape="rect" id="node3" href="$d2/d7f/class_texture.html" title="{Texture\n|&#45; textureID\l&#45; minFilter\l&#45; magFilter\l&#45; wrapMode\l&#45; textureWidth\l&#45; textureHeight\l&#45; assetName\l|+ Texture()\l+ ~Texture()\l+ Texture()\l+ Texture()\l+ Texture()\l+ getWidth()\l+ getHeight()\l+ getTextureID()\l+ getName()\l+ UChartoGLbyte()\l&#45; set()\l&#45; privLoadTexture()\l&#45; DefaultTexturePixelarray()\l}" alt="" coords="101,5,279,347"/>
+</map>

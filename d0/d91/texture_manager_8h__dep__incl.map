@@ -1,4 +1,8 @@
 <map id="textureManager.h" name="textureManager.h">
-<area shape="rect" id="node2" href="$d0/dbd/texture_manager_8cpp.html" title="textureManager.cpp" alt="" coords="5,80,143,107"/>
-<area shape="rect" id="node3" href="$dc/d9d/hummingbird_engine_8cpp.html" title="hummingbirdEngine.cpp" alt="" coords="167,80,328,107"/>
+<area shape="rect" id="node2" href="$db/da2/_terrain_8cpp.html" title="Terrain.cpp" alt="" coords="5,80,92,107"/>
+<area shape="rect" id="node3" href="$dd/dda/image_manager_8cpp.html" title="imageManager.cpp" alt="" coords="35,155,167,181"/>
+<area shape="rect" id="node4" href="$dc/df4/image_manager_8h.html" title="imageManager.h" alt="" coords="168,80,287,107"/>
+<area shape="rect" id="node5" href="$d8/d70/hummingbird_core_8h.html" title="hummingbirdCore.h" alt="" coords="191,155,325,181"/>
+<area shape="rect" id="node6" href="$dc/d9d/hummingbird_engine_8cpp.html" title="hummingbirdEngine.cpp" alt="" coords="349,155,511,181"/>
+<area shape="rect" id="node7" href="$d0/dbd/texture_manager_8cpp.html" title="textureManager.cpp" alt="" coords="413,80,551,107"/>
 </map>

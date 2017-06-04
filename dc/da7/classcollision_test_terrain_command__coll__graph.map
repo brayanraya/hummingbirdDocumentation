@@ -1,0 +1,14 @@
+<map id="collisionTestTerrainCommand&lt; C1 &gt;" name="collisionTestTerrainCommand&lt; C1 &gt;">
+<area shape="rect" id="node2" href="$de/deb/classcollision_test_command_base.html" title="An empty collision test base to midigate templete problems. " alt="" coords="7,1433,218,1539"/>
+<area shape="rect" id="node3" href="$d0/d9d/classcollideable_group.html" title="{collideableGroup\&lt; C1 \&gt;\n||+ registerCollideableGroup()\l+ getColliderCollection()\l+ deregisterCollideableGroup()\l+ update()\l+ getGroupsAABB()\l+ resetAABB()\l&#45; collideableGroup()\l&#45; collideableGroup()\l&#45; ~collideableGroup()\l&#45; operator=()\l&#45; privateRegisterCollideable\lGroup()\l&#45; privateDeregisterCollideable\lGroup()\l&#45; privateGetColliderCollection()\l&#45; privateupdate()\l&#45; privateGetGroupsAABB()\l&#45; Instance()\l}" alt="" coords="242,1323,439,1649"/>
+<area shape="rect" id="node4" href="$dd/d27/classcollideable_group_base.html" title="An empty base that all collideable groups derive from to be added to the collidable managers list..." alt="" coords="35,1095,211,1260"/>
+<area shape="rect" id="node5" href="$d0/d0a/class_collision_volume_a_a_b_b.html" title="{CollisionVolumeAABB\n|&#45; worldMinPoint\l&#45; worldMaxPoint\l|+ CollisionVolumeAABB()\l+ CollisionVolumeAABB()\l+ ~CollisionVolumeAABB()\l+ ComputeData()\l+ ComputeData()\l+ DebugView()\l+ Intersect()\l+ Intersect()\l+ Intersect()\l+ Intersect()\l+ getWorldMax()\l+ getWorldMin()\l+ setWorldMax()\l+ setWorldMin()\l}" alt="" coords="27,749,206,1032"/>
+<area shape="rect" id="node6" href="$db/d2e/class_collision_volume_bounding_box.html" title="A general collision volume. " alt="" coords="5,470,225,635"/>
+<area shape="rect" id="node10" href="$d9/de2/classcollideable.html" title="Allows inherited class to define collision with another collidable. " alt="" coords="233,749,457,1032"/>
+<area shape="rect" id="node7" href="$d5/d7c/class_collision_volume.html" title="An abstract collision volume that will be inherited by other. " alt="" coords="275,139,417,334"/>
+<area shape="rect" id="node16" href="$d8/d21/class_collision_volume_b_sphere.html" title="Volume and movement caluclations for the volume of bsphere. " alt="" coords="249,419,443,687"/>
+<area shape="rect" id="node11" href="$d2/d62/classgame_objects.html" title="Basic game object skeleton. Inherited by every x&#45;able. " alt="" coords="691,132,847,341"/>
+<area shape="rect" id="node14" href="$d1/da3/classcommand_base.html" title="An empty base that all x&#45;able derive from to be added to the scene brokers list. " alt="" coords="1233,183,1371,290"/>
+<area shape="rect" id="node13" href="$d4/d3a/classgame_objects_entry_command.html" title="A game objects entry command. " alt="" coords="756,477,973,628"/>
+<area shape="rect" id="node15" href="$d7/df5/classgame_objects_exit_command.html" title="A game objects exit command. " alt="" coords="1028,477,1237,628"/>
+</map>

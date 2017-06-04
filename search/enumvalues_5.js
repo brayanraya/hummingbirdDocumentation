@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['release',['RELEASE',['../dc/d51/classinputable.html#a64939209dd2dcaea3eb4dc9723a6235fa7d649ef069df9885e382417c79f3d5cd',1,'inputable']]]
+  ['obb',['OBB',['../d9/de2/classcollideable.html#aaf105687fbd9ca6f5f284523dd7d2d17a9aac15e014ce3a36fcbf4a3f669332da',1,'collideable']]]
 ];

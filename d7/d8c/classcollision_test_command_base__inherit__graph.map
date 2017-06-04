@@ -1,4 +1,5 @@
 <map id="collisionTestCommandBase" name="collisionTestCommandBase">
 <area shape="rect" id="node2" href="$d6/dd8/classcollision_test_pair_command.html" title="Template for a given collideable testing collision against another collideable. ie. Ship against Rock. " alt="" coords="5,160,209,296"/>
 <area shape="rect" id="node3" href="$d4/d58/classcollision_test_self_command.html" title="Template for a given collideable testing collision against another collideable of the same type..." alt="" coords="234,167,437,289"/>
+<area shape="rect" id="node4" href="$d7/dcb/classcollision_test_terrain_command.html" title="Template for a given collideable testing collision against another collideable. ie. Ship against Rock. " alt="" coords="461,167,681,289"/>
 </map>

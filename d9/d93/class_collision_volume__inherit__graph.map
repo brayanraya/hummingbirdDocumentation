@@ -1,0 +1,6 @@
+<map id="CollisionVolume" name="CollisionVolume">
+<area shape="rect" id="node3" href="$db/d2e/class_collision_volume_bounding_box.html" title="A general collision volume. " alt="" coords="83,425,303,590"/>
+<area shape="rect" id="node6" href="$d8/d21/class_collision_volume_b_sphere.html" title="Volume and movement caluclations for the volume of bsphere. " alt="" coords="327,373,521,641"/>
+<area shape="rect" id="node4" href="$d0/d0a/class_collision_volume_a_a_b_b.html" title="{CollisionVolumeAABB\n|&#45; worldMinPoint\l&#45; worldMaxPoint\l|+ CollisionVolumeAABB()\l+ CollisionVolumeAABB()\l+ ~CollisionVolumeAABB()\l+ ComputeData()\l+ ComputeData()\l+ DebugView()\l+ Intersect()\l+ Intersect()\l+ Intersect()\l+ Intersect()\l+ getWorldMax()\l+ getWorldMin()\l+ setWorldMax()\l+ setWorldMin()\l}" alt="" coords="5,689,184,972"/>
+<area shape="rect" id="node5" href="$d6/ded/class_collision_volume_o_b_b.html" title="{CollisionVolumeOBB\n||+ CollisionVolumeOBB()\l+ ~CollisionVolumeOBB()\l+ ComputeData()\l+ ComputeData()\l+ DebugView()\l+ Intersect()\l+ Intersect()\l+ Intersect()\l+ Intersect()\l}" alt="" coords="208,733,379,928"/>
+</map>

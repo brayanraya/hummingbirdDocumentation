@@ -30,7 +30,7 @@
   <td id="projectlogo"><img alt="Logo" src="../../hummingbirdIcon.jpg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">HummingBird Engine
-   &#160;<span id="projectnumber">0.01</span>
+   &#160;<span id="projectnumber">0.02</span>
    </div>
    <div id="projectbrief">A Simple Game Engine by Brayan Raya</div>
   </td>
@@ -101,7 +101,8 @@ Inheritance diagram for drawable:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d8/d4d/classdrawable__inherit__graph.png" border="0" usemap="#drawable_inherit__map" alt="Inheritance graph"/></div>
 <map name="drawable_inherit__map" id="drawable_inherit__map">
-<area shape="rect" id="node2" href="../../d2/d62/classgame_objects.html" title="Basic game object skeleton. Inherited by every x&#45;able. " alt="" coords="31,5,194,273"/>
+<area shape="rect" id="node4" href="../../d1/dee/class_terrain.html" title="A Class that generates terrains using a tga file height map. " alt="" coords="30,748,195,1075"/>
+<area shape="rect" id="node2" href="../../d2/d62/classgame_objects.html" title="Basic game object skeleton. Inherited by every x&#45;able. " alt="" coords="31,131,194,399"/>
 </map>
 </div>
 <div class="dynheader">
@@ -109,12 +110,12 @@ Collaboration diagram for drawable:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../db/d89/classdrawable__coll__graph.png" border="0" usemap="#drawable_coll__map" alt="Collaboration graph"/></div>
 <map name="drawable_coll__map" id="drawable_coll__map">
-<area shape="rect" id="node7" href="../../dd/d1d/classdrawable_deregistraton_command.html" title="A drawable deregistraton command. " alt="" coords="425,933,662,1084"/>
-<area shape="rect" id="node8" href="../../d9/da1/classdrawable_registraton_command.html" title="A drawable registraton command. " alt="" coords="155,933,382,1084"/>
-<area shape="rect" id="node2" href="../../d2/d62/classgame_objects.html" title="Basic game object skeleton. Inherited by every x&#45;able. " alt="" coords="329,375,485,584"/>
-<area shape="rect" id="node4" href="../../d4/d3a/classgame_objects_entry_command.html" title="A game objects entry command. " alt="" coords="395,161,612,312"/>
-<area shape="rect" id="node6" href="../../d7/df5/classgame_objects_exit_command.html" title="A game objects exit command. " alt="" coords="5,691,215,841"/>
-<area shape="rect" id="node5" href="../../d1/da3/classcommand_base.html" title="An empty base that all x&#45;able derive from to be added to the scene brokers list. " alt="" coords="563,5,700,112"/>
+<area shape="rect" id="node8" href="../../dd/d1d/classdrawable_deregistraton_command.html" title="A drawable deregistraton command. " alt="" coords="5,1075,243,1225"/>
+<area shape="rect" id="node9" href="../../d9/da1/classdrawable_registraton_command.html" title="A drawable registraton command. " alt="" coords="428,1075,655,1225"/>
+<area shape="rect" id="node2" href="../../d2/d62/classgame_objects.html" title="Basic game object skeleton. Inherited by every x&#45;able. " alt="" coords="214,501,370,711"/>
+<area shape="rect" id="node5" href="../../d4/d3a/classgame_objects_entry_command.html" title="A game objects entry command. " alt="" coords="158,288,375,439"/>
+<area shape="rect" id="node7" href="../../d7/df5/classgame_objects_exit_command.html" title="A game objects exit command. " alt="" coords="553,825,762,975"/>
+<area shape="rect" id="node6" href="../../d1/da3/classcommand_base.html" title="An empty base that all x&#45;able derive from to be added to the scene brokers list. " alt="" coords="198,132,335,239"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -137,7 +138,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a941ab16dd5b6908cec592ca2972e4a06"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc5/classdrawable.html#a941ab16dd5b6908cec592ca2972e4a06">submitDrawableRegistration</a> ()</td></tr>
 <tr class="separator:a941ab16dd5b6908cec592ca2972e4a06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3589177b4f506332c644a25937cdb574"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc5/classdrawable.html#a3589177b4f506332c644a25937cdb574">draw</a> ()</td></tr>
+<tr class="memdesc:a3589177b4f506332c644a25937cdb574"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders the game object to the screen. This will be overloaded in the user defined game class. This is for 3D Models  <a href="#a3589177b4f506332c644a25937cdb574">More...</a><br /></td></tr>
 <tr class="separator:a3589177b4f506332c644a25937cdb574"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4845f67b7277f4d077ac5b4bb9eff314"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc5/classdrawable.html#a4845f67b7277f4d077ac5b4bb9eff314">drawHUD</a> ()</td></tr>
+<tr class="memdesc:a4845f67b7277f4d077ac5b4bb9eff314"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders the game object to the screen. This will be overloaded in the user defined game class. This is for 2D Sprites  <a href="#a4845f67b7277f4d077ac5b4bb9eff314">More...</a><br /></td></tr>
+<tr class="separator:a4845f67b7277f4d077ac5b4bb9eff314"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classgame_objects"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classgame_objects')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d2/d62/classgame_objects.html">gameObjects</a></td></tr>
 <tr class="memitem:a3544f7dca1fa2e4d62d1ae544c374502 inherit pub_methods_classgame_objects"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d62/classgame_objects.html#a3544f7dca1fa2e4d62d1ae544c374502">gameObjects</a> ()</td></tr>
 <tr class="separator:a3544f7dca1fa2e4d62d1ae544c374502 inherit pub_methods_classgame_objects"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -154,10 +159,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a3fc2ade62075dcb34ddf7af46eaf367f inherit pub_methods_classgame_objects"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disconnects object from scene.  <a href="../../d2/d62/classgame_objects.html#a3fc2ade62075dcb34ddf7af46eaf367f">More...</a><br /></td></tr>
 <tr class="separator:a3fc2ade62075dcb34ddf7af46eaf367f inherit pub_methods_classgame_objects"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9930f106ecb4cf94629b371273e2e8b3 inherit pub_methods_classgame_objects"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d62/classgame_objects.html#a9930f106ecb4cf94629b371273e2e8b3">sceneEntry</a> ()</td></tr>
-<tr class="memdesc:a9930f106ecb4cf94629b371273e2e8b3 inherit pub_methods_classgame_objects"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual Function: Object Scene entry.  <a href="../../d2/d62/classgame_objects.html#a9930f106ecb4cf94629b371273e2e8b3">More...</a><br /></td></tr>
+<tr class="memdesc:a9930f106ecb4cf94629b371273e2e8b3 inherit pub_methods_classgame_objects"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called after a gameObject has been submitted. This is where all registrations for Types go.  <a href="../../d2/d62/classgame_objects.html#a9930f106ecb4cf94629b371273e2e8b3">More...</a><br /></td></tr>
 <tr class="separator:a9930f106ecb4cf94629b371273e2e8b3 inherit pub_methods_classgame_objects"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b059416b5f3bc4c06550a2a5f46ac1b inherit pub_methods_classgame_objects"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d62/classgame_objects.html#a9b059416b5f3bc4c06550a2a5f46ac1b">sceneExit</a> ()</td></tr>
-<tr class="memdesc:a9b059416b5f3bc4c06550a2a5f46ac1b inherit pub_methods_classgame_objects"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual Function: Object Scene exit.  <a href="../../d2/d62/classgame_objects.html#a9b059416b5f3bc4c06550a2a5f46ac1b">More...</a><br /></td></tr>
+<tr class="memdesc:a9b059416b5f3bc4c06550a2a5f46ac1b inherit pub_methods_classgame_objects"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called after a gameObject has been called for an exit. This is where all deregistrations for Types go.  <a href="../../d2/d62/classgame_objects.html#a9b059416b5f3bc4c06550a2a5f46ac1b">More...</a><br /></td></tr>
 <tr class="separator:a9b059416b5f3bc4c06550a2a5f46ac1b inherit pub_methods_classgame_objects"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd7381329aa2aee1a62c2bbcc2b1b49e inherit pub_methods_classgame_objects"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d62/classgame_objects.html#acd7381329aa2aee1a62c2bbcc2b1b49e">submitEntry</a> ()</td></tr>
 <tr class="memdesc:acd7381329aa2aee1a62c2bbcc2b1b49e inherit pub_methods_classgame_objects"><td class="mdescLeft">&#160;</td><td class="mdescRight">Submit entry.  <a href="../../d2/d62/classgame_objects.html#acd7381329aa2aee1a62c2bbcc2b1b49e">More...</a><br /></td></tr>
@@ -279,7 +284,40 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/dea/drawable_8h_source.html#l00029">29</a> of file <a class="el" href="../../d5/dea/drawable_8h_source.html">drawable.h</a>.</p>
+<p>Renders the game object to the screen. This will be overloaded in the user defined game class. This is for 3D Models </p>
+<div class="fragment"><div class="line">userObject::userObject()</div><div class="line"> {</div><div class="line">    pObject = <span class="keyword">new</span> GraphicsObject...</div><div class="line"> }</div><div class="line">* <span class="comment">// ...</span></div><div class="line"><span class="keywordtype">void</span> userObject::sceneEntry()</div><div class="line"> {</div><div class="line">    <a class="code" href="../../dc/dc5/classdrawable.html#a941ab16dd5b6908cec592ca2972e4a06">drawable::submitDrawableRegistration</a>();</div><div class="line"> }</div><div class="line">* <span class="comment">// ...</span></div><div class="line"><span class="keywordtype">void</span> userObject::draw()</div><div class="line"> {</div><div class="line">    pplayer-&gt;Render(<a class="code" href="../../d4/d8a/classcamera_manager.html#a1c2cf00fe804d05616e26ace451c3341">cameraManager::currentCam</a>()); <span class="comment">//3D Models</span></div><div class="line"> }</div><div class="line"><span class="comment">// ...</span></div></div><!-- fragment --> 
+<p>Reimplemented in <a class="el" href="../../d1/dee/class_terrain.html#a36c69a674c0e5aaa742ff8a943f48eae">Terrain</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="../../d5/dea/drawable_8h_source.html#l00049">49</a> of file <a class="el" href="../../d5/dea/drawable_8h_source.html">drawable.h</a>.</p>
+
+</div>
+</div>
+<a id="a4845f67b7277f4d077ac5b4bb9eff314"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4845f67b7277f4d077ac5b4bb9eff314">&#9670;&nbsp;</a></span>drawHUD()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void drawable::drawHUD </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Renders the game object to the screen. This will be overloaded in the user defined game class. This is for 2D Sprites </p>
+<div class="fragment"><div class="line">userObject::userObject()</div><div class="line"> {</div><div class="line">    pObject = <span class="keyword">new</span> GraphicsObject...</div><div class="line"> }</div><div class="line">* <span class="comment">// ...</span></div><div class="line"><span class="keywordtype">void</span> userObject::sceneEntry()</div><div class="line"> {</div><div class="line">    <a class="code" href="../../dc/dc5/classdrawable.html#a941ab16dd5b6908cec592ca2972e4a06">drawable::submitDrawableRegistration</a>();</div><div class="line"> }</div><div class="line">* <span class="comment">// ...</span></div><div class="line"><span class="keywordtype">void</span> userObject::drawHUD()</div><div class="line"> {</div><div class="line">    pplayer-&gt;Render(<a class="code" href="../../d4/d8a/classcamera_manager.html#a914b009dba9a9b72deec0ec77336b68e">cameraManager::currentHUD</a>()); <span class="comment">//2D Sprites</span></div><div class="line"> }</div><div class="line"><span class="comment">// ...</span></div></div><!-- fragment --> 
+<p class="definition">Definition at line <a class="el" href="../../d5/dea/drawable_8h_source.html#l00070">70</a> of file <a class="el" href="../../d5/dea/drawable_8h_source.html">drawable.h</a>.</p>
 
 </div>
 </div>
@@ -406,7 +444,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/dea/drawable_8h_source.html#l00032">32</a> of file <a class="el" href="../../d5/dea/drawable_8h_source.html">drawable.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/dea/drawable_8h_source.html#l00073">73</a> of file <a class="el" href="../../d5/dea/drawable_8h_source.html">drawable.h</a>.</p>
 
 </div>
 </div>
@@ -422,7 +460,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/dea/drawable_8h_source.html#l00029">29</a> of file <a class="el" href="../../d5/dea/drawable_8h_source.html">drawable.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/dea/drawable_8h_source.html#l00070">70</a> of file <a class="el" href="../../d5/dea/drawable_8h_source.html">drawable.h</a>.</p>
 
 </div>
 </div>
@@ -446,7 +484,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/dea/drawable_8h_source.html#l00034">34</a> of file <a class="el" href="../../d5/dea/drawable_8h_source.html">drawable.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/dea/drawable_8h_source.html#l00075">75</a> of file <a class="el" href="../../d5/dea/drawable_8h_source.html">drawable.h</a>.</p>
 
 </div>
 </div>
@@ -470,7 +508,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/dea/drawable_8h_source.html#l00033">33</a> of file <a class="el" href="../../d5/dea/drawable_8h_source.html">drawable.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/dea/drawable_8h_source.html#l00074">74</a> of file <a class="el" href="../../d5/dea/drawable_8h_source.html">drawable.h</a>.</p>
 
 </div>
 </div>

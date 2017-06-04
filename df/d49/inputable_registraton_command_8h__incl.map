@@ -1,8 +1,8 @@
 <map id="inputableRegistratonCommand.h" name="inputableRegistratonCommand.h">
-<area shape="rect" id="node2" href="$d1/db5/command_base_8h.html" title="../Command/commandBase.h" alt="" coords="350,333,545,360"/>
-<area shape="rect" id="node4" href="$d3/db2/inputable_8h.html" title="inputable.h" alt="" coords="372,80,457,107"/>
-<area shape="rect" id="node5" href="$d0/dcb/game_objects_8h.html" title="../../Game Objects\l/gameObjects.h" alt="" coords="298,155,429,196"/>
-<area shape="rect" id="node7" href="$d8/d15/regestration_state_8h.html" title="../Attributes/Shared\l Enum/regestrationState.h" alt="" coords="38,244,212,285"/>
-<area shape="rect" id="node9" href="$d4/d18/game_objects_entry_command_8h.html" title="gameObjectsEntryCommand.h" alt="" coords="348,251,548,278"/>
-<area shape="rect" id="node10" href="$d3/da6/game_objects_exit_command_8h.html" title="gameObjectsExitCommand.h" alt="" coords="572,251,764,278"/>
+<area shape="rect" id="node2" href="$d1/db5/command_base_8h.html" title="../Command/commandBase.h" alt="" coords="134,333,329,360"/>
+<area shape="rect" id="node5" href="$d3/db2/inputable_8h.html" title="inputable.h" alt="" coords="382,80,468,107"/>
+<area shape="rect" id="node6" href="$d0/dcb/game_objects_8h.html" title="../../Game Objects\l/gameObjects.h" alt="" coords="418,155,549,196"/>
+<area shape="rect" id="node7" href="$d8/d15/regestration_state_8h.html" title="../Attributes/Shared\l Enum/regestrationState.h" alt="" coords="516,244,691,285"/>
+<area shape="rect" id="node9" href="$d4/d18/game_objects_entry_command_8h.html" title="gameObjectsEntryCommand.h" alt="" coords="241,251,441,278"/>
+<area shape="rect" id="node10" href="$d3/da6/game_objects_exit_command_8h.html" title="gameObjectsExitCommand.h" alt="" coords="25,251,217,278"/>
 </map>

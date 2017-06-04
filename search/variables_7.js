@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['indianred',['IndianRed',['../d9/d44/struct_color.html#a6d2926db61d6c83e8f2fea8d39aba0dc',1,'Color']]],
-  ['indigo',['Indigo',['../d9/d44/struct_color.html#a79aa6cac96cd6363d8e4c189ede698e8',1,'Color']]],
-  ['inputablepointer',['inputablePointer',['../d1/dbc/classinputable_deregistraton_command.html#a775af41a16fc2d265ee4a4484140e608',1,'inputableDeregistratonCommand::inputablePointer()'],['../db/d19/classinputable_registraton_command.html#a1daf156176f9a79967b5b7dad17f0478',1,'inputableRegistratonCommand::inputablePointer()']]],
-  ['ivory',['Ivory',['../d9/d44/struct_color.html#ab40c16ba11c45ba3e131b74a19950aec',1,'Color']]]
+  ['honeydew',['Honeydew',['../d9/d44/struct_color.html#a39973d72eae143fc51fc0912562c19bc',1,'Color']]],
+  ['horiz',['Horiz',['../d0/d52/struct_cell_height_and_width.html#a1283a9a480ac8f0ca8a6709acb99ca26',1,'CellHeightAndWidth']]],
+  ['hotpink',['HotPink',['../d9/d44/struct_color.html#a6a47d66429d1a60366ef3108214a6389',1,'Color']]]
 ];

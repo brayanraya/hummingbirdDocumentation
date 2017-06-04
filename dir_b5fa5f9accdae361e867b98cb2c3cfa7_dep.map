@@ -1,0 +1,11 @@
+<map id="Time" name="Time">
+<area shape="rect" id="node2" href="dir_2ef79f3e5f725647480e8710278eeffc.html" title="Freeze Time" alt="" coords="39,207,134,255"/>
+<area shape="rect" id="node4" href="dir_d74b4950b849d010fe1337dafea7ed6e.html" title="Main Game" alt="" coords="45,5,134,53"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000022_000024.html" title="1" alt="" coords="21,43,29,58"/>
+<area shape="rect" id="node3" href="dir_e482bae9fb4ab53dd4e2d519ce36faff.html" title="Time Manager" alt="" coords="37,111,141,159"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000037_000022.html" title="1" alt="" coords="92,181,100,196"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000024_000021.html" title="1" alt="" coords="183,83,191,98"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000024_000037.html" title="1" alt="" coords="94,85,102,100"/>
+<area shape="rect" id="clust2" href="dir_b5fa5f9accdae361e867b98cb2c3cfa7.html" alt="" coords="27,100,248,265"/>
+<area shape="rect" id="clust1" href="dir_4c55a177b518b6bae2b906c1eea3e762.html" title="Hummingbird Engine" alt="" coords="16,64,259,276"/>
+</map>
